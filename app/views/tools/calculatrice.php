@@ -1,11 +1,11 @@
-<?php $page_title = 'Calculatrice Immobilière Lannion - Estimation Rapide'; ?>
+<?php $page_title = 'Calculatrice Immobilière Aix-en-Provence - Estimation Rapide'; ?>
 
 <section class="section page-hero">
   <div class="container">
     <div class="page-hero-inner">
       <p class="eyebrow"><i class="fas fa-calculator"></i> Outil gratuit</p>
       <h1>Calculatrice de prix immobilier</h1>
-      <p class="lead">Estimez rapidement une valeur de vente à partir de la surface et du prix au m² à Lannion.</p>
+      <p class="lead">Estimez rapidement une valeur de vente à partir de la surface et du prix au m² à Aix-en-Provence.</p>
     </div>
   </div>
 </section>

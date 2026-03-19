@@ -1,5 +1,5 @@
 <?php 
-$page_title = 'Podcast Immobilier - Estimation Lannion | Conseils & Tendances Immobiliers';
+$page_title = 'Podcast Immobilier - Estimation Aix-en-Provence | Conseils & Tendances Immobiliers';
 
 // Gestion de la liste d'attente
 $waitlist_errors = [];
@@ -29,8 +29,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['waitlist_email'])) {
   }
 
   if (!$waitlist_errors) {
-    $to = getenv('WAITLIST_EMAIL') ?: 'podcast@estimation-immobilier-lannion.fr';
-    $subject = 'Nouveau sur la liste d\'attente du podcast - Lannion';
+    $to = getenv('WAITLIST_EMAIL') ?: 'podcast@estimation-immobilier-aix.fr';
+    $subject = 'Nouveau sur la liste d\'attente du podcast - Aix-en-Provence';
 
     $safe_nom = htmlspecialchars($waitlist_form_data['waitlist_nom'], ENT_QUOTES, 'UTF-8');
     $safe_email = filter_var($waitlist_form_data['waitlist_email'], FILTER_SANITIZE_EMAIL);
@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['waitlist_email'])) {
       . "Date : " . date('Y-m-d H:i:s') . "\n";
 
     $headers = [
-      'From: no-reply@estimation-immobilier-lannion.fr',
+      'From: no-reply@estimation-immobilier-aix.fr',
       'Content-Type: text/plain; charset=UTF-8',
     ];
 
@@ -69,7 +69,7 @@ $themes_podcast = [
   ],
   [
     'numero' => '2',
-    'titre' => 'Tendances marché Lannion 2024',
+    'titre' => 'Tendances marché Aix-en-Provence 2024',
     'description' => 'Analyse détaillée des quartiers à la hausse, des opportunités d\'investissement et des prix prévus.',
   ],
   [
@@ -101,7 +101,7 @@ $themes_podcast = [
       <p class="eyebrow">
         <i class="fas fa-podcast"></i> Podcast Immobilier
       </p>
-      <h1>Le podcast immobilier de Lannion</h1>
+      <h1>Le podcast immobilier d'Aix-en-Provence</h1>
       <p class="lead">
         Conseils d'experts, analyses de marché et retours d'expérience. Chaque semaine, 20-30 minutes pour mieux comprendre l'immobilier.
       </p>
@@ -127,7 +127,7 @@ $themes_podcast = [
 
       <!-- Description -->
       <p style="font-size: var(--size-lg); color: var(--text-secondary); margin-bottom: var(--space-6); line-height: var(--line-lg);">
-        Nous préparons les premiers épisodes du podcast. Un contenu riche, des experts passionnés, et des insights précieux sur le marché immobilier de Lannion et région.
+        Nous préparons les premiers épisodes du podcast. Un contenu riche, des experts passionnés, et des insights précieux sur le marché immobilier d'Aix-en-Provence et région.
       </p>
 
       <!-- Date estimée -->
@@ -290,7 +290,7 @@ $themes_podcast = [
         </div>
         <h3>Experts Locaux</h3>
         <p>
-          Interviews avec nos spécialistes immobiliers basés à Lannion. 25+ ans d'expérience accumulée. Conseils vrais et applicables.
+          Interviews avec nos spécialistes immobiliers basés à Aix-en-Provence. 25+ ans d'expérience accumulée. Conseils vrais et applicables.
         </p>
       </article>
 

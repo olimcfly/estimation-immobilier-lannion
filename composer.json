@@ -1,6 +1,6 @@
 {
-    "name": "olimcfly/estimation-immobilier-lannion",
-    "description": "Plateforme d'estimation immobilière à Lannion",
+    "name": "olimcfly/estimation-immobilier-aix",
+    "description": "Plateforme d'estimation immobilière à Aix-en-Provence",
     "type": "project",
     "license": "proprietary",
     "require": {

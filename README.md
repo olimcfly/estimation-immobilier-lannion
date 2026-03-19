@@ -1,6 +1,6 @@
-# Estimateur Immobilier SaaS (PHP MVC)
+# Estimation Immobilier Aix-en-Provence (PHP MVC)
 
-Application SaaS immobilière en **PHP 8+**, architecture MVC légère, **MySQL (PDO)**.
+Application d'estimation immobilière pour **Aix-en-Provence** en **PHP 8+**, architecture MVC légère, **MySQL (PDO)**.
 
 ## Fonctionnalités livrées
 
@@ -37,7 +37,7 @@ Application SaaS immobilière en **PHP 8+**, architecture MVC légère, **MySQL 
 ```bash
 export DB_HOST=127.0.0.1
 export DB_PORT=3306
-export DB_NAME=immobilier_saas
+export DB_NAME=immobilier_aix
 export DB_USER=root
 export DB_PASS=''
 export PERPLEXITY_API_KEY=''

@@ -1,78 +1,78 @@
 <?php
-$page_title = 'Quartiers de Lannion - Estimation Immobilière Lannion | Guide Détaillé';
+$page_title = 'Quartiers d\'Aix-en-Provence - Estimation Immobilière Aix | Guide Détaillé';
 
 $quartiers = [
     [
-        'nom' => 'Centre-Ville',
-        'description' => "Le cœur battant de Lannion, entre patrimoine historique, rues animées et offres culturelles. Idéal pour celles et ceux qui recherchent une vie urbaine active.",
-        'prix_m2' => 3400,
-        'prix_moyen' => 425000,
-        'caracteristiques' => ['Commerces', 'Services', 'Écoles', 'Animations'],
-        'population' => '~5000 habitants',
-        'transports' => 'Gare SNCF, Bus urbains',
-        'attractivite' => 'Haute',
-        'coords' => '48.7322,-3.4580',
-        'tendance' => '+5.2%',
-    ],
-    [
-        'nom' => 'Trégor',
-        'description' => 'Quartier résidentiel apprécié pour ses maisons familiales, son calme et ses perspectives ouvertes vers la campagne et le littoral.',
-        'prix_m2' => 2800,
-        'prix_moyen' => 350000,
-        'caracteristiques' => ['Résidentiel', 'Maisons', 'Nature', 'Vue campagne/mer'],
-        'population' => '~3500 habitants',
-        'transports' => 'Bus de proximité, accès routiers rapides',
-        'attractivite' => 'Moyenne à haute',
-        'coords' => '48.7279,-3.4710',
-        'tendance' => '+3.8%',
-    ],
-    [
-        'nom' => 'Port',
-        'description' => 'Secteur emblématique de Lannion, marqué par son histoire portuaire, ses maisons de caractère et ses vues recherchées sur l\'eau.',
-        'prix_m2' => 3600,
-        'prix_moyen' => 480000,
-        'caracteristiques' => ['Patrimoine', 'Vue eau', 'Prestige', 'Maisons de caractère'],
-        'population' => '~2200 habitants',
-        'transports' => 'Accès centre-ville, axes doux piétons/vélos',
+        'nom' => 'Centre Historique',
+        'description' => "Le cœur vibrant d'Aix-en-Provence, entre le Cours Mirabeau, les fontaines et les hôtels particuliers. Idéal pour celles et ceux qui recherchent une vie urbaine active et culturelle.",
+        'prix_m2' => 5800,
+        'prix_moyen' => 580000,
+        'caracteristiques' => ['Patrimoine', 'Fontaines', 'Culture', 'Commerces'],
+        'population' => '~8000 habitants',
+        'transports' => 'Bus Aix en Bus, TGV Aix (15 min)',
         'attractivite' => 'Très haute',
-        'coords' => '48.7285,-3.4469',
-        'tendance' => '+7.1%',
+        'coords' => '43.5263,5.4454',
+        'tendance' => '+4.8%',
     ],
     [
-        'nom' => 'Brélévenez',
-        'description' => 'Quartier perché offrant de belles vues panoramiques, un environnement résidentiel paisible et un cadre patrimonial fort.',
-        'prix_m2' => 3100,
-        'prix_moyen' => 390000,
-        'caracteristiques' => ['Panorama', 'Calme', 'Résidentiel', 'Patrimoine religieux'],
-        'population' => '~2800 habitants',
-        'transports' => 'Bus urbains, liaison rapide vers le centre',
-        'attractivite' => 'Haute',
-        'coords' => '48.7401,-3.4518',
-        'tendance' => '+4.3%',
+        'nom' => 'Mazarin',
+        'description' => "Quartier élégant aux hôtels particuliers du XVIIe siècle, calme bourgeois et architecturalement remarquable. Très prisé des familles aisées.",
+        'prix_m2' => 5500,
+        'prix_moyen' => 550000,
+        'caracteristiques' => ['Hôtels particuliers', 'Calme', 'Prestige', 'Architecture'],
+        'population' => '~4500 habitants',
+        'transports' => 'Bus urbains, centre piéton accessible',
+        'attractivite' => 'Très haute',
+        'coords' => '43.5240,5.4480',
+        'tendance' => '+3.9%',
     ],
     [
-        'nom' => 'Léguer',
-        'description' => 'Zone résidentielle péri-urbaine conviviale, adaptée aux familles et bien connectée aux commerces et services essentiels.',
-        'prix_m2' => 2900,
-        'prix_moyen' => 360000,
-        'caracteristiques' => ['Péri-urbain', 'Family friendly', 'Commerces proches', 'Cadre de vie pratique'],
-        'population' => '~3200 habitants',
-        'transports' => 'Bus, accès routier vers zones d\'activités',
-        'attractivite' => 'Moyenne',
-        'coords' => '48.7214,-3.4652',
-        'tendance' => '+2.5%',
-    ],
-    [
-        'nom' => 'Buttes',
-        'description' => 'Quartier mixte offrant un équilibre entre ambiance résidentielle calme et proximité des services urbains.',
-        'prix_m2' => 3050,
+        'nom' => 'Jas de Bouffan',
+        'description' => "Quartier résidentiel familial avec centre commercial, écoles et espaces verts. Bon rapport qualité/prix pour les familles.",
+        'prix_m2' => 3800,
         'prix_moyen' => 380000,
-        'caracteristiques' => ['Mixte', 'Calme', 'Services', 'Accessible'],
-        'population' => '~2600 habitants',
-        'transports' => 'Bus urbains, accès centre rapide',
+        'caracteristiques' => ['Familial', 'Commerces', 'Écoles', 'Espaces verts'],
+        'population' => '~12000 habitants',
+        'transports' => 'Bus Aix en Bus, accès autoroute',
         'attractivite' => 'Moyenne à haute',
-        'coords' => '48.7350,-3.4600',
+        'coords' => '43.5280,5.4180',
         'tendance' => '+3.2%',
+    ],
+    [
+        'nom' => 'Pont de l\'Arc',
+        'description' => "Zone résidentielle moderne, bien connectée, avec immeubles récents et proximité du centre. Attire jeunes actifs et investisseurs.",
+        'prix_m2' => 4200,
+        'prix_moyen' => 420000,
+        'caracteristiques' => ['Moderne', 'Résidentiel', 'Bien connecté', 'Investissement'],
+        'population' => '~6000 habitants',
+        'transports' => 'Bus, accès A8, proche gare TGV',
+        'attractivite' => 'Haute',
+        'coords' => '43.5180,5.4350',
+        'tendance' => '+4.1%',
+    ],
+    [
+        'nom' => 'Les Milles',
+        'description' => "Quartier dynamique avec zone d'activités, logements neufs et projets urbains en développement. Prix accessibles pour la commune.",
+        'prix_m2' => 3600,
+        'prix_moyen' => 360000,
+        'caracteristiques' => ['Dynamique', 'Neuf', 'Zone activités', 'Accessible'],
+        'population' => '~10000 habitants',
+        'transports' => 'Bus, gare TGV Aix, accès autoroute',
+        'attractivite' => 'Moyenne',
+        'coords' => '43.5040,5.3870',
+        'tendance' => '+5.3%',
+    ],
+    [
+        'nom' => 'Puyricard',
+        'description' => "Village provençal au nord d'Aix, offrant bastides, terrains spacieux et un cadre de vie champêtre à quelques minutes du centre.",
+        'prix_m2' => 4500,
+        'prix_moyen' => 520000,
+        'caracteristiques' => ['Village provençal', 'Bastides', 'Nature', 'Terrain'],
+        'population' => '~5000 habitants',
+        'transports' => 'Bus navette, accès routier vers centre',
+        'attractivite' => 'Haute',
+        'coords' => '43.5640,5.4260',
+        'tendance' => '+3.5%',
     ],
 ];
 ?>
@@ -81,9 +81,9 @@ $quartiers = [
   <div class="container">
     <div class="page-hero-inner">
       <p class="eyebrow">
-        <i class="fas fa-map-marked-alt"></i> Quartiers de Lannion
+        <i class="fas fa-map-marked-alt"></i> Quartiers d'Aix-en-Provence
       </p>
-      <h1>Explorez les quartiers de Lannion</h1>
+      <h1>Explorez les quartiers d'Aix-en-Provence</h1>
       <p class="lead">
         Comparez les prix au m², les tendances de marché et les points forts de chaque quartier pour affiner votre estimation immobilière.
       </p>
@@ -125,8 +125,8 @@ $quartiers = [
 
       <iframe
         id="google-map-quartiers"
-        title="Carte des quartiers de Lannion"
-        src="https://maps.google.com/maps?q=48.7322,-3.4580&z=13&output=embed"
+        title="Carte des quartiers d'Aix-en-Provence"
+        src="https://maps.google.com/maps?q=43.5297,5.4474&z=13&output=embed"
         width="100%"
         height="480"
         style="border: 0; border-radius: var(--radius-xl); display: block;"
@@ -309,16 +309,16 @@ $quartiers = [
       <p class="eyebrow">
         <i class="fas fa-image"></i> Galerie Visuelle
       </p>
-      <h2>Ambiances et paysages de Lannion</h2>
+      <h2>Ambiances et paysages d'Aix-en-Provence</h2>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-4);">
-      <!-- Centre-Ville -->
+      <!-- Centre Historique -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=500&q=80" 
-            alt="Centre-ville de Lannion" 
+          <img
+            src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=500&q=80"
+            alt="Centre Historique d'Aix-en-Provence"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -326,16 +326,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-building"></i> Centre-Ville
+          <i class="fas fa-building"></i> Centre Historique
         </figcaption>
       </figure>
 
-      <!-- Trégor -->
+      <!-- Mazarin -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=500&q=80" 
-            alt="Quartier Trégor" 
+          <img
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier Mazarin"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -343,16 +343,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-tree"></i> Trégor
+          <i class="fas fa-landmark"></i> Mazarin
         </figcaption>
       </figure>
 
-      <!-- Port -->
+      <!-- Jas de Bouffan -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&q=80" 
-            alt="Quartier Port de Lannion" 
+          <img
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier Jas de Bouffan"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -360,16 +360,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-water"></i> Port
+          <i class="fas fa-home"></i> Jas de Bouffan
         </figcaption>
       </figure>
 
-      <!-- Brélévenez -->
+      <!-- Pont de l'Arc -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=80" 
-            alt="Brélévenez - vue panoramique" 
+          <img
+            src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier Pont de l'Arc"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -377,16 +377,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-mountain"></i> Brélévenez
+          <i class="fas fa-city"></i> Pont de l'Arc
         </figcaption>
       </figure>
 
-      <!-- Léguer -->
+      <!-- Les Milles -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=500&q=80" 
-            alt="Quartier résidentiel Léguer" 
+          <img
+            src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier Les Milles"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -394,16 +394,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-home"></i> Léguer
+          <i class="fas fa-industry"></i> Les Milles
         </figcaption>
       </figure>
 
-      <!-- Buttes -->
+      <!-- Puyricard -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=500&q=80" 
-            alt="Quartier Buttes" 
+          <img
+            src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier Puyricard"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -411,7 +411,7 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-road"></i> Buttes
+          <i class="fas fa-tree"></i> Puyricard
         </figcaption>
       </figure>
     </div>
@@ -436,7 +436,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Quel est le quartier le plus dynamique ?
         </h3>
         <p>
-          Le Port affiche la tendance la plus forte (+7.1%) grâce à sa rénovation urbaine en cours et son attrait pour les investisseurs immobiliers. Centre-Ville et Brélévenez suivent étroitement.
+          Les Milles affiche la tendance la plus forte (+5.3%) grâce à son développement urbain dynamique et son attrait pour les investisseurs. Centre Historique et Pont de l'Arc suivent étroitement.
         </p>
       </article>
 
@@ -445,7 +445,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Quel quartier pour une famille ?
         </h3>
         <p>
-          Trégor et Léguer offrent un excellent rapport qualité/prix avec des maisons familiales, des espaces verts et une ambiance calme. Buttes est aussi un bon compromis entre services et tranquillité.
+          Jas de Bouffan et Puyricard offrent un excellent rapport qualité/prix avec des maisons familiales, des espaces verts et une ambiance calme. Pont de l'Arc est aussi un bon compromis entre services et tranquillité.
         </p>
       </article>
 
@@ -454,7 +454,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Où trouver le meilleur investissement ?
         </h3>
         <p>
-          Port et Centre-Ville combinent forte attractivité et bonnes perspectives de plusvalue. Les prix au m² y sont plus élevés mais l'évolution positive les justifie.
+          Centre Historique et Mazarin combinent forte attractivité et bonnes perspectives de plusvalue. Les prix au m² y sont plus élevés mais l'évolution positive les justifie.
         </p>
       </article>
 
@@ -463,7 +463,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Existe-t-il un quartier tranquille et accessible ?
         </h3>
         <p>
-          Brélévenez et Buttes incarnent ce balance parfait : cadre résidentiel paisible avec accès rapide aux services du centre-ville via les transports.
+          Pont de l'Arc et Puyricard incarnent ce balance parfait : cadre résidentiel paisible avec accès rapide aux services du centre-ville via les transports.
         </p>
       </article>
 
@@ -472,7 +472,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Les prix varient-ils beaucoup d'un quartier à l'autre ?
         </h3>
         <p>
-          Oui, de 2 800 €/m² (Trégor) à 3 600 €/m² (Port). L'écart reflète l'attractivité, la proximité des services et le charme du quartier. Tous les prix restent compétitifs pour la région.
+          Oui, de 3 600 €/m² (Les Milles) à 5 800 €/m² (Centre Historique). L'écart reflète l'attractivité, la proximité des services et le charme du quartier. Les prix reflètent l'attractivité d'Aix-en-Provence en Provence.
         </p>
       </article>
 

@@ -1,5 +1,5 @@
 <?php 
-$page_title = 'Guides Immobiliers - Estimation Lannion | Ressources Gratuites & Conseils';
+$page_title = 'Guides Immobiliers - Estimation Aix-en-Provence | Ressources Gratuites & Conseils';
 
 // Données des guides
 $guides = [
@@ -32,7 +32,7 @@ $guides = [
   ],
   [
     'id' => 4,
-    'titre' => 'Les Tendances Immobilières à Lannion',
+    'titre' => 'Les Tendances Immobilières à Aix-en-Provence',
     'description' => 'Analyse des prix, des quartiers à la hausse et des opportunités d\'investissement pour 2024.',
     'categorie' => 'Marché',
     'duree_lecture' => '10 min',
@@ -73,7 +73,7 @@ $guides_filtres = $categorie_active ? array_filter($guides, fn($g) => $g['catego
       </p>
       <h1>Ressources gratuites pour mieux comprendre l'immobilier</h1>
       <p class="lead">
-        Guides pratiques, analyses de marché et conseils d'experts pour réussir votre projet immobilier à Lannion.
+        Guides pratiques, analyses de marché et conseils d'experts pour réussir votre projet immobilier à Aix-en-Provence.
       </p>
     </div>
   </div>
@@ -341,7 +341,7 @@ $guides_filtres = $categorie_active ? array_filter($guides, fn($g) => $g['catego
       <article class="card" style="padding: var(--space-6); border-top: 4px solid var(--accent);">
         <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-4);">
           <h3 style="margin: 0; flex: 1;">
-            Les Tendances Immobilières à Lannion
+            Les Tendances Immobilières à Aix-en-Provence
           </h3>
           <span style="background: rgba(255, 215, 0, 0.2); color: #c4860c; padding: var(--space-2) var(--space-3); border-radius: var(--radius-md); font-weight: 700; font-size: var(--size-xs); white-space: nowrap;">
             ⭐ #3

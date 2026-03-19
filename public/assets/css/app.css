@@ -5,12 +5,12 @@
 
 :root {
   /* COLORS */
-  --primary: #003f87;
-  --primary-light: #0052B4;
-  --primary-dark: #002A52;
+  --primary: #1B4F72;
+  --primary-light: #2E86C1;
+  --primary-dark: #154360;
   --secondary: #FFFFFF;
-  --accent: #FFD700;
-  --accent-light: #ffe766;
+  --accent: #D4AF37;
+  --accent-light: #E8C547;
   --success: #10b981;
   --success-light: #d1fae5;
   --error: #ef4444;
@@ -72,9 +72,9 @@
   /* SHADOWS */
   --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
   --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 12px rgba(0, 63, 135, 0.08);
-  --shadow-lg: 0 12px 32px rgba(0, 63, 135, 0.12);
-  --shadow-xl: 0 20px 45px rgba(0, 63, 135, 0.15);
+  --shadow-md: 0 4px 12px rgba(27, 79, 114, 0.08);
+  --shadow-lg: 0 12px 32px rgba(27, 79, 114, 0.12);
+  --shadow-xl: 0 20px 45px rgba(27, 79, 114, 0.15);
   
   /* TRANSITIONS */
   --trans-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -253,8 +253,8 @@ em {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 60% at 70% 40%, rgba(255, 215, 0, 0.08) 0%, transparent 70%),
-    radial-gradient(ellipse 50% 80% at 20% 80%, rgba(0, 63, 135, 0.15) 0%, transparent 60%);
+    radial-gradient(ellipse 80% 60% at 70% 40%, rgba(212, 175, 55, 0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 80% at 20% 80%, rgba(27, 79, 114, 0.15) 0%, transparent 60%);
   pointer-events: none;
 }
 
@@ -402,7 +402,7 @@ em {
 
 .nav-link:hover {
   color: var(--primary);
-  background: rgba(0, 63, 135, 0.05);
+  background: rgba(27, 79, 114, 0.05);
 }
 
 .nav-link.active {
@@ -628,7 +628,7 @@ em {
 }
 
 .btn-ghost:hover {
-  background: rgba(0, 63, 135, 0.06);
+  background: rgba(27, 79, 114, 0.06);
   color: var(--primary-dark);
 }
 
@@ -692,11 +692,11 @@ em {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 215, 0, 0.15);
+  background: rgba(212, 175, 55, 0.15);
   border-radius: var(--radius-lg);
   color: var(--accent);
   font-size: 1.3rem;
-  border: 1px solid rgba(255, 215, 0, 0.2);
+  border: 1px solid rgba(212, 175, 55, 0.2);
 }
 
 .footer-brand-name {
@@ -785,7 +785,7 @@ em {
   outline: none;
   background: rgba(255, 255, 255, 0.15);
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.1);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
 }
 
 .newsletter-btn {
@@ -804,7 +804,7 @@ em {
 }
 
 .newsletter-btn:hover {
-  background: rgba(255, 215, 0, 0.9);
+  background: rgba(212, 175, 55, 0.9);
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
@@ -1008,7 +1008,7 @@ input, textarea, select {
 input:focus, textarea:focus, select:focus {
   outline: none;
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(0, 63, 135, 0.1);
+  box-shadow: 0 0 0 3px rgba(27, 79, 114, 0.1);
 }
 
 textarea {
@@ -1220,7 +1220,7 @@ select.invalid {
 .cta-final {
   text-align: center;
   padding: var(--space-16) var(--space-8);
-  background: linear-gradient(135deg, rgba(0, 63, 135, 0.04) 0%, rgba(255, 215, 0, 0.04) 100%);
+  background: linear-gradient(135deg, rgba(27, 79, 114, 0.04) 0%, rgba(212, 175, 55, 0.04) 100%);
   border: 2px solid var(--border);
   border-radius: var(--radius-xl);
 }
@@ -1272,9 +1272,9 @@ select.invalid {
   align-items: center;
   gap: var(--space-1);
   padding: var(--space-1) var(--space-3);
-  background: rgba(0, 63, 135, 0.1);
+  background: rgba(27, 79, 114, 0.1);
   color: var(--primary);
-  border: 1px solid rgba(0, 63, 135, 0.2);
+  border: 1px solid rgba(27, 79, 114, 0.2);
   border-radius: var(--radius-full);
   font-size: var(--size-xs);
   font-weight: 600;
@@ -1286,9 +1286,9 @@ select.invalid {
   align-items: center;
   gap: var(--space-1);
   padding: var(--space-1) var(--space-3);
-  background: rgba(255, 215, 0, 0.12);
+  background: rgba(212, 175, 55, 0.12);
   color: #8a6d00;
-  border: 1px solid rgba(255, 215, 0, 0.3);
+  border: 1px solid rgba(212, 175, 55, 0.3);
   border-radius: var(--radius-full);
   font-size: var(--size-xs);
   font-weight: 600;
@@ -1431,7 +1431,7 @@ select.invalid {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(0, 63, 135, 0.1), rgba(255, 215, 0, 0.08));
+  background: linear-gradient(135deg, rgba(27, 79, 114, 0.1), rgba(212, 175, 55, 0.08));
   border-radius: var(--radius-xl);
   color: var(--primary);
   font-size: var(--size-2xl);
@@ -1564,7 +1564,7 @@ select.invalid {
 .cta-services {
   text-align: center;
   padding: var(--space-16) var(--space-8);
-  background: linear-gradient(135deg, rgba(0, 63, 135, 0.04) 0%, rgba(255, 215, 0, 0.04) 100%);
+  background: linear-gradient(135deg, rgba(27, 79, 114, 0.04) 0%, rgba(212, 175, 55, 0.04) 100%);
   border: 2px solid var(--border);
   border-radius: var(--radius-xl);
 }
@@ -1903,7 +1903,7 @@ select.invalid {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(0, 63, 135, 0.1), rgba(255, 215, 0, 0.08));
+  background: linear-gradient(135deg, rgba(27, 79, 114, 0.1), rgba(212, 175, 55, 0.08));
   border-radius: var(--radius-xl);
   color: var(--primary);
   font-size: var(--size-2xl);
@@ -2014,7 +2014,7 @@ select.invalid {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(0, 63, 135, 0.1), rgba(255, 215, 0, 0.08));
+  background: linear-gradient(135deg, rgba(27, 79, 114, 0.1), rgba(212, 175, 55, 0.08));
   border-radius: var(--radius-xl);
   color: var(--primary);
   font-size: var(--size-xl);

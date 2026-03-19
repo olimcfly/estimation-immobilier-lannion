@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Contact - Estimation Immobilière Lannion | Notre équipe locale';
+$page_title = 'Contact - Estimation Immobilière Aix-en-Provence | Notre équipe locale';
 
 $errors = [];
 $success_message = '';
@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   if (!$errors) {
-    $to = getenv('CONTACT_OWNER_EMAIL') ?: 'contact@estimation-immobilier-lannion.fr';
+    $to = getenv('CONTACT_OWNER_EMAIL') ?: 'contact@estimation-immobilier-aix.fr';
     $subject = 'Nouveau message de contact - ' . htmlspecialchars($form_data['objet'], ENT_QUOTES, 'UTF-8');
 
     $safe_nom = htmlspecialchars($form_data['nom'], ENT_QUOTES, 'UTF-8');
@@ -82,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $safe_objet = htmlspecialchars($form_data['objet'], ENT_QUOTES, 'UTF-8');
     $safe_message = htmlspecialchars($form_data['message'], ENT_QUOTES, 'UTF-8');
 
-    $body = "Nouveau message depuis le formulaire contact Lannion\n\n"
+    $body = "Nouveau message depuis le formulaire contact Aix-en-Provence\n\n"
       . "Nom : {$safe_nom}\n"
       . "Email : {$safe_email}\n"
       . "Téléphone : {$safe_telephone}\n"
@@ -90,7 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       . "Message :\n{$safe_message}\n";
 
     $headers = [
-      'From: no-reply@estimation-immobilier-lannion.fr',
+      'From: no-reply@estimation-immobilier-aix.fr',
       'Reply-To: ' . $safe_email,
       'Content-Type: text/plain; charset=UTF-8',
     ];
@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </p>
       <h1>Parlons de votre projet immobilier</h1>
       <p class="lead">
-        Nous sommes à votre écoute pour répondre à vos questions et vous accompagner dans votre estimation immobilière à Lannion.
+        Nous sommes à votre écoute pour répondre à vos questions et vous accompagner dans votre estimation immobilière à Aix-en-Provence.
       </p>
     </div>
   </div>
@@ -148,8 +148,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <i class="fas fa-phone"></i> Téléphone
             </p>
             <p class="info-value">
-              <a href="tel:+33296053000">
-                <strong>02 96 05 30 00</strong>
+              <a href="tel:+33442261000">
+                <strong>04 42 26 10 00</strong>
               </a>
             </p>
             <p style="font-size: var(--size-xs); color: var(--text-muted); margin: var(--space-2) 0 0 0;">
@@ -163,8 +163,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <i class="fas fa-envelope"></i> Email
             </p>
             <p class="info-value">
-              <a href="mailto:contact@estimation-immobilier-lannion.fr">
-                contact@estimation-immobilier-lannion.fr
+              <a href="mailto:contact@estimation-immobilier-aix.fr">
+                contact@estimation-immobilier-aix.fr
               </a>
             </p>
             <p style="font-size: var(--size-xs); color: var(--text-muted); margin: var(--space-2) 0 0 0;">
@@ -178,9 +178,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <i class="fas fa-location-dot"></i> Adresse
             </p>
             <p class="info-value">
-              5 Rue des Chapeliers<br>
-              22300 Lannion<br>
-              Bretagne, France
+              15 Cours Mirabeau<br>
+              13100 Aix-en-Provence<br>
+              Provence-Alpes-Côte d'Azur, France
             </p>
           </div>
 
@@ -325,7 +325,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 type="tel" 
                 id="telephone" 
                 name="telephone" 
-                placeholder="02 96 XX XX XX"
+                placeholder="04 42 XX XX XX"
                 value="<?= htmlspecialchars($form_data['telephone'], ENT_QUOTES, 'UTF-8'); ?>"
               >
             </label>
@@ -433,8 +433,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <div class="card" style="padding: 0; overflow: hidden; border-radius: var(--radius-xl);">
       <iframe
-        title="Localisation - Estimation Immobilier Lannion"
-        src="https://www.google.com/maps?q=Lannion%2022300&output=embed"
+        title="Localisation - Estimation Immobilier Aix-en-Provence"
+        src="https://www.google.com/maps?q=Aix-en-Provence%2013100&output=embed"
         width="100%"
         height="500"
         style="border: 0; display: block;"
@@ -477,7 +477,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
         <h3>Experts Locaux</h3>
         <p>
-          Notre équipe connaît le marché immobilier de Lannion depuis plus de 25 ans. Expertise garantie.
+          Notre équipe connaît le marché immobilier d'Aix-en-Provence depuis plus de 25 ans. Expertise garantie.
         </p>
       </article>
 
@@ -546,7 +546,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <i class="fas fa-envelope"></i> Comment me contacter ?
         </h3>
         <p>
-          Trois moyens : par téléphone (02 96 05 30 00), par email (contact@...), ou via ce formulaire. Nous répondons en priorité au mode choisi.
+          Trois moyens : par téléphone (04 42 26 10 00), par email (contact@...), ou via ce formulaire. Nous répondons en priorité au mode choisi.
         </p>
       </article>
 
@@ -582,16 +582,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <i class="fas fa-phone"></i> Puis-je appeler directement ?
         </h3>
         <p>
-          Absolument ! Le téléphone (02 96 05 30 00) est parfois plus rapide pour une question simple. N'hésitez pas.
+          Absolument ! Le téléphone (04 42 26 10 00) est parfois plus rapide pour une question simple. N'hésitez pas.
         </p>
       </article>
 
       <article class="card faq-card">
         <h3>
-          <i class="fas fa-globe"></i> Livrez-vous en dehors de Lannion ?
+          <i class="fas fa-globe"></i> Livrez-vous en dehors d'Aix-en-Provence ?
         </h3>
         <p>
-          Oui, nous couvrons toute la région Bretagne. Nos services d'estimation s'appliquent à Lannion et commune environnantes.
+          Oui, nous couvrons toute la région Provence-Alpes-Côte d'Azur. Nos services d'estimation s'appliquent à Aix-en-Provence et communes environnantes.
         </p>
       </article>
     </div>

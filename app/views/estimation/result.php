@@ -1,5 +1,5 @@
 <?php
-$city = (string) ($estimate['city'] ?? 'Lannion');
+$city = (string) ($estimate['city'] ?? 'Aix-en-Provence');
 $cityLower = mb_strtolower($city);
 
 $estimatedLow = (float) ($estimate['estimated_low'] ?? 0);
@@ -12,15 +12,15 @@ $perSqmHigh = (float) ($estimate['per_sqm_high'] ?? 0);
 $selectedNeighborhood = trim((string) ($_POST['quartier'] ?? $_GET['quartier'] ?? ($estimate['district'] ?? '')));
 
 $neighborhoodDescriptions = [
-    'centre-ville' => 'Secteur vivant et commerçant, très recherché pour la proximité immédiate des services.',
-    'brélévenez' => 'Quartier résidentiel calme avec bonne tenue des prix sur les maisons familiales.',
-    'ker huel' => 'Zone appréciée pour ses accès rapides et son cadre résidentiel équilibré.',
-    'servel' => 'Ambiance de quartier avec une demande stable sur les biens bien entretenus.',
-    'beg léguer' => 'Secteur côtier premium avec tension forte sur les biens disposant d\'un extérieur.',
+    'centre historique' => 'Secteur vivant et commerçant, très recherché pour la proximité immédiate des services.',
+    'mazarin' => 'Quartier résidentiel calme avec bonne tenue des prix sur les maisons familiales.',
+    'jas de bouffan' => 'Zone appréciée pour ses accès rapides et son cadre résidentiel équilibré.',
+    'pont de l\'arc' => 'Ambiance de quartier avec une demande stable sur les biens bien entretenus.',
+    'les milles' => 'Secteur dynamique avec tension forte sur les biens disposant d\'un extérieur.',
 ];
 
 if ($selectedNeighborhood === '') {
-    $selectedNeighborhood = str_contains($cityLower, 'lannion') ? 'Centre-ville' : 'Quartier principal';
+    $selectedNeighborhood = str_contains($cityLower, 'aix') ? 'Centre Historique' : 'Quartier principal';
 }
 
 $neighborhoodKey = mb_strtolower($selectedNeighborhood);
@@ -34,15 +34,15 @@ if ($perSqmMid < 2800) {
 }
 
 $marketMessages = [
-    'basse' => 'Marché porteur à Lannion. Excellent moment pour vendre!',
+    'basse' => 'Marché porteur à Aix-en-Provence. Excellent moment pour vendre!',
     'moyenne' => 'Estimation dans la fourchette de marché locale',
-    'haute' => 'Bien situé et bien conservé. Forte demande à Lannion',
+    'haute' => 'Bien situé et bien conservé. Forte demande à Aix-en-Provence',
 ];
 $marketMessage = $marketMessages[$marketPosition];
 
 $personalAdvice = 'Positionnez votre prix proche de la médiane et préparez un dossier vendeur complet pour accélérer la décision des acquéreurs.';
 if ($estimatedMid < 190000) {
-    $personalAdvice = 'Misez sur une mise en valeur simple (photos pro, rafraîchissement léger) pour capter rapidement les primo-accédants de Lannion.';
+    $personalAdvice = 'Misez sur une mise en valeur simple (photos pro, rafraîchissement léger) pour capter rapidement les primo-accédants d'Aix-en-Provence.';
 } elseif ($estimatedMid > 330000) {
     $personalAdvice = 'Valorisez les prestations premium (diagnostics à jour, qualité des finitions, extérieurs) pour sécuriser une vente au meilleur prix.';
 }
@@ -54,7 +54,7 @@ $highBar = max(8, (int) round(($estimatedHigh / $barMax) * 100));
 ?>
 
 <style>
-  .lannion-insights {
+  .aix-insights {
     margin-top: 1.2rem;
     display: grid;
     gap: 1rem;
@@ -149,7 +149,7 @@ $highBar = max(8, (int) round(($estimatedHigh / $barMax) * 100));
           <p class="detail-info">Fourchette : <?= number_format($perSqmLow, 0, ',', ' ') ?> - <?= number_format($perSqmHigh, 0, ',', ' ') ?> €/m²</p>
         </div>
 
-        <div class="lannion-insights">
+        <div class="aix-insights">
           <article class="insight-card">
             <p class="detail-label" style="margin-bottom: 0.45rem;">Quartier sélectionné</p>
             <p style="margin: 0 0 0.35rem; font-weight: 700;"><?= e($selectedNeighborhood) ?></p>
@@ -179,7 +179,7 @@ $highBar = max(8, (int) round(($estimatedHigh / $barMax) * 100));
 
           <article class="insight-card">
             <p class="detail-label" style="margin-bottom: 0.45rem;">Comparable local</p>
-            <p style="margin: 0;">À Lannion, les biens similaires se vendent entre <strong><?= number_format($estimatedLow, 0, ',', ' ') ?> €</strong> et <strong><?= number_format($estimatedHigh, 0, ',', ' ') ?> €</strong>.</p>
+            <p style="margin: 0;">À Aix-en-Provence, les biens similaires se vendent entre <strong><?= number_format($estimatedLow, 0, ',', ' ') ?> €</strong> et <strong><?= number_format($estimatedHigh, 0, ',', ' ') ?> €</strong>.</p>
           </article>
 
           <article class="insight-card">
@@ -195,7 +195,7 @@ $highBar = max(8, (int) round(($estimatedHigh / $barMax) * 100));
           <div class="cta-header">
             <p class="eyebrow"><i class="fas fa-handshake"></i> Passer à l'action</p>
             <h3>Transformez cette estimation en projet</h3>
-            <p class="muted">Activez la prochaine étape selon votre objectif à Lannion.</p>
+            <p class="muted">Activez la prochaine étape selon votre objectif à Aix-en-Provence.</p>
           </div>
 
           <div class="cta-benefits">

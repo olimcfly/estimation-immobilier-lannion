@@ -3,28 +3,28 @@
 declare(strict_types=1);
 
 if (!defined('CITY_NAME')) {
-    define('CITY_NAME', 'Lannion');
+    define('CITY_NAME', 'Aix-en-Provence');
 }
 if (!defined('CITY_REGION')) {
-    define('CITY_REGION', 'Bretagne');
+    define('CITY_REGION', 'Provence-Alpes-Côte d\'Azur');
 }
 if (!defined('CITY_CODE_POSTAL')) {
-    define('CITY_CODE_POSTAL', '22300');
+    define('CITY_CODE_POSTAL', '13100');
 }
 if (!defined('QUARTIERS')) {
-    define('QUARTIERS', ['Centre-Ville', 'Trégor', 'Port', 'Brélévenez', 'Léguer']);
+    define('QUARTIERS', ['Centre Historique', 'Mazarin', 'Jas de Bouffan', 'Pont de l\'Arc', 'Les Milles', 'Puyricard']);
 }
 if (!defined('PRIX_M2_MOYEN')) {
-    define('PRIX_M2_MOYEN', 3200);
+    define('PRIX_M2_MOYEN', 4800);
 }
 if (!defined('COLOR_PRIMARY')) {
-    define('COLOR_PRIMARY', '#003f87');
+    define('COLOR_PRIMARY', '#1B4F72');
 }
 if (!defined('COLOR_SECONDARY')) {
     define('COLOR_SECONDARY', '#FFFFFF');
 }
 if (!defined('COLOR_ACCENT')) {
-    define('COLOR_ACCENT', '#FFD700');
+    define('COLOR_ACCENT', '#D4AF37');
 }
 
 return [
@@ -36,8 +36,8 @@ return [
     'db' => [
         'host' => $_ENV['DB_HOST'] ?? 'localhost',
         'port' => (int) ($_ENV['DB_PORT'] ?? 3306),
-        'name' => $_ENV['DB_NAME'] ?? 'immobilier_lannion',
-        'user' => $_ENV['DB_USER'] ?? 'cool1933_lannion',
+        'name' => $_ENV['DB_NAME'] ?? 'immobilier_aix',
+        'user' => $_ENV['DB_USER'] ?? 'cool1933_aix',
         'pass' => $_ENV['DB_PASS'] ?? '',
         'charset' => $_ENV['DB_CHARSET'] ?? 'utf8mb4',
     ],

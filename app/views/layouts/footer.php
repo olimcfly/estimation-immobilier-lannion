@@ -15,12 +15,12 @@
               <i class="fas fa-home"></i>
             </div>
             <h3 class="footer-brand-name">
-              Estimation Immobilier <span>Lannion</span>
+              Estimation Immobilier <span>Aix</span>
             </h3>
           </div>
 
           <p class="footer-tagline">
-            Estimez votre bien immobilier gratuitement à Lannion et région. Algorithme IA + expertise locale.
+            Estimez votre bien immobilier gratuitement à Aix-en-Provence et région. Algorithme IA + expertise locale.
           </p>
 
           <!-- Newsletter Signup -->
@@ -46,28 +46,28 @@
 
           <!-- Réseaux Sociaux -->
           <div class="footer-social">
-            <a href="https://facebook.com/estimation-lannion" 
+            <a href="https://facebook.com/estimation-aix" 
                class="social-link" 
                title="Suivez-nous sur Facebook"
                target="_blank" 
                rel="noopener noreferrer">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="https://instagram.com/estimation-lannion" 
+            <a href="https://instagram.com/estimation-aix" 
                class="social-link" 
                title="Suivez-nous sur Instagram"
                target="_blank" 
                rel="noopener noreferrer">
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://linkedin.com/company/estimation-lannion" 
+            <a href="https://linkedin.com/company/estimation-aix" 
                class="social-link" 
                title="Suivez-nous sur LinkedIn"
                target="_blank" 
                rel="noopener noreferrer">
               <i class="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://twitter.com/estimation_lannion" 
+            <a href="https://twitter.com/estimation_aix" 
                class="social-link" 
                title="Suivez-nous sur Twitter"
                target="_blank" 
@@ -109,8 +109,8 @@
           <ul class="footer-links">
             <li><a href="/a-propos">À propos de nous</a></li>
             <li><a href="/contact">Nous contacter</a></li>
-            <li><a href="tel:+33296053000">+33 2 96 05 30 00</a></li>
-            <li><a href="mailto:contact@estimation-lannion.fr">contact@estimation-lannion.fr</a></li>
+            <li><a href="tel:+33442261000">+33 4 42 26 10 00</a></li>
+            <li><a href="mailto:contact@estimation-aix.fr">contact@estimation-aix.fr</a></li>
             <li><a href="/a-propos">Notre équipe</a></li>
           </ul>
 
@@ -161,7 +161,7 @@
     <div class="footer-bottom">
       <div class="footer-bottom-container">
         <p class="footer-copyright">
-          &copy; 2024 Estimation Immobilier Lannion. Tous droits réservés. SAS OCDM Agency.
+          &copy; 2024 Estimation Immobilier Aix-en-Provence. Tous droits réservés. SAS OCDM Agency.
         </p>
         <div class="footer-bottom-links">
           <a href="#top" class="back-to-top">

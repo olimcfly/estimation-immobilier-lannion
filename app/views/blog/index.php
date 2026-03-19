@@ -1,14 +1,14 @@
 <section class="section">
   <div class="container">
-    <p class="eyebrow">Blog immobilier Lannion &amp; Côte de Granit Rose</p>
-    <h1>Analyses et conseils pour investir à Lannion</h1>
-    <p class="lead">Retrouvez nos dossiers dédiés au marché lannionnais : quartiers, rentabilité, rénovation et investissement touristique en Bretagne nord.</p>
+    <p class="eyebrow">Blog immobilier Aix-en-Provence &amp; Pays d'Aix</p>
+    <h1>Analyses et conseils pour investir à Aix-en-Provence</h1>
+    <p class="lead">Retrouvez nos dossiers dédiés au marché aixois : quartiers, rentabilité, rénovation et investissement touristique en Provence.</p>
 
     <div class="blog-grid">
       <?php if (empty($articles)): ?>
         <article class="card">
           <h2>Aucun article publié pour le moment</h2>
-          <p class="muted">Revenez prochainement pour lire nos derniers conseils immobiliers à Lannion.</p>
+          <p class="muted">Revenez prochainement pour lire nos derniers conseils immobiliers à Aix-en-Provence.</p>
         </article>
       <?php else: ?>
         <?php foreach ($articles as $article): ?>
@@ -36,7 +36,7 @@
     </div>
 
     <section class="card cta-card">
-      <h2>Vous souhaitez estimer un bien à Lannion ?</h2>
+      <h2>Vous souhaitez estimer un bien à Aix-en-Provence ?</h2>
       <p class="muted">Obtenez une estimation immobilière argumentée selon votre adresse, votre bien et les données locales.</p>
       <a class="btn" href="/estimation">Lancer mon estimation</a>
     </section>

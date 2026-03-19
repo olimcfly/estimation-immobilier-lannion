@@ -3,7 +3,7 @@
     <div class="page-hero-inner">
       <p class="eyebrow"><i class="fas fa-gavel"></i> Informations légales</p>
       <h1>Mentions légales</h1>
-      <p class="lead">Informations éditoriales et juridiques relatives au site estimation-immobilier-lannion.fr.</p>
+      <p class="lead">Informations éditoriales et juridiques relatives au site estimation-immobilier-aix.fr.</p>
     </div>
   </div>
 </section>
@@ -14,8 +14,8 @@
     <p>
       Raison sociale : [À COMPLÉTER]<br>
       SIRET : [À COMPLÉTER]<br>
-      Adresse : [Adresse complète Lannion]<br>
-      Domaine : estimation-immobilier-lannion.fr
+      Adresse : [Adresse complète Aix-en-Provence]<br>
+      Domaine : estimation-immobilier-aix.fr
     </p>
 
     <h2>Responsable de la publication</h2>

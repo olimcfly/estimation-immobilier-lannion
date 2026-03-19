@@ -14,24 +14,24 @@ final class PageController
     public function home(): void
     {
         View::render('pages/home', [
-            'page_title' => 'Accueil - Estimation Immobilier Lannion',
-            'meta_description' => 'Estimez gratuitement votre bien immobilier à Lannion en 60 secondes. Algorithme basé sur 5000+ transactions réelles du Trégor. Sans engagement.',
+            'page_title' => 'Accueil - Estimation Immobilier Aix-en-Provence',
+            'meta_description' => 'Estimez gratuitement votre bien immobilier à Aix-en-Provence en 60 secondes. Algorithme basé sur 5000+ transactions réelles du Pays d\'Aix. Sans engagement.',
         ]);
     }
 
     public function services(): void
     {
         View::render('pages/services', [
-            'page_title' => 'Nos Services - Estimation Immobilier Lannion',
-            'meta_description' => 'Estimation gratuite, accompagnement expert et conseil immobilier premium à Lannion. De l\'estimation à la signature, un service complet et sans frais.',
+            'page_title' => 'Nos Services - Estimation Immobilier Aix-en-Provence',
+            'meta_description' => 'Estimation gratuite, accompagnement expert et conseil immobilier premium à Aix-en-Provence. De l\'estimation à la signature, un service complet et sans frais.',
         ]);
     }
 
     public function about(): void
     {
         View::render('pages/a_propos', [
-            'page_title' => 'À Propos - Estimation Immobilier Lannion',
-            'meta_description' => 'Découvrez l\'équipe derrière Estimation Immobilier Lannion. Experts locaux du Trégor, 3 847 estimations réalisées, 4.8/5 de satisfaction client.',
+            'page_title' => 'À Propos - Estimation Immobilier Aix-en-Provence',
+            'meta_description' => 'Découvrez l\'équipe derrière Estimation Immobilier Aix-en-Provence. Experts locaux du Pays d\'Aix, 3 847 estimations réalisées, 4.8/5 de satisfaction client.',
         ]);
     }
 
@@ -43,21 +43,21 @@ final class PageController
     public function processusEstimation(): void
     {
         View::render('pages/processus_estimation', [
-            'page_title' => 'Processus d\'Estimation - Estimation Immobilier Lannion',
+            'page_title' => 'Processus d\'Estimation - Estimation Immobilier Aix-en-Provence',
         ]);
     }
 
     public function newsletter(): void
     {
         View::render('pages/newsletter', [
-            'page_title' => 'Newsletter - Estimation Immobilier Lannion',
+            'page_title' => 'Newsletter - Estimation Immobilier Aix-en-Provence',
         ]);
     }
 
     public function guides(): void
     {
         View::render('pages/guides', [
-            'page_title' => 'Guides Immobiliers Lannion - Conseils & Astuces',
+            'page_title' => 'Guides Immobiliers Aix-en-Provence - Conseils & Astuces',
         ]);
     }
 
@@ -65,7 +65,7 @@ final class PageController
     public function exemplesEstimation(): void
     {
         View::render('pages/exemples_estimation', [
-            'page_title' => "Exemple Estimation - Cas Réels Lannion | Nos Résultats",
+            'page_title' => "Exemple Estimation - Cas Réels Aix-en-Provence | Nos Résultats",
         ]);
     }
 
@@ -73,16 +73,16 @@ final class PageController
     public function quartiers(): void
     {
         View::render('pages/quartiers', [
-            'page_title' => 'Quartiers de Lannion - Estimation Immobilier Lannion',
-            'meta_description' => 'Guide complet des 6 quartiers de Lannion : Centre-Ville, Trégor, Port, Brélévenez, Léguer, Buttes. Prix au m², tendances et caractéristiques.',
+            'page_title' => 'Quartiers d\'Aix-en-Provence - Estimation Immobilier Aix-en-Provence',
+            'meta_description' => 'Guide complet des 6 quartiers d\'Aix-en-Provence : Centre Historique, Mazarin, Jas de Bouffan, Pont de l\'Arc, Les Milles, Puyricard. Prix au m², tendances et caractéristiques.',
         ]);
     }
 
     public function contact(): void
     {
         View::render('pages/contact', [
-            'page_title' => 'Contact - Estimation Immobilier Lannion',
-            'meta_description' => 'Contactez notre équipe à Lannion par téléphone (02 96 05 30 00), email ou formulaire. Réponse sous 24h, lun-ven 9h-18h.',
+            'page_title' => 'Contact - Estimation Immobilier Aix-en-Provence',
+            'meta_description' => 'Contactez notre équipe à Aix-en-Provence par téléphone (04 42 26 10 00), email ou formulaire. Réponse sous 24h, lun-ven 9h-18h.',
         ]);
     }
 
@@ -90,7 +90,7 @@ final class PageController
     public function podcast(): void
     {
         View::render('pages/podcast', [
-            'page_title' => 'Podcast Immobilier Lannion - Conseils & Tendances',
+            'page_title' => 'Podcast Immobilier Aix-en-Provence - Conseils & Tendances',
         ]);
     }
 
@@ -102,7 +102,7 @@ final class PageController
             $email = mb_strtolower(Validator::email($_POST, 'newsletter_email'));
         } catch (\InvalidArgumentException) {
             View::render('pages/newsletter', [
-                'page_title' => 'Newsletter - Estimation Immobilier Lannion',
+                'page_title' => 'Newsletter - Estimation Immobilier Aix-en-Provence',
                 'error_message' => 'Adresse email invalide. Merci de vérifier votre saisie.',
             ]);
             return;
@@ -110,7 +110,7 @@ final class PageController
 
         if (!$hasConsent) {
             View::render('pages/newsletter', [
-                'page_title' => 'Newsletter - Estimation Immobilier Lannion',
+                'page_title' => 'Newsletter - Estimation Immobilier Aix-en-Provence',
                 'error_message' => 'Le consentement RGPD est requis pour finaliser votre inscription.',
             ]);
             return;
@@ -121,14 +121,14 @@ final class PageController
 
         if (!$this->sendNewsletterConfirmationEmail($email, $confirmLink)) {
             View::render('pages/newsletter', [
-                'page_title' => 'Newsletter - Estimation Immobilier Lannion',
+                'page_title' => 'Newsletter - Estimation Immobilier Aix-en-Provence',
                 'error_message' => 'Impossible d\'envoyer l\'email de confirmation pour le moment. Réessayez dans quelques minutes.',
             ]);
             return;
         }
 
         View::render('pages/newsletter', [
-            'page_title' => 'Newsletter - Estimation Immobilier Lannion',
+            'page_title' => 'Newsletter - Estimation Immobilier Aix-en-Provence',
             'success_message' => 'Un email de confirmation vient d\'être envoyé. Cliquez sur le lien reçu pour activer votre abonnement.',
         ]);
     }
@@ -139,7 +139,7 @@ final class PageController
 
         if ($token === '') {
             View::render('pages/newsletter', [
-                'page_title' => 'Newsletter - Estimation Immobilier Lannion',
+                'page_title' => 'Newsletter - Estimation Immobilier Aix-en-Provence',
                 'error_message' => 'Lien de confirmation invalide.',
             ]);
             return;
@@ -148,7 +148,7 @@ final class PageController
         $email = $this->validateNewsletterToken($token);
         if ($email === null) {
             View::render('pages/newsletter', [
-                'page_title' => 'Newsletter - Estimation Immobilier Lannion',
+                'page_title' => 'Newsletter - Estimation Immobilier Aix-en-Provence',
                 'error_message' => 'Le lien de confirmation est invalide ou expiré.',
             ]);
             return;
@@ -158,7 +158,7 @@ final class PageController
         $subscriberModel->confirmByEmail($email);
 
         View::render('pages/newsletter', [
-            'page_title' => 'Newsletter - Estimation Immobilier Lannion',
+            'page_title' => 'Newsletter - Estimation Immobilier Aix-en-Provence',
             'success_message' => 'Inscription confirmée ✅ Vous recevrez désormais notre newsletter.',
         ]);
     }
@@ -166,7 +166,7 @@ final class PageController
     public function contactSubmit(): void
     {
         View::render('pages/contact', [
-            'page_title' => 'Contact - Estimation Immobilier Lannion',
+            'page_title' => 'Contact - Estimation Immobilier Aix-en-Provence',
             'success_message' => 'Merci ! Votre message a bien été reçu. Nous vous répondrons sous 24h.',
         ]);
     }
@@ -175,28 +175,28 @@ final class PageController
     public function mentionsLegales(): void
     {
         View::render('legal/mentions', [
-            'page_title' => 'Mentions légales - Estimation Immobilier Lannion',
+            'page_title' => 'Mentions légales - Estimation Immobilier Aix-en-Provence',
         ]);
     }
 
     public function politiqueConfidentialite(): void
     {
         View::render('legal/confidentialite', [
-            'page_title' => 'Politique de confidentialité - Estimation Immobilier Lannion',
+            'page_title' => 'Politique de confidentialité - Estimation Immobilier Aix-en-Provence',
         ]);
     }
 
     public function conditionsUtilisation(): void
     {
         View::render('legal/cgu', [
-            'page_title' => 'Conditions d\'utilisation - Estimation Immobilier Lannion',
+            'page_title' => 'Conditions d\'utilisation - Estimation Immobilier Aix-en-Provence',
         ]);
     }
 
     public function rgpd(): void
     {
         View::render('legal/rgpd', [
-            'page_title' => 'RGPD - Estimation Immobilier Lannion',
+            'page_title' => 'RGPD - Estimation Immobilier Aix-en-Provence',
         ]);
     }
 

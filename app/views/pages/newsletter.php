@@ -1,5 +1,5 @@
 <?php 
-$page_title = 'Newsletter - Estimation Immobilière Lannion | Conseils & Tendances Immobiliers';
+$page_title = 'Newsletter - Estimation Immobilière Aix-en-Provence | Conseils & Tendances Immobiliers';
 
 $newsletter_errors = [];
 $newsletter_success_message = '';
@@ -28,8 +28,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['newsletter_email'])) 
   }
 
   if (!$newsletter_errors) {
-    $to = getenv('NEWSLETTER_EMAIL') ?: 'newsletter@estimation-immobilier-lannion.fr';
-    $subject = 'Nouvelle inscription newsletter - Lannion';
+    $to = getenv('NEWSLETTER_EMAIL') ?: 'newsletter@estimation-immobilier-aix.fr';
+    $subject = 'Nouvelle inscription newsletter - Aix-en-Provence';
 
     $safe_email = filter_var($newsletter_form_data['newsletter_email'], FILTER_SANITIZE_EMAIL);
 
@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['newsletter_email'])) 
       . "Date d'inscription : " . date('Y-m-d H:i:s') . "\n";
 
     $headers = [
-      'From: no-reply@estimation-immobilier-lannion.fr',
+      'From: no-reply@estimation-immobilier-aix.fr',
       'Content-Type: text/plain; charset=UTF-8',
     ];
 
@@ -203,7 +203,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['newsletter_email'])) 
         </div>
         <h3>Analyses Marché</h3>
         <p>
-          Tendances des prix à Lannion et région. Quels quartiers montent ? Où investir ? Données actualisées chaque semaine.
+          Tendances des prix à Aix-en-Provence et région. Quels quartiers montent ? Où investir ? Données actualisées chaque semaine.
         </p>
       </article>
 
@@ -342,7 +342,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['newsletter_email'])) 
           "Les conseils de la newsletter m'ont permis de vendre ma maison 15% plus cher. Les astuces sur la présentation du bien étaient vraiment utiles !"
         </p>
         <p style="margin: 0; font-weight: 600; color: var(--primary); font-size: var(--size-sm);">
-          Mélanie R., Lannion
+          Mélanie R., Aix-en-Provence
         </p>
       </article>
 
@@ -361,7 +361,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['newsletter_email'])) 
           "Restez informé sur les tendances du marché sans passer des heures sur Internet. Email parfait, court et précis. Exactement ce qu'il me fallait !"
         </p>
         <p style="margin: 0; font-weight: 600; color: var(--primary); font-size: var(--size-sm);">
-          Pierre D., Trégor
+          Pierre D., Pays d'Aix
         </p>
       </article>
 
@@ -380,7 +380,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['newsletter_email'])) 
           "Excellent service ! La newsletter est informatif et pratique. J'ai recommandé à mes amis. Continuez comme ça !"
         </p>
         <p style="margin: 0; font-weight: 600; color: var(--primary); font-size: var(--size-sm);">
-          Valérie T., Brélévenez
+          Valérie T., Mazarin
         </p>
       </article>
     </div>
@@ -405,7 +405,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['newsletter_email'])) 
         <!-- Header -->
         <div style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%); padding: var(--space-6); text-align: center; color: white;">
           <h2 style="margin: 0; font-family: var(--font-primary); font-size: var(--size-2xl);">
-            📊 Newsletter Lannion
+            📊 Newsletter Aix-en-Provence
           </h2>
           <p style="margin: var(--space-2) 0 0 0; font-size: var(--size-sm); opacity: 0.9;">
             Semaine du 15 janvier 2024
@@ -416,7 +416,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['newsletter_email'])) 
         <div style="padding: var(--space-6);">
           <!-- Titre 1 -->
           <h3 style="margin: 0 0 var(--space-2) 0; color: var(--primary);">
-            📈 Analyse : Prix en hausse de +4.2% à Lannion
+            📈 Analyse : Prix en hausse de +4.2% à Aix-en-Provence
           </h3>
           <p style="margin: 0 0 var(--space-4) 0; color: var(--text-secondary); font-size: var(--size-sm); line-height: var(--line-lg);">
             Le prix moyen au m² atteint 3 100 €. Port et Centre-Ville tirent la tendance. Les bonnes affaires se font rares.
@@ -452,7 +452,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['newsletter_email'])) 
         <!-- Footer -->
         <div style="background: var(--bg-alt); padding: var(--space-4); text-align: center; font-size: var(--size-xs); color: var(--text-muted); border-top: 1px solid var(--border);">
           <p style="margin: 0 0 var(--space-2) 0;">
-            Estimation Immobilier Lannion | 5 Rue des Chapeliers, 22300 Lannion
+            Estimation Immobilier Aix-en-Provence | 15 Cours Mirabeau, 13100 Aix-en-Provence
           </p>
           <p style="margin: 0;">
             <a href="#" style="color: var(--primary); text-decoration: none;">Se désabonner</a> | 
@@ -575,7 +575,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['newsletter_email'])) 
       </p>
       <h2>Rejoignez 1 500+ abonnés</h2>
       <p class="lead">
-        Un email par semaine, du vrai contenu utile. Aucun spam, aucun engagement long. Juste l'essentiel immobilier de Lannion.
+        Un email par semaine, du vrai contenu utile. Aucun spam, aucun engagement long. Juste l'essentiel immobilier d'Aix-en-Provence.
       </p>
       <a href="#form-newsletter" class="btn btn-primary">
         <i class="fas fa-bell"></i> M'abonner (gratuit)

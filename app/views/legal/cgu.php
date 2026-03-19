@@ -3,7 +3,7 @@
     <div class="page-hero-inner">
       <p class="eyebrow"><i class="fas fa-file-signature"></i> Cadre d’utilisation</p>
       <h1>Conditions générales d’utilisation</h1>
-      <p class="lead">En utilisant estimation-immobilier-lannion.fr, vous acceptez les présentes CGU.</p>
+      <p class="lead">En utilisant estimation-immobilier-aix.fr, vous acceptez les présentes CGU.</p>
     </div>
   </div>
 </section>

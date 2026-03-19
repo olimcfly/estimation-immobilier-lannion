@@ -1,16 +1,16 @@
 <?php
-$cityName = defined('CITY_NAME') ? CITY_NAME : 'Lannion';
-$regionName = defined('REGION_NAME') ? REGION_NAME : 'Bretagne';
-$prixM2Moyen = defined('PRIX_M2_MOYEN') ? PRIX_M2_MOYEN : 3200;
+$cityName = defined('CITY_NAME') ? CITY_NAME : 'Aix-en-Provence';
+$regionName = defined('REGION_NAME') ? REGION_NAME : 'Provence-Alpes-Côte d\'Azur';
+$prixM2Moyen = defined('PRIX_M2_MOYEN') ? PRIX_M2_MOYEN : 4800;
 $heroImageUrl = defined('HERO_IMAGE_URL')
     ? HERO_IMAGE_URL
     : 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1400&q=80';
 $heroImageAlt = defined('HERO_IMAGE_ALT')
     ? HERO_IMAGE_ALT
-    : 'Vue côtière du Trégor près de Lannion';
+    : 'Vue panoramique d\'Aix-en-Provence et la montagne Sainte-Victoire';
 $featuredDistricts = defined('FEATURED_DISTRICTS') && is_array(FEATURED_DISTRICTS)
     ? FEATURED_DISTRICTS
-    : ['Centre-Ville', 'Trégor', 'Port'];
+    : ['Centre Historique', 'Mazarin', 'Puyricard'];
 
 $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Minute', $cityName);
 ?>
@@ -76,13 +76,13 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
           <div style="display: flex; align-items: center; gap: var(--space-2);">
             <i class="fas fa-check-circle" style="color: var(--accent);"></i>
             <span>
-              <strong><?= htmlspecialchars($featuredDistricts[1] ?? ''); ?></strong> • Ambiance littorale recherchée
+              <strong><?= htmlspecialchars($featuredDistricts[1] ?? ''); ?></strong> • Quartier bourgeois élégant
             </span>
           </div>
           <div style="display: flex; align-items: center; gap: var(--space-2);">
             <i class="fas fa-check-circle" style="color: var(--accent);"></i>
             <span>
-              <strong><?= htmlspecialchars($featuredDistricts[2] ?? ''); ?></strong> • Secteur patrimoine en hausse
+              <strong><?= htmlspecialchars($featuredDistricts[2] ?? ''); ?></strong> • Village provençal prisé
             </span>
           </div>
         </div>
@@ -133,7 +133,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
               type="text" 
               id="city" 
               name="city" 
-              placeholder="<?= htmlspecialchars($cityName); ?>, Perros-Guirec..." 
+              placeholder="<?= htmlspecialchars($cityName); ?>, Gardanne..." 
               required
             >
           </label>
@@ -147,7 +147,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
               type="text" 
               id="postal_code" 
               name="postal_code" 
-              placeholder="22300" 
+              placeholder="13100" 
               maxlength="5"
               required
             >
@@ -464,7 +464,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
             </p>
           </div>
 
-          <div style="background: linear-gradient(135deg, rgba(0, 63, 135, 0.1), rgba(255, 215, 0, 0.1)); border: 2px solid var(--primary); border-radius: var(--radius-lg); padding: var(--space-4); text-align: center;">
+          <div style="background: linear-gradient(135deg, rgba(27, 79, 114, 0.1), rgba(212, 175, 55, 0.1)); border: 2px solid var(--primary); border-radius: var(--radius-lg); padding: var(--space-4); text-align: center;">
             <p style="margin-bottom: var(--space-2); font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
               <i class="fas fa-target"></i> Estimation
             </p>
@@ -492,7 +492,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
             €<?= number_format($prixM2Moyen, 0, ',', ' '); ?>
           </p>
           <p style="margin-top: var(--space-2); margin-bottom: 0; font-size: var(--size-xs); color: var(--text-muted);">
-            Moyenne quartier: €3,000 - €3,450
+            Moyenne quartier: €4,200 - €5,800
           </p>
         </div>
       </div>

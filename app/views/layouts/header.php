@@ -17,10 +17,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="<?= htmlspecialchars((string) ($meta_description ?? 'Estimation immobilière Lannion - Évaluez votre bien gratuitement et découvrez nos guides immobiliers.'), ENT_QUOTES, 'UTF-8') ?>">
-  <meta name="theme-color" content="#003f87">
+  <meta name="description" content="<?= htmlspecialchars((string) ($meta_description ?? 'Estimation immobilière Aix-en-Provence - Évaluez votre bien gratuitement et découvrez nos guides immobiliers.'), ENT_QUOTES, 'UTF-8') ?>">
+  <meta name="theme-color" content="#1B4F72">
   <link rel="canonical" href="<?= htmlspecialchars($canonicalUrl); ?>">
-  <title><?= isset($page_title) ? htmlspecialchars($page_title) : 'Estimation Immobilière Lannion' ?></title>
+  <title><?= isset($page_title) ? htmlspecialchars($page_title) : 'Estimation Immobilière Aix-en-Provence' ?></title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -45,7 +45,7 @@
         <div class="brand-icon">
           <i class="fas fa-home"></i>
         </div>
-        <span>Estimation Immobilier <span>Lannion</span></span>
+        <span>Estimation Immobilier <span>Aix</span></span>
       </a>
 
       <!-- NAVIGATION PRINCIPALE -->
@@ -70,7 +70,7 @@
             <i class="fas fa-building"></i> Immobilier <i class="fas fa-chevron-down fa-xs"></i>
           </a>
           <ul class="dropdown-menu" aria-label="Sous-menu immobilier">
-            <li><a href="/quartiers"><i class="fas fa-map-marked-alt"></i> Quartiers de Lannion</a></li>
+            <li><a href="/quartiers"><i class="fas fa-map-marked-alt"></i> Quartiers d'Aix</a></li>
             <li><a href="/services"><i class="fas fa-briefcase"></i> Nos services</a></li>
             <li><a href="/#how-it-works"><i class="fas fa-cog"></i> Comment ça marche</a></li>
           </ul>

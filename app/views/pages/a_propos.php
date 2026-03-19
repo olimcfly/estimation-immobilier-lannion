@@ -1,4 +1,4 @@
-<?php $page_title = 'À Propos - Estimation Immobilière Lannion | Notre Histoire & Expertise'; ?>
+<?php $page_title = 'À Propos - Estimation Immobilière Aix-en-Provence | Notre Histoire & Expertise'; ?>
 
 <!-- ================================================ -->
 <!-- HERO SECTION -->
@@ -11,7 +11,7 @@
       </p>
       <h1>L'expertise immobilière locale à votre service</h1>
       <p class="lead">
-        Depuis 2023, nous accompagnons les vendeurs de Lannion et région pour valoriser leur bien immobilier avec expertise, transparence et professionnalisme.
+        Depuis 2023, nous accompagnons les vendeurs d'Aix-en-Provence et région pour valoriser leur bien immobilier avec expertise, transparence et professionnalisme.
       </p>
     </div>
   </div>
@@ -37,7 +37,7 @@
         </div>
         <h3>Notre Mission</h3>
         <p>
-          Rendre l'estimation immobilière <strong>accessible</strong>, <strong>fiable</strong> et <strong>rapide</strong> pour tous les vendeurs de la région Lannion-Trégor. 
+          Rendre l'estimation immobilière <strong>accessible</strong>, <strong>fiable</strong> et <strong>rapide</strong> pour tous les vendeurs de la région d'Aix-en-Provence et du Pays d'Aix. 
         </p>
         <p style="margin-bottom: 0; color: var(--text-secondary); font-size: var(--size-sm);">
           Nous croyons qu'une bonne évaluation est la première étape d'une vente réussie et sans stress.
@@ -51,7 +51,7 @@
         </div>
         <h3>Notre Vision</h3>
         <p>
-          Devenir <strong>la plateforme de référence</strong> pour l'estimation immobilière en Bretagne, en combinant technologie intelligente et expertise locale du marché.
+          Devenir <strong>la plateforme de référence</strong> pour l'estimation immobilière en Provence-Alpes-Côte d'Azur, en combinant technologie intelligente et expertise locale du marché.
         </p>
         <p style="margin-bottom: 0; color: var(--text-secondary); font-size: var(--size-sm);">
           Transférer du pouvoir aux vendeurs et aux propriétaires grâce à l'information et à la transparence.
@@ -92,7 +92,7 @@
       <div class="card stat-box">
         <p class="stat-number">3,847</p>
         <p class="stat-label">Estimations réalisées</p>
-        <p class="stat-desc">Depuis 2023 à Lannion et région</p>
+        <p class="stat-desc">Depuis 2023 à Aix-en-Provence et région</p>
       </div>
 
       <!-- STAT 2 -->
@@ -120,7 +120,7 @@
       <div class="card stat-box">
         <p class="stat-number">6</p>
         <p class="stat-label">Quartiers couverts</p>
-        <p class="stat-desc">Et extension progressive vers Bretagne</p>
+        <p class="stat-desc">Et extension progressive vers la région PACA</p>
       </div>
 
       <!-- STAT 6 -->
@@ -154,11 +154,11 @@
         <h3>Olivier Colas</h3>
         <p class="team-role">Fondateur & Expert Immobilier</p>
         <p class="team-bio">
-          25 ans d'expérience dans l'immobilier. Ancien directeur d'agence, spécialiste du marché breton. Passionné par l'innovation, la transparence et l'autonomisation des propriétaires.
+          25 ans d'expérience dans l'immobilier. Ancien directeur d'agence, spécialiste du marché provençal. Passionné par l'innovation, la transparence et l'autonomisation des propriétaires.
         </p>
         <div style="display: flex; gap: var(--space-2); margin-top: var(--space-3); justify-content: center;">
           <span class="badge badge-primary">Immobilier</span>
-          <span class="badge badge-primary">Bretagne</span>
+          <span class="badge badge-primary">Provence</span>
         </div>
       </article>
 
@@ -228,7 +228,7 @@
         </div>
         <h3>Données Locales Vérifiées</h3>
         <p>
-          Analyse basée sur 5000+ transactions réelles à Lannion et région. Marché temps réel, pas de statistiques obsolètes ou génériques.
+          Analyse basée sur 5000+ transactions réelles à Aix-en-Provence et région. Marché temps réel, pas de statistiques obsolètes ou génériques.
         </p>
       </article>
 
@@ -311,7 +311,7 @@
         <div class="timeline-content">
           <h3>Analyse Comparative (Comps)</h3>
           <p>
-            Notre moteur analyse 5000+ biens similaires vendus récemment à Lannion et région. Nous isolons les comps les plus pertinents pour votre bien : même quartier, même type, même taille.
+            Notre moteur analyse 5000+ biens similaires vendus récemment à Aix-en-Provence et région. Nous isolons les comps les plus pertinents pour votre bien : même quartier, même type, même taille.
           </p>
         </div>
       </div>
@@ -376,9 +376,9 @@
         <div class="feature-icon">
           <i class="fas fa-building"></i>
         </div>
-        <h3>Lannion Centre</h3>
+        <h3>Centre Historique</h3>
         <p>
-          Centre-ville, Port, Brélévenez. Marché dynamique, quartiers historiques et patrimoine fort. Secteur prioritaire, données très détaillées.
+          Vieil Aix, Cours Mirabeau, Mazarin. Marché dynamique, quartiers historiques et patrimoine fort. Secteur prioritaire, données très détaillées.
         </p>
       </article>
 
@@ -387,9 +387,9 @@
         <div class="feature-icon">
           <i class="fas fa-tree"></i>
         </div>
-        <h3>Trégor & Léguer</h3>
+        <h3>Jas de Bouffan & Pont de l'Arc</h3>
         <p>
-          Zones résidentielles familiales, maisons, calme, nature accessible. Tarifs intermédiaires, fort attrait pour les familles.
+          Zones résidentielles familiales, commerces, calme. Tarifs intermédiaires, fort attrait pour les familles.
         </p>
       </article>
 
@@ -398,9 +398,9 @@
         <div class="feature-icon">
           <i class="fas fa-water"></i>
         </div>
-        <h3>Côte & Littoral</h3>
+        <h3>Campagne & Collines</h3>
         <p>
-          Proximité de la mer, secteurs touristiques, résidences secondaires, investissements. Prix généralement plus élevés, demande saisonnière.
+          Puyricard, villages provençaux, bastides. Prix attractifs, cadre de vie exceptionnel, nature accessible.
         </p>
       </article>
 
@@ -409,9 +409,9 @@
         <div class="feature-icon">
           <i class="fas fa-map"></i>
         </div>
-        <h3>Bretagne Intérieure</h3>
+        <h3>Pays d'Aix</h3>
         <p>
-          Extension progressive vers communes environnantes. Plouaret, Plouguiel, Ploumanac'h, etc. Couverture progressive de la région.
+          Extension progressive vers communes environnantes. Gardanne, Pertuis, Salon-de-Provence. Couverture progressive de la région.
         </p>
       </article>
 
@@ -422,7 +422,7 @@
         </div>
         <h3>Communes Adjacentes</h3>
         <p>
-          Lannion n'est pas seul : Guerlédan, Morlaix, Saint-Brieuc. Nous développons nos bases de données région par région.
+          Aix n'est pas seul : Marseille, Gardanne, Pertuis, Salon-de-Provence. Nous développons nos bases de données région par région.
         </p>
       </article>
 
@@ -442,7 +442,7 @@
     <div class="card" style="padding: var(--space-6); margin-top: var(--space-8); text-align: center;">
       <h3 style="margin-top: 0;">Région Couverte</h3>
       <p style="color: var(--text-secondary); margin-bottom: var(--space-4);">
-        Lannion et 6 quartiers principaux + expansion progressive vers la Bretagne
+        Aix-en-Provence et 6 quartiers principaux + expansion progressive vers la PACA
       </p>
       <div style="background: var(--bg-alt); border-radius: var(--radius-lg); padding: var(--space-6); display: flex; align-items: center; justify-content: center; min-height: 300px; color: var(--text-muted);">
         <p>
@@ -468,13 +468,13 @@
 
     <div class="process-timeline" style="max-width: 600px;">
       <div class="timeline-item">
-        <div class="timeline-number" style="background: linear-gradient(135deg, #0052B4 0%, #003f87 100%);">
+        <div class="timeline-number" style="background: linear-gradient(135deg, #2E86C1 0%, #1B4F72 100%);">
           2023
         </div>
         <div class="timeline-content">
           <h3>Lancement</h3>
           <p>
-            Fondation d'Estimation Immobilier Lannion avec une mission : rendre l'estimation fiable et accessible.
+            Fondation d'Estimation Immobilier Aix-en-Provence avec une mission : rendre l'estimation fiable et accessible.
           </p>
         </div>
       </div>
@@ -482,7 +482,7 @@
       <div class="timeline-arrow">↓</div>
 
       <div class="timeline-item">
-        <div class="timeline-number" style="background: linear-gradient(135deg, #0052B4 0%, #003f87 100%);">
+        <div class="timeline-number" style="background: linear-gradient(135deg, #2E86C1 0%, #1B4F72 100%);">
           1K
         </div>
         <div class="timeline-content">
@@ -496,7 +496,7 @@
       <div class="timeline-arrow">↓</div>
 
       <div class="timeline-item">
-        <div class="timeline-number" style="background: linear-gradient(135deg, #0052B4 0%, #003f87 100%);">
+        <div class="timeline-number" style="background: linear-gradient(135deg, #2E86C1 0%, #1B4F72 100%);">
           2K
         </div>
         <div class="timeline-content">
@@ -510,13 +510,13 @@
       <div class="timeline-arrow">↓</div>
 
       <div class="timeline-item">
-        <div class="timeline-number" style="background: linear-gradient(135deg, #FFD700 0%, #ffe766 100%); color: #333;">
+        <div class="timeline-number" style="background: linear-gradient(135deg, #D4AF37 0%, #E8C547 100%); color: #333;">
           3.8K+
         </div>
         <div class="timeline-content">
           <h3>Aujourd'hui</h3>
           <p>
-            Plus de 3 800 clients satisfaits. Leader local reconnu. Expansion progressive vers Bretagne en cours.
+            Plus de 3 800 clients satisfaits. Leader local reconnu. Expansion progressive vers la PACA en cours.
           </p>
         </div>
       </div>
@@ -542,7 +542,7 @@
           <i class="fas fa-building"></i> Qui êtes-vous exactement ?
         </h3>
         <p>
-          Une équipe d'experts immobiliers basée à Lannion. Notre mission : rendre l'estimation fiable, rapide et accessible pour les vendeurs de la région. Pas d'agence immobilière traditionnelle, mais une plateforme de confiance.
+          Une équipe d'experts immobiliers basée à Aix-en-Provence. Notre mission : rendre l'estimation fiable, rapide et accessible pour les vendeurs de la région. Pas d'agence immobilière traditionnelle, mais une plateforme de confiance.
         </p>
       </article>
 
@@ -551,7 +551,7 @@
           <i class="fas fa-calendar"></i> Depuis quand opérez-vous ?
         </h3>
         <p>
-          Depuis 2023. Nous avons déjà réalisé plus de 3 800 estimations avec une satisfaction client de 4.8/5. Une équipe jeune mais expérimentée du marché breton depuis 25+ ans.
+          Depuis 2023. Nous avons déjà réalisé plus de 3 800 estimations avec une satisfaction client de 4.8/5. Une équipe jeune mais expérimentée du marché provençal depuis 25+ ans.
         </p>
       </article>
 
@@ -560,7 +560,7 @@
           <i class="fas fa-check-circle"></i> Pourquoi faire confiance à votre estimation ?
         </h3>
         <p>
-          Notre algorithme analyse 5000+ transactions réelles à Lannion. Pas de théorie, des chiffres vérifiés. Précision moyenne ±3% avec le prix réel de vente. Transparence garantie.
+          Notre algorithme analyse 5000+ transactions réelles à Aix-en-Provence. Pas de théorie, des chiffres vérifiés. Précision moyenne ±3% avec le prix réel de vente. Transparence garantie.
         </p>
       </article>
 
@@ -569,7 +569,7 @@
           <i class="fas fa-map"></i> Couvrez-vous tous les quartiers ?
         </h3>
         <p>
-          Oui, Lannion (6 quartiers principaux) + extension progressive vers Bretagne. Plus de 6 zones couverts avec données détaillées et temps réel. Extension continue.
+          Oui, Aix-en-Provence (6 quartiers principaux) + extension progressive vers la PACA. Plus de 6 zones couverts avec données détaillées et temps réel. Extension continue.
         </p>
       </article>
 
@@ -614,7 +614,7 @@
           <i class="fas fa-phone"></i> Comment vous contacter pour plus d'info ?
         </h3>
         <p>
-          Par téléphone (02 96 05 30 00), email (contact@...), ou via notre formulaire de contact. Nous répondons en moins de 2h en heures ouvrables. Disponibles lun-ven 9h-18h, sam 10h-12h.
+          Par téléphone (04 42 26 10 00), email (contact@...), ou via notre formulaire de contact. Nous répondons en moins de 2h en heures ouvrables. Disponibles lun-ven 9h-18h, sam 10h-12h.
         </p>
       </article>
     </div>
@@ -630,7 +630,7 @@
       <p class="eyebrow">
         <i class="fas fa-bolt"></i> Ce qui Nous Différencie
       </p>
-      <h2>Pourquoi choisir Estimation Immobilier Lannion</h2>
+      <h2>Pourquoi choisir Estimation Immobilier Aix-en-Provence</h2>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-6);">
@@ -650,7 +650,7 @@
           <i class="fas fa-person"></i> Expertise Locale
         </h3>
         <p style="margin-bottom: 0; color: var(--text-secondary);">
-          25 ans d'expérience immobilière. Connaissance profonde de Lannion, Trégor et région. Pas d'algos sans cœur.
+          25 ans d'expérience immobilière. Connaissance profonde d'Aix-en-Provence, du Pays d'Aix et de la région. Pas d'algos sans cœur.
         </p>
       </div>
 

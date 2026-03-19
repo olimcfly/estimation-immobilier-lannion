@@ -81,7 +81,7 @@
       </article>
 
       <!-- ÉTAPE 2 -->
-      <article class="card" style="padding: var(--space-8); background: linear-gradient(135deg, rgba(255, 215, 0, 0.02), rgba(0, 63, 135, 0.02));">
+      <article class="card" style="padding: var(--space-8); background: linear-gradient(135deg, rgba(212, 175, 55, 0.02), rgba(27, 79, 114, 0.02));">
         <div style="display: grid; grid-template-columns: 100px 1fr; gap: var(--space-6); align-items: start;">
           <!-- Numéro -->
           <div style="text-align: center;">
@@ -96,7 +96,7 @@
               <i class="fas fa-database" style="color: var(--accent);"></i> Recherche comparative
             </h3>
             <p style="margin: 0 0 var(--space-4) 0; color: var(--text-secondary);">
-              Notre moteur analyse les biens similaires vendus récemment à Lannion et région pour contextualiser votre bien.
+              Notre moteur analyse les biens similaires vendus récemment à Aix-en-Provence et région pour contextualiser votre bien.
             </p>
 
             <!-- Stats base données -->
@@ -187,7 +187,7 @@
       </article>
 
       <!-- ÉTAPE 4 -->
-      <article class="card" style="padding: var(--space-8); background: linear-gradient(135deg, rgba(59, 130, 246, 0.02), rgba(0, 63, 135, 0.02));">
+      <article class="card" style="padding: var(--space-8); background: linear-gradient(135deg, rgba(59, 130, 246, 0.02), rgba(27, 79, 114, 0.02));">
         <div style="display: grid; grid-template-columns: 100px 1fr; gap: var(--space-6); align-items: start;">
           <!-- Numéro -->
           <div style="text-align: center;">
@@ -202,7 +202,7 @@
               <i class="fas fa-sliders-h" style="color: #3b82f6;"></i> Ajustements locaux
             </h3>
             <p style="margin: 0 0 var(--space-4) 0; color: var(--text-secondary);">
-              Application des ajustements spécifiques à Lannion et région. Expertise locale pour précision maximale.
+              Application des ajustements spécifiques à Aix-en-Provence et région. Expertise locale pour précision maximale.
             </p>
 
             <!-- Ajustements -->
@@ -303,7 +303,7 @@
         </div>
         <h3>Machine Learning</h3>
         <p>
-          Algorithme IA entraîné sur 5000+ transactions. Apprentissage continu des tendances marché Lannion.
+          Algorithme IA entraîné sur 5000+ transactions. Apprentissage continu des tendances marché Aix-en-Provence.
         </p>
       </article>
 
@@ -416,7 +416,7 @@
         <div style="display: grid; gap: var(--space-3);">
           <div style="padding: var(--space-3); background: var(--bg-alt); border-left: 3px solid var(--accent); border-radius: var(--radius-md);">
             <p style="margin: 0 0 var(--space-1) 0; font-weight: 600; font-size: var(--size-sm);">Quartier exact</p>
-            <p style="margin: 0; font-size: var(--size-xs); color: var(--text-muted);">Centre-Ville vs Trégor → prix différents.</p>
+            <p style="margin: 0; font-size: var(--size-xs); color: var(--text-muted);">Centre Historique vs Jas de Bouffan → prix différents.</p>
           </div>
           <div style="padding: var(--space-3); background: var(--bg-alt); border-left: 3px solid var(--accent); border-radius: var(--radius-md);">
             <p style="margin: 0 0 var(--space-1) 0; font-weight: 600; font-size: var(--size-sm);">Proximité transports</p>
@@ -449,7 +449,7 @@
           </div>
           <div style="padding: var(--space-3); background: var(--bg-alt); border-left: 3px solid var(--success); border-radius: var(--radius-md);">
             <p style="margin: 0 0 var(--space-1) 0; font-weight: 600; font-size: var(--size-sm);">Prix au m²</p>
-            <p style="margin: 0; font-size: var(--size-xs); color: var(--text-muted);">Comparatif Lannion/banlieue/région.</p>
+            <p style="margin: 0; font-size: var(--size-xs); color: var(--text-muted);">Comparatif Aix/communes voisines/région.</p>
           </div>
           <div style="padding: var(--space-3); background: var(--bg-alt); border-left: 3px solid var(--success); border-radius: var(--radius-md);">
             <p style="margin: 0 0 var(--space-1) 0; font-weight: 600; font-size: var(--size-sm);">Offre & demande</p>
@@ -501,7 +501,7 @@
       <article class="card stat-box">
         <p class="stat-number">5000+</p>
         <p class="stat-label">Transactions analysées</p>
-        <p class="stat-desc">Base de données Lannion & région</p>
+        <p class="stat-desc">Base de données Aix-en-Provence & région</p>
       </article>
 
       <!-- Stat 4 -->
