@@ -411,8 +411,8 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
 
         <div class="result-detail">
           <p class="detail-label"><i class="fas fa-coins"></i> Prix au m²</p>
-          <p class="detail-value">€3 700</p>
-          <p class="detail-info">Moyenne pour votre quartier : €3 500 - €4 100</p>
+          <p class="detail-value">€<?= number_format($prixM2Moyen, 0, ',', ' ') ?></p>
+          <p class="detail-info">Moyenne pour votre quartier : €3 000 - €3 450</p>
         </div>
       </div>
 
@@ -427,7 +427,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
             <span style="color: #22c55e;">Marché haussier</span>
           </p>
           <p style="margin: 0.5rem 0 0; color: var(--muted); font-size: 0.9rem;">
-            Prix en hausse de +3.2% sur les 12 derniers mois dans ce secteur.
+            Marché actif sur <?= e($cityName) ?> et le <?= e($featuredDistricts[1] ?? 'Trégor') ?> ces 12 derniers mois.
           </p>
         </div>
 
@@ -443,7 +443,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
               <span style="color: var(--primary); font-weight: 700;">✓</span> Bien entretenu (+5%)
             </li>
             <li style="color: var(--text);">
-              <span style="color: var(--primary); font-weight: 700;">•</span> Absence de parking (-3%)
+              <span style="color: var(--primary); font-weight: 700;">•</span> Proximité du <?= e($featuredDistricts[2] ?? 'Port') ?> (+2%)
             </li>
           </ul>
         </div>
