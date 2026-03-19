@@ -129,11 +129,11 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
             <span>
               <i class="fas fa-map-marker-alt"></i> Ville *
             </span>
-            <input 
-              type="text" 
-              id="city" 
-              name="city" 
-              placeholder="<?= htmlspecialchars($cityName); ?>, Perros-Guirec..." 
+            <input
+              type="text"
+              id="city"
+              name="ville"
+              placeholder="<?= htmlspecialchars($cityName); ?>, Perros-Guirec..."
               required
             >
           </label>
@@ -158,7 +158,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
             <span>
               <i class="fas fa-home"></i> Type de bien *
             </span>
-            <select id="property_type" name="property_type" required>
+            <select id="property_type" name="type" required>
               <option value="">-- Sélectionner --</option>
               <option value="apartment">Appartement</option>
               <option value="house">Maison / Villa</option>
@@ -190,13 +190,13 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
             <span>
               <i class="fas fa-door-open"></i> Pièces *
             </span>
-            <input 
-              type="number" 
-              id="rooms" 
-              name="rooms" 
-              min="1" 
+            <input
+              type="number"
+              id="rooms"
+              name="pieces"
+              min="1"
               max="10"
-              placeholder="3" 
+              placeholder="3"
               required
             >
           </label>
