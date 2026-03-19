@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Observe elements for animation
   const animateElements = document.querySelectorAll(
-    '.card, .stat-box, .feature-card, .faq-card, .team-card, .value-card, .about-card'
+    '.card, .stat-box, .feature-card, .faq-card, .team-card, .value-card, .about-card, .benefit-card, .pricing-card, .timeline-item, .service-card, .service-additional'
   );
   
   animateElements.forEach(el => {

@@ -1,4 +1,4 @@
-<?php $page_title = 'Services - Estimation Immobilière Bordeaux | Accompagnement Complet'; ?>
+<?php $page_title = 'Services - Estimation Immobilière Lannion | Accompagnement Complet'; ?>
 
 <!-- ============================================ -->
 <!-- HERO SECTION -->
@@ -11,7 +11,7 @@
       </p>
       <h1>Un accompagnement immobilier complet, de l'estimation à la signature</h1>
       <p class="lead">
-        Nous combinons technologie intelligente, expertise locale et suivi humain pour sécuriser votre projet de vente à Bordeaux.
+        Nous combinons technologie intelligente, expertise locale et suivi humain pour sécuriser votre projet de vente à Lannion.
       </p>
     </div>
   </div>
@@ -43,7 +43,7 @@
         </div>
 
         <p>
-          Notre moteur analyse en temps réel les données du marché bordelais pour vous fournir une fourchette de prix fiable. 
+          Notre moteur analyse en temps réel les données du marché de Lannion pour vous fournir une fourchette de prix fiable. 
           Basée sur 5000+ transactions réelles, pas sur la théorie.
         </p>
 
@@ -376,7 +376,7 @@
         </div>
         <h3>Experts Locaux</h3>
         <p>
-          Équipe basée à Bordeaux. Nous connaissons chaque quartier, chaque tendance du marché.
+          Équipe basée à Lannion. Nous connaissons chaque quartier, chaque tendance du marché.
         </p>
       </article>
 
@@ -387,7 +387,7 @@
         </div>
         <h3>Fiable</h3>
         <p>
-          3 800+ estimations réalisées, 4.8/5 de satisfaction client. Référence du marché bordelais.
+          3 800+ estimations réalisées, 4.8/5 de satisfaction client. Référence du marché lannionais.
         </p>
       </article>
     </div>
@@ -430,10 +430,7 @@
         </a>
       </div>
 
-        <a href="/estimation#form-estimation" class="btn btn-ghost btn-full">Commencer</a>
-      </article>
-
-      <article class="pricing-card card pricing-featured">
+      <div class="pricing-card card pricing-featured">
         <div class="pricing-badge primary">Recommandé</div>
         <h3>Accompagnement vendeur</h3>
         <p class="pricing-price"><span class="price-value">À partir de</span> <span class="price-monthly">99€/mois</span></p>
@@ -521,7 +518,7 @@
       <article class="card faq-card">
         <h3><i class="fas fa-question-circle"></i> À quelle précision m'attendre?</h3>
         <p>
-          Précision moyenne ±3% comparé au prix de vente final. Basée sur 5000+ transactions réelles à Bordeaux.
+          Précision moyenne ±3% comparé au prix de vente final. Basée sur 5000+ transactions réelles à Lannion.
         </p>
       </article>
 
