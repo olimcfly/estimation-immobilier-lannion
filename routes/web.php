@@ -32,3 +32,10 @@ $router->get('/mentions-legales', [PageController::class, 'mentionsLegales']);
 $router->get('/politique-confidentialite', [PageController::class, 'politiqueConfidentialite']);
 $router->get('/conditions-utilisation', [PageController::class, 'conditionsUtilisation']);
 $router->get('/rgpd', [PageController::class, 'rgpd']);
+
+$router->get('/blog', [BlogController::class, 'index']);
+$router->get('/blog/{slug}', [BlogController::class, 'show']);
+
+$router->get('/calculatrice', [ToolController::class, 'calculatrice']);
+
+$router->get('/podcast', [PageController::class, 'podcast']);

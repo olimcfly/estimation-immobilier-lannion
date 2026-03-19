@@ -18,7 +18,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
 <!-- ================================================ -->
 <!-- HERO ULTRA-PREMIUM -->
 <!-- ================================================ -->
-<section class="section page-hero" style="padding: var(--space-20) var(--space-4) var(--space-16);">
+<section class="section page-hero">
   <div class="container">
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); align-items: center;">
       
@@ -57,10 +57,10 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
 
         <!-- Stat clé -->
         <div style="background: linear-gradient(135deg, rgba(0, 63, 135, 0.1), rgba(255, 215, 0, 0.08)); border-radius: var(--radius-lg); padding: var(--space-4); margin-bottom: var(--space-6);">
-          <p style="margin: 0; font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
+          <p style="font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600; margin-bottom: var(--space-2);">
             <i class="fas fa-chart-line"></i> Prix moyen constaté
           </p>
-          <p style="margin: var(--space-2) 0 0; font-family: var(--font-primary); font-size: var(--size-3xl); font-weight: 800; color: var(--primary);">
+          <p style="font-family: var(--font-primary); font-size: var(--size-3xl); font-weight: 800; color: var(--primary); margin-bottom: 0;">
             <?= number_format((int) $prixM2Moyen, 0, ',', ' '); ?>€ / m²
           </p>
         </div>
@@ -89,23 +89,23 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
 
         <!-- Social Proof -->
         <div style="background: rgba(0, 63, 135, 0.04); border-left: 4px solid var(--primary); border-radius: var(--radius-lg); padding: var(--space-4); margin-bottom: var(--space-6);">
-          <p style="margin: 0 0 var(--space-2) 0; font-size: var(--size-xs); color: var(--primary); text-transform: uppercase; font-weight: 600; letter-spacing: 0.05em;">
+          <p style="margin-bottom: var(--space-2); font-size: var(--size-xs); color: var(--primary); text-transform: uppercase; font-weight: 600; letter-spacing: 0.05em;">
             <i class="fas fa-quote-left"></i> Témoignage client
           </p>
-          <p style="margin: 0; font-style: italic; color: var(--text); line-height: var(--line-lg);">
+          <p style="margin-bottom: var(--space-3); font-style: italic; color: var(--text); line-height: var(--line-lg);">
             "L'estimation était très proche de l'offre reçue. Super rapide et fiable. Je recommande !"
           </p>
-          <p style="margin: var(--space-3) 0 0; font-size: var(--size-sm); color: var(--text-muted); font-weight: 600;">
+          <p style="margin-bottom: 0; font-size: var(--size-sm); color: var(--text-muted); font-weight: 600;">
             — Propriétaire • <?= htmlspecialchars($cityName); ?>
           </p>
         </div>
 
         <!-- Boutons CTA -->
         <div style="display: flex; gap: var(--space-4); flex-wrap: wrap;">
-          <a href="#form-estimation" class="btn btn-primary" style="display: flex; align-items: center; gap: var(--space-2);">
+          <a href="#form-estimation" class="btn btn-primary">
             <i class="fas fa-bolt"></i> Estimer gratuitement
           </a>
-          <a href="#how-it-works" class="btn btn-outline" style="display: flex; align-items: center; gap: var(--space-2);">
+          <a href="#how-it-works" class="btn btn-outline">
             <i class="fas fa-info-circle"></i> Comment ça marche
           </a>
         </div>
@@ -114,10 +114,10 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
       <!-- COLONNE DROITE: FORMULAIRE HERO -->
       <aside class="card" id="form-estimation" style="padding: var(--space-8); position: sticky; top: 100px; height: fit-content;">
         <!-- En-tête -->
-        <h2 style="margin-top: 0; margin-bottom: var(--space-2); display: flex; align-items: center; gap: var(--space-2);">
+        <h2 style="margin-bottom: var(--space-2); display: flex; align-items: center; gap: var(--space-2);">
           <i class="fas fa-calculator" style="color: var(--primary);"></i> Estimation gratuite
         </h2>
-        <p style="margin: 0 0 var(--space-6) 0; color: var(--text-secondary); font-size: var(--size-sm);">
+        <p style="margin-bottom: var(--space-6); color: var(--text-secondary); font-size: var(--size-sm);">
           Remplissez les infos de votre bien pour obtenir votre fourchette de prix estimée en 60 secondes.
         </p>
 
@@ -283,9 +283,9 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
           </button>
 
           <!-- Reassurance -->
-          <p style="font-size: var(--size-xs); color: var(--text-muted); text-align: center; margin: var(--space-3) 0 0;">
-            <i class="fas fa-check-circle"></i> Gratuit • 
-            <i class="fas fa-zap"></i> 60 secondes • 
+          <p class="text-center text-muted" style="font-size: var(--size-xs); margin-top: var(--space-3); margin-bottom: 0;">
+            <i class="fas fa-check-circle"></i> Gratuit •
+            <i class="fas fa-zap"></i> 60 secondes •
             <i class="fas fa-lock"></i> Sécurisé
           </p>
         </form>
@@ -308,37 +308,37 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-6);">
       <!-- Étape 1 -->
-      <article class="card" style="padding: var(--space-6); text-align: center;">
-        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(0, 63, 135, 0.15), rgba(255, 215, 0, 0.1)); border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-4);">
-          <i class="fas fa-edit" style="font-size: var(--size-3xl); color: var(--primary);"></i>
+      <article class="card feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-edit"></i>
         </div>
         <div style="font-family: var(--font-primary); font-size: var(--size-3xl); font-weight: 800; color: var(--accent); margin-bottom: var(--space-2);">1</div>
-        <h3 style="margin: 0 0 var(--space-2) 0;">Remplissez le formulaire</h3>
-        <p style="margin: 0; color: var(--text-secondary); font-size: var(--size-sm);">
+        <h3>Remplissez le formulaire</h3>
+        <p>
           Localisation, type, surface, pièces, état. Information essentielles en quelques secondes.
         </p>
       </article>
 
       <!-- Étape 2 -->
-      <article class="card" style="padding: var(--space-6); text-align: center;">
-        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(0, 63, 135, 0.15), rgba(255, 215, 0, 0.1)); border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-4);">
-          <i class="fas fa-database" style="font-size: var(--size-3xl); color: var(--primary);"></i>
+      <article class="card feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-database"></i>
         </div>
         <div style="font-family: var(--font-primary); font-size: var(--size-3xl); font-weight: 800; color: var(--accent); margin-bottom: var(--space-2);">2</div>
-        <h3 style="margin: 0 0 var(--space-2) 0;">Analyse des données</h3>
-        <p style="margin: 0; color: var(--text-secondary); font-size: var(--size-sm);">
+        <h3>Analyse des données</h3>
+        <p>
           Notre moteur compare avec 5000+ transactions réelles de votre quartier pour précision maximale.
         </p>
       </article>
 
       <!-- Étape 3 -->
-      <article class="card" style="padding: var(--space-6); text-align: center;">
-        <div style="width: 80px; height: 80px; background: linear-gradient(135deg, rgba(0, 63, 135, 0.15), rgba(255, 215, 0, 0.1)); border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-4);">
-          <i class="fas fa-chart-bar" style="font-size: var(--size-3xl); color: var(--primary);"></i>
+      <article class="card feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-chart-bar"></i>
         </div>
         <div style="font-family: var(--font-primary); font-size: var(--size-3xl); font-weight: 800; color: var(--accent); margin-bottom: var(--space-2);">3</div>
-        <h3 style="margin: 0 0 var(--space-2) 0;">Recevez l'estimation</h3>
-        <p style="margin: 0; color: var(--text-secondary); font-size: var(--size-sm);">
+        <h3>Recevez l'estimation</h3>
+        <p>
           Fourchette de prix, analyse comparative et insights sur votre marché local en quelques secondes.
         </p>
       </article>
@@ -446,7 +446,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
         <p class="eyebrow">
           <i class="fas fa-check-circle"></i> Estimation pour
         </p>
-        <h2 style="margin-top: 0; margin-bottom: var(--space-6);">
+        <h2 style="margin-bottom: var(--space-6);">
           T3 • <?= htmlspecialchars($cityName); ?> <?= htmlspecialchars($featuredDistricts[0] ?? ''); ?>
         </h2>
         <p style="color: var(--text-secondary); margin-bottom: var(--space-6);">
@@ -456,28 +456,28 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
         <!-- KPI Grid -->
         <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4); margin-bottom: var(--space-6);">
           <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: var(--radius-lg); padding: var(--space-4); text-align: center;">
-            <p style="margin: 0 0 var(--space-2) 0; font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
+            <p style="margin-bottom: var(--space-2); font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
               <i class="fas fa-arrow-down"></i> Minimum
             </p>
-            <p style="margin: 0; font-family: var(--font-primary); font-size: var(--size-2xl); font-weight: 800; color: var(--success);">
+            <p style="margin-bottom: 0; font-family: var(--font-primary); font-size: var(--size-2xl); font-weight: 800; color: var(--success);">
               290 K€
             </p>
           </div>
 
           <div style="background: linear-gradient(135deg, rgba(0, 63, 135, 0.1), rgba(255, 215, 0, 0.1)); border: 2px solid var(--primary); border-radius: var(--radius-lg); padding: var(--space-4); text-align: center;">
-            <p style="margin: 0 0 var(--space-2) 0; font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
+            <p style="margin-bottom: var(--space-2); font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
               <i class="fas fa-target"></i> Estimation
             </p>
-            <p style="margin: 0; font-family: var(--font-primary); font-size: var(--size-2xl); font-weight: 800; color: var(--primary);">
+            <p style="margin-bottom: 0; font-family: var(--font-primary); font-size: var(--size-2xl); font-weight: 800; color: var(--primary);">
               315 K€
             </p>
           </div>
 
           <div style="background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: var(--radius-lg); padding: var(--space-4); text-align: center;">
-            <p style="margin: 0 0 var(--space-2) 0; font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
+            <p style="margin-bottom: var(--space-2); font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
               <i class="fas fa-arrow-up"></i> Maximum
             </p>
-            <p style="margin: 0; font-family: var(--font-primary); font-size: var(--size-2xl); font-weight: 800; color: var(--info);">
+            <p style="margin-bottom: 0; font-family: var(--font-primary); font-size: var(--size-2xl); font-weight: 800; color: var(--info);">
               340 K€
             </p>
           </div>
@@ -485,13 +485,13 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
 
         <!-- Prix au m² -->
         <div style="background: var(--bg-alt); border-radius: var(--radius-lg); padding: var(--space-4); margin-bottom: var(--space-4);">
-          <p style="margin: 0 0 var(--space-2) 0; font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
+          <p style="margin-bottom: var(--space-2); font-size: var(--size-xs); color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
             <i class="fas fa-coins"></i> Prix au m²
           </p>
-          <p style="margin: 0; font-family: var(--font-primary); font-size: var(--size-2xl); font-weight: 800; color: var(--primary);">
+          <p style="margin-bottom: 0; font-family: var(--font-primary); font-size: var(--size-2xl); font-weight: 800; color: var(--primary);">
             €<?= number_format($prixM2Moyen, 0, ',', ' '); ?>
           </p>
-          <p style="margin: var(--space-2) 0 0; font-size: var(--size-xs); color: var(--text-muted);">
+          <p style="margin-top: var(--space-2); margin-bottom: 0; font-size: var(--size-xs); color: var(--text-muted);">
             Moyenne quartier: €3,000 - €3,450
           </p>
         </div>
@@ -501,21 +501,21 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
       <div style="display: flex; flex-direction: column; gap: var(--space-4);">
         <!-- Tendance marché -->
         <div class="card" style="padding: var(--space-6); border-left: 4px solid var(--primary);">
-          <h3 style="margin: 0 0 var(--space-3) 0; display: flex; align-items: center; gap: var(--space-2); color: var(--primary);">
+          <h3 style="margin-bottom: var(--space-3); display: flex; align-items: center; gap: var(--space-2); color: var(--primary);">
             <i class="fas fa-chart-line"></i> Tendance marché
           </h3>
-          <p style="margin: 0; color: var(--text);">
+          <p style="margin-bottom: var(--space-2); color: var(--text);">
             <i class="fas fa-arrow-trend-up" style="color: var(--success);"></i>
             <strong style="color: var(--success);">Marché haussier</strong>
           </p>
-          <p style="margin: var(--space-2) 0 0; color: var(--text-secondary); font-size: var(--size-sm);">
+          <p style="margin-bottom: 0; color: var(--text-secondary); font-size: var(--size-sm);">
             Marché actif sur <?= htmlspecialchars($cityName); ?> ces 12 derniers mois. Demande strong.
           </p>
         </div>
 
         <!-- Facteurs clés -->
         <div class="card" style="padding: var(--space-6); border-left: 4px solid var(--accent);">
-          <h3 style="margin: 0 0 var(--space-3) 0; display: flex; align-items: center; gap: var(--space-2); color: var(--primary);">
+          <h3 style="margin-bottom: var(--space-3); display: flex; align-items: center; gap: var(--space-2); color: var(--primary);">
             <i class="fas fa-info-circle"></i> Facteurs clés
           </h3>
           <ul style="margin: 0; padding-left: 0; list-style: none;">
