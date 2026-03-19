@@ -148,8 +148,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <i class="fas fa-phone"></i> Téléphone
             </p>
             <p class="info-value">
-              <a href="tel:+33296000000">
-                <strong>02 96 00 00 00</strong>
+              <a href="tel:+33296053000">
+                <strong>02 96 05 30 00</strong>
               </a>
             </p>
             <p style="font-size: var(--size-xs); color: var(--text-muted); margin: var(--space-2) 0 0 0;">
@@ -546,7 +546,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <i class="fas fa-envelope"></i> Comment me contacter ?
         </h3>
         <p>
-          Trois moyens : par téléphone (02 96 00 00 00), par email (contact@...), ou via ce formulaire. Nous répondons en priorité au mode choisi.
+          Trois moyens : par téléphone (02 96 05 30 00), par email (contact@...), ou via ce formulaire. Nous répondons en priorité au mode choisi.
         </p>
       </article>
 
@@ -582,7 +582,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <i class="fas fa-phone"></i> Puis-je appeler directement ?
         </h3>
         <p>
-          Absolument ! Le téléphone (02 96 00 00 00) est parfois plus rapide pour une question simple. N'hésitez pas.
+          Absolument ! Le téléphone (02 96 05 30 00) est parfois plus rapide pour une question simple. N'hésitez pas.
         </p>
       </article>
 
