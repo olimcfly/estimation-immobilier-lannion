@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use App\Controllers\AdminBlogController;
+use App\Controllers\AdminLoginController;
 use App\Controllers\BlogController;
 use App\Controllers\EstimationController;
 use App\Controllers\PageController;
@@ -39,6 +40,13 @@ $router->get('/blog/{slug}', [BlogController::class, 'show']);
 $router->get('/calculatrice', [ToolController::class, 'calculatrice']);
 
 $router->get('/podcast', [PageController::class, 'podcast']);
+
+// Admin authentication routes
+$router->get('/admin/login', [AdminLoginController::class, 'showLogin']);
+$router->post('/admin/login', [AdminLoginController::class, 'sendCode']);
+$router->post('/admin/verify', [AdminLoginController::class, 'verifyCode']);
+$router->get('/admin/dashboard', [AdminLoginController::class, 'dashboard']);
+$router->get('/admin/logout', [AdminLoginController::class, 'logout']);
 
 // Admin routes (require authentication via AdminAuth)
 $router->get('/admin/blog', [AdminBlogController::class, 'index']);

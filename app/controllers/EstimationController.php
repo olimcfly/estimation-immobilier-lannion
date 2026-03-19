@@ -91,6 +91,19 @@ final class EstimationController
         }
     }
 
+    public function leads(): void
+    {
+        \App\Core\AdminAuth::requireAuth();
+
+        $score = isset($_GET['score']) ? trim($_GET['score']) : null;
+        $leadModel = new Lead();
+        $leads = $leadModel->listByScore($score !== '' ? $score : null);
+
+        View::render('admin/leads', [
+            'leads' => $leads,
+        ]);
+    }
+
     public function storeLead(): void
     {
         try {

@@ -30,9 +30,7 @@ final class AdminAuth
     public static function requireAuth(): void
     {
         if (!self::check()) {
-            http_response_code(403);
-            header('Content-Type: text/plain; charset=utf-8');
-            echo '403 - Accès interdit. Authentification admin requise.';
+            header('Location: /admin/login');
             exit;
         }
     }

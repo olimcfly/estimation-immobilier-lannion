@@ -48,6 +48,14 @@ return [
     ],
     'mail' => [
         'from' => $_ENV['MAIL_FROM'] ?? 'no-reply@localhost',
+        'smtp_host' => $_ENV['SMTP_HOST'] ?? '',
+        'smtp_port' => (int) ($_ENV['SMTP_PORT'] ?? 465),
+        'smtp_user' => $_ENV['SMTP_USER'] ?? '',
+        'smtp_pass' => $_ENV['SMTP_PASS'] ?? '',
+        'smtp_encryption' => $_ENV['SMTP_ENCRYPTION'] ?? 'ssl',
+    ],
+    'admin' => [
+        'emails' => array_filter(array_map('trim', explode(',', $_ENV['ADMIN_EMAILS'] ?? ''))),
     ],
     'openai' => [
         'api_key' => $_ENV['OPENAI_API_KEY'] ?? '',
