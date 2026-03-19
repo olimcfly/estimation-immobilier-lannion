@@ -16,108 +16,110 @@
   ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="<?= htmlspecialchars((string) ($meta_description ?? 'Estimation immobilière Bordeaux - Évaluez votre bien gratuitement et découvrez nos guides immobiliers.'), ENT_QUOTES, 'UTF-8') ?>">
-  <meta name="theme-color" content="#8B1538">
-  <link rel="canonical" href="<?= e($canonicalUrl) ?>">
-  <title><?= isset($page_title) ? $page_title : 'Estimation Immobilière Bordeaux' ?></title>
+  <meta name="description" content="<?= htmlspecialchars((string) ($meta_description ?? 'Estimation immobilière Lannion - Évaluez votre bien gratuitement et découvrez nos guides immobiliers.'), ENT_QUOTES, 'UTF-8') ?>">
+  <meta name="theme-color" content="#003f87">
+  <link rel="canonical" href="<?= htmlspecialchars($canonicalUrl); ?>">
+  <title><?= isset($page_title) ? htmlspecialchars($page_title) : 'Estimation Immobilière Lannion' ?></title>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- FontAwesome 6.4.0 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <!-- CSS Principal -->
-  <link rel="stylesheet" href="/assets/css/app.css">
+  <!-- CSS Principal Premium -->
+  <link rel="stylesheet" href="/assets/css/app-premium.css">
 
-  <!-- CSS Header Personnalisé -->
+  <!-- CSS Header Personnalisé Premium -->
   <style>
+    /* ================================================ */
+    /* HEADER PREMIUM - DESIGN SYSTEM */
+    /* ================================================ */
 
-    :root {
-      --bg: <?= e((string) ($colors['bg'] ?? '#faf9f7')) ?>;
-      --surface: <?= e((string) ($colors['surface'] ?? '#ffffff')) ?>;
-      --text: <?= e((string) ($colors['text'] ?? '#1a1410')) ?>;
-      --muted: <?= e((string) ($colors['muted'] ?? '#6b6459')) ?>;
-      --primary: <?= e((string) ($colors['primary'] ?? '#8B1538')) ?>;
-      --primary-dark: <?= e((string) ($colors['primary_dark'] ?? '#6b0f2d')) ?>;
-      --accent: <?= e((string) ($colors['accent'] ?? '#D4AF37')) ?>;
-      --accent-light: <?= e((string) ($colors['accent_light'] ?? '#E8C547')) ?>;
-      --border: <?= e((string) ($colors['border'] ?? '#e8dfd7')) ?>;
-      --success: <?= e((string) ($colors['success'] ?? '#22c55e')) ?>;
-      --warning: <?= e((string) ($colors['warning'] ?? '#f97316')) ?>;
-      --danger: <?= e((string) ($colors['danger'] ?? '#e24b4a')) ?>;
-      --info: <?= e((string) ($colors['info'] ?? '#3b82f6')) ?>;
-      --neutral: <?= e((string) ($colors['neutral'] ?? '#000000')) ?>;
-      --bg-rgb: <?= e((string) ($rgbColors['bg'] ?? '250, 249, 247')) ?>;
-      --border-rgb: <?= e((string) ($rgbColors['border'] ?? '232, 223, 215')) ?>;
-      --primary-rgb: <?= e((string) ($rgbColors['primary'] ?? '139, 21, 56')) ?>;
-      --accent-rgb: <?= e((string) ($rgbColors['accent'] ?? '212, 175, 55')) ?>;
-      --success-rgb: <?= e((string) ($rgbColors['success'] ?? '34, 197, 94')) ?>;
-      --warning-rgb: <?= e((string) ($rgbColors['warning'] ?? '249, 115, 22')) ?>;
-      --neutral-rgb: <?= e((string) ($rgbColors['neutral'] ?? '0, 0, 0')) ?>;
-    }
-
-    /* HEADER PREMIUM */
     .site-header {
       position: sticky;
       top: 0;
-      z-index: 999;
+      z-index: var(--z-sticky);
       backdrop-filter: blur(12px);
-      background: rgba(var(--bg-rgb), 0.95);
-      border-bottom: 1px solid rgba(var(--border-rgb), 0.6);
-      box-shadow: 0 2px 8px rgba(var(--neutral-rgb), 0.04);
+      background: rgba(var(--bg-rgb, 250, 249, 247), 0.95);
+      border-bottom: 1px solid var(--border);
+      box-shadow: var(--shadow-xs);
+      transition: box-shadow var(--trans-fast);
+    }
+
+    .site-header:hover {
+      box-shadow: var(--shadow-sm);
     }
 
     .header-container {
-      width: min(1200px, calc(100% - 2.5rem));
+      width: min(1120px, calc(100% - var(--space-5)));
       margin-inline: auto;
-      padding: 1rem 0;
+      padding: var(--space-4) 0;
     }
 
     .header-wrapper {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 2rem;
+      gap: var(--space-6);
     }
 
-    /* LOGO/BRAND */
+    /* ================================================ */
+    /* BRAND / LOGO */
+    /* ================================================ */
+
     .brand {
       display: flex;
       align-items: center;
-      gap: 0.8rem;
+      gap: var(--space-3);
       text-decoration: none;
       margin: 0;
-      font-family: 'Playfair Display', serif;
-      font-weight: 700;
-      font-size: 1.4rem;
-      letter-spacing: -0.02em;
+      font-family: var(--font-primary);
+      font-weight: 800;
+      font-size: var(--size-lg);
+      letter-spacing: var(--letter-tight);
       flex-shrink: 0;
+      transition: transform var(--trans-fast);
+    }
+
+    .brand:hover {
+      transform: translateY(-2px);
     }
 
     .brand-icon {
-      width: 40px;
-      height: 40px;
+      width: 44px;
+      height: 44px;
       display: flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, var(--primary), #C41E3A);
-      border-radius: 10px;
-      color: #fff;
-      font-size: 1.2rem;
-      box-shadow: 0 4px 12px rgba(var(--primary-rgb), 0.2);
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      border-radius: var(--radius-lg);
+      color: white;
+      font-size: var(--size-lg);
+      font-weight: 700;
+      box-shadow: var(--shadow-md);
+      transition: all var(--trans-fast);
+    }
+
+    .brand:hover .brand-icon {
+      transform: scale(1.05);
+      box-shadow: var(--shadow-lg);
     }
 
     .brand span {
       color: var(--primary);
     }
 
+    /* ================================================ */
     /* NAVIGATION PRINCIPALE */
+    /* ================================================ */
+
     .nav-main {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: var(--space-2);
       flex: 1;
+      margin: 0 var(--space-4);
     }
 
     .nav-item {
@@ -127,33 +129,62 @@
     .nav-link {
       display: flex;
       align-items: center;
-      gap: 0.4rem;
-      padding: 0.8rem 1.2rem;
+      gap: var(--space-2);
+      padding: var(--space-3) var(--space-4);
       text-decoration: none;
-      color: var(--muted);
+      color: var(--text-muted);
       font-weight: 500;
-      font-size: 0.95rem;
-      border-radius: 8px;
-      transition: all 0.2s ease;
+      font-size: var(--size-sm);
+      border-radius: var(--radius-md);
+      transition: all var(--trans-fast);
       white-space: nowrap;
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: var(--space-4);
+      right: var(--space-4);
+      height: 2px;
+      background: var(--accent);
+      border-radius: 2px;
+      opacity: 0;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: all var(--trans-fast);
     }
 
     .nav-link:hover {
       color: var(--primary);
-      background: rgba(var(--primary-rgb), 0.05);
+      background: rgba(0, 63, 135, 0.04);
+    }
+
+    .nav-link:hover::after {
+      opacity: 1;
+      transform: scaleX(1);
     }
 
     .nav-link.active {
       color: var(--primary);
-      background: rgba(var(--primary-rgb), 0.08);
+      background: rgba(0, 63, 135, 0.08);
       font-weight: 600;
     }
 
-    .nav-link i {
-      font-size: 0.9rem;
+    .nav-link.active::after {
+      opacity: 1;
+      transform: scaleX(1);
     }
 
+    .nav-link i {
+      font-size: var(--size-sm);
+    }
+
+    /* ================================================ */
     /* DROPDOWN MENU */
+    /* ================================================ */
+
     .nav-dropdown {
       position: relative;
     }
@@ -161,36 +192,37 @@
     .dropdown-toggle::after {
       content: '';
       display: inline-block;
-      width: 0.4rem;
-      height: 0.4rem;
-      border-right: 2px solid currentColor;
-      border-bottom: 2px solid currentColor;
-      transform: rotate(-45deg);
-      margin-left: 0.4rem;
-      transition: transform 0.2s ease;
+      width: 4px;
+      height: 4px;
+      border-right: 1.5px solid currentColor;
+      border-bottom: 1.5px solid currentColor;
+      transform: rotate(-45deg) translateY(-2px);
+      margin-left: var(--space-2);
+      transition: transform var(--trans-fast);
     }
 
     .nav-dropdown:hover .dropdown-toggle::after {
-      transform: rotate(-135deg);
+      transform: rotate(-135deg) translateY(2px);
     }
 
     .dropdown-menu {
       position: absolute;
-      top: calc(100% + 0.5rem);
+      top: calc(100% + var(--space-3));
       left: 0;
-      background: var(--surface);
+      background: var(--secondary);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(var(--neutral-rgb), 0.1);
-      min-width: 220px;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      min-width: 240px;
       opacity: 0;
       visibility: hidden;
-      transform: translateY(-10px);
-      transition: all 0.2s ease;
+      transform: translateY(-8px);
+      transition: all var(--trans-base);
       list-style: none;
       margin: 0;
-      padding: 0.5rem 0;
-      z-index: 1000;
+      padding: var(--space-2);
+      z-index: var(--z-dropdown);
+      overflow: hidden;
     }
 
     .nav-dropdown:hover .dropdown-menu {
@@ -203,138 +235,210 @@
       margin: 0;
     }
 
+    .dropdown-menu li + li {
+      border-top: 1px solid var(--border-light);
+    }
+
     .dropdown-menu a {
       display: flex;
       align-items: center;
-      gap: 0.8rem;
-      padding: 0.75rem 1.5rem;
+      gap: var(--space-3);
+      padding: var(--space-3) var(--space-4);
       color: var(--text);
       text-decoration: none;
-      font-size: 0.9rem;
-      transition: all 0.2s ease;
+      font-size: var(--size-sm);
+      border-radius: var(--radius-md);
+      transition: all var(--trans-fast);
       border-left: 3px solid transparent;
     }
 
     .dropdown-menu a:hover {
-      background: rgba(var(--primary-rgb), 0.05);
+      background: var(--bg-alt);
       border-left-color: var(--primary);
       color: var(--primary);
-      padding-left: 1.8rem;
+      padding-left: calc(var(--space-4) + 2px);
     }
 
     .dropdown-menu i {
       width: 18px;
       text-align: center;
       color: var(--primary);
+      font-size: var(--size-sm);
     }
 
-    /* CTA & SEARCH */
+    /* ================================================ */
+    /* HEADER ACTIONS */
+    /* ================================================ */
+
     .header-actions {
       display: flex;
       align-items: center;
-      gap: 1rem;
+      gap: var(--space-4);
       flex-shrink: 0;
     }
 
     .search-wrapper {
       position: relative;
-      display: none;
+      display: flex;
+      align-items: center;
     }
 
     .search-input {
-      padding: 0.6rem 1rem 0.6rem 2.5rem;
+      padding: var(--space-2) var(--space-3) var(--space-2) var(--space-8);
       border: 1px solid var(--border);
-      border-radius: 8px;
-      font-size: 0.9rem;
-      width: 200px;
-      transition: all 0.2s ease;
+      border-radius: var(--radius-md);
+      font-family: var(--font-secondary);
+      font-size: var(--size-sm);
+      background: var(--bg-alt);
+      color: var(--text);
+      width: 180px;
+      transition: all var(--trans-fast);
     }
 
     .search-input:focus {
       outline: none;
       border-color: var(--primary);
-      box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.08);
+      box-shadow: 0 0 0 3px rgba(0, 63, 135, 0.08);
+      background: var(--secondary);
+    }
+
+    .search-input::placeholder {
+      color: var(--text-light);
     }
 
     .search-icon {
       position: absolute;
-      left: 0.8rem;
+      left: var(--space-3);
       top: 50%;
       transform: translateY(-50%);
-      color: var(--muted);
+      color: var(--text-muted);
       pointer-events: none;
+      font-size: var(--size-sm);
     }
 
     .btn-cta {
       display: inline-flex;
       align-items: center;
-      gap: 0.5rem;
-      padding: 0.8rem 1.6rem;
-      background: linear-gradient(135deg, var(--primary), #C41E3A);
-      color: #fff;
+      justify-content: center;
+      gap: var(--space-2);
+      padding: var(--space-3) var(--space-5);
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      color: white;
       text-decoration: none;
       border: none;
-      border-radius: 8px;
+      border-radius: var(--radius-lg);
+      font-family: var(--font-secondary);
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: var(--size-sm);
       cursor: pointer;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 12px rgba(var(--primary-rgb), 0.2);
+      transition: all var(--trans-base);
+      box-shadow: var(--shadow-md);
       white-space: nowrap;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-cta::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      transform: translate(-50%, -50%);
+      transition: width var(--trans-base), height var(--trans-base);
     }
 
     .btn-cta:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(var(--primary-rgb), 0.3);
-      background: linear-gradient(135deg, var(--primary-dark), #a01833);
+      box-shadow: var(--shadow-lg);
+      background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+    }
+
+    .btn-cta:active {
+      transform: translateY(0);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-cta:active::before {
+      width: 300px;
+      height: 300px;
     }
 
     .btn-cta i {
-      font-size: 1rem;
+      font-size: var(--size-base);
     }
 
-    /* TOGGLE MOBILE */
-    .menu-toggle {
-      display: none;
-      flex-direction: column;
-      gap: 0.4rem;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 0.5rem;
-    }
+    /* ================================================ */
+    /* RESPONSIVE - TABLET & MOBILE */
+    /* ================================================ */
 
-    .menu-toggle span {
-      width: 24px;
-      height: 2px;
-      background: var(--text);
-      border-radius: 2px;
-      transition: all 0.3s ease;
-    }
-
-    /* RESPONSIVE */
     @media (max-width: 1024px) {
       .nav-main {
-        gap: 0;
+        gap: var(--space-1);
+        margin: 0 var(--space-3);
       }
 
       .nav-link {
-        padding: 0.7rem 1rem;
-        font-size: 0.9rem;
+        padding: var(--space-2) var(--space-3);
+        font-size: var(--size-xs);
+      }
+
+      .nav-link::after {
+        left: var(--space-3);
+        right: var(--space-3);
       }
 
       .search-wrapper {
-        display: none !important;
+        display: none;
       }
 
       .header-wrapper {
-        gap: 1rem;
+        gap: var(--space-4);
       }
     }
 
     @media (max-width: 768px) {
+      .header-container {
+        padding: var(--space-3) 0;
+      }
+
       .menu-toggle {
         display: flex;
+        flex-direction: column;
+        gap: var(--space-1);
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: var(--space-2);
+        color: var(--text);
+        transition: all var(--trans-fast);
+      }
+
+      .menu-toggle:hover {
+        color: var(--primary);
+      }
+
+      .menu-toggle span {
+        width: 24px;
+        height: 2px;
+        background: currentColor;
+        border-radius: 2px;
+        transition: all var(--trans-base);
+      }
+
+      .menu-toggle.active span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+      }
+
+      .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .menu-toggle.active span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
       }
 
       .nav-main {
@@ -342,17 +446,21 @@
         top: 60px;
         left: 0;
         right: 0;
-        background: var(--surface);
+        background: var(--secondary);
         flex-direction: column;
         gap: 0;
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.3s ease;
+        transition: max-height var(--trans-base);
         border-bottom: 1px solid var(--border);
+        margin: 0;
+        padding: 0;
+        z-index: var(--z-fixed);
       }
 
       .nav-main.active {
-        max-height: 500px;
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
       }
 
       .nav-item {
@@ -360,9 +468,14 @@
       }
 
       .nav-link {
-        padding: 1rem 1.5rem;
+        padding: var(--space-4);
         border-radius: 0;
         justify-content: space-between;
+        border-bottom: 1px solid var(--border-light);
+      }
+
+      .nav-link::after {
+        display: none;
       }
 
       .dropdown-menu {
@@ -373,133 +486,194 @@
         overflow: hidden;
         box-shadow: none;
         border: none;
-        background: rgba(var(--primary-rgb), 0.04);
+        background: var(--bg-alt);
         transform: none;
-        transition: all 0.2s ease;
+        transition: all var(--trans-base);
+        padding: 0;
+        margin: 0;
       }
 
       .nav-dropdown.active .dropdown-menu {
         opacity: 1;
         visibility: visible;
-        max-height: 400px;
+        max-height: 500px;
+        padding: var(--space-2);
+      }
+
+      .dropdown-menu li {
+        margin: 0;
+      }
+
+      .dropdown-menu li + li {
+        border-top: none;
       }
 
       .dropdown-menu a {
-        padding-left: 3rem;
+        padding: var(--space-3) var(--space-4) var(--space-3) var(--space-8);
+        font-size: var(--size-sm);
       }
 
       .dropdown-menu a:hover {
-        padding-left: 3rem;
+        padding-left: var(--space-8);
       }
 
       .header-actions {
-        gap: 0.5rem;
+        gap: var(--space-2);
       }
 
       .btn-cta {
-        padding: 0.7rem 1.2rem;
-        font-size: 0.85rem;
+        padding: var(--space-3) var(--space-4);
+        font-size: var(--size-xs);
       }
 
       .brand {
-        font-size: 1.2rem;
+        font-size: var(--size-base);
+        gap: var(--space-2);
       }
 
       .brand-icon {
-        width: 36px;
-        height: 36px;
-        font-size: 1rem;
+        width: 40px;
+        height: 40px;
+        font-size: var(--size-base);
       }
     }
 
     @media (max-width: 480px) {
       .header-container {
-        padding: 0.8rem 0;
+        padding: var(--space-2) 0;
+        width: calc(100% - var(--space-4));
       }
 
       .header-wrapper {
-        gap: 0.8rem;
+        gap: var(--space-3);
       }
 
       .brand {
-        font-size: 1.1rem;
-        gap: 0.5rem;
+        font-size: var(--size-sm);
+        gap: var(--space-2);
       }
 
       .brand-icon {
-        width: 32px;
-        height: 32px;
+        width: 36px;
+        height: 36px;
+        font-size: var(--size-sm);
+      }
+
+      .brand span {
+        display: none;
+      }
+
+      .nav-main {
+        top: 56px;
       }
 
       .btn-cta {
-        padding: 0.6rem 1rem;
-        font-size: 0.8rem;
+        padding: var(--space-2) var(--space-3);
+        font-size: var(--size-xs);
       }
 
       .btn-cta span {
         display: none;
+      }
+
+      .btn-cta i {
+        margin: 0;
+      }
+    }
+
+    /* ================================================ */
+    /* ANIMATIONS & TRANSITIONS */
+    /* ================================================ */
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
       }
     }
   </style>
 </head>
 <body>
 
-<!-- ============================= -->
+<!-- ================================================ -->
 <!-- HEADER PREMIUM -->
-<!-- ============================= -->
+<!-- ================================================ -->
 <header class="site-header">
-  <div class="container nav-wrapper">
-    <a href="/" class="brand">Estimation Immobilier <span>Lanion</span></a>
+  <div class="header-container">
+    <div class="header-wrapper">
+      
+      <!-- LOGO / BRAND -->
+      <a href="/" class="brand">
+        <div class="brand-icon">
+          <i class="fas fa-home"></i>
+        </div>
+        <span>Estimation Immobilier <span>Lannion</span></span>
+      </a>
 
-    <nav class="top-nav" aria-label="Navigation principale">
-      <div class="nav-item has-dropdown">
-        <a href="/estimation" class="nav-link">Estimation</a>
-        <ul class="dropdown-menu" aria-label="Sous-menu estimation">
-          <li><a href="/estimation#form-estimation">Estimer mon bien</a></li>
-          <li><a href="/estimation#example-result">Voir un exemple</a></li>
-          <li><a href="/estimation#how-it-works">Comment ça marche</a></li>
-          <li><a href="/estimation#faq">FAQ Estimation</a></li>
-        </ul>
+      <!-- NAVIGATION PRINCIPALE -->
+      <nav class="nav-main" aria-label="Navigation principale" id="nav-main">
+        
+        <!-- Estimation Dropdown -->
+        <div class="nav-item nav-dropdown" id="dropdown-estimation">
+          <a href="/#form-estimation" class="nav-link dropdown-toggle">
+            <i class="fas fa-calculator"></i> Estimation
+          </a>
+          <ul class="dropdown-menu" aria-label="Sous-menu estimation">
+            <li><a href="/#form-estimation"><i class="fas fa-edit"></i> Estimer mon bien</a></li>
+            <li><a href="/#example-result"><i class="fas fa-eye"></i> Voir un exemple</a></li>
+            <li><a href="/#how-it-works"><i class="fas fa-cog"></i> Comment ça marche</a></li>
+            <li><a href="/processus-estimation"><i class="fas fa-list-check"></i> Notre processus</a></li>
+          </ul>
+        </div>
+
+        <!-- Quartiers Link -->
+        <a href="/quartiers" class="nav-link">
+          <i class="fas fa-map-marked-alt"></i> Quartiers
+        </a>
+
+        <!-- Ressources Dropdown -->
+        <div class="nav-item nav-dropdown" id="dropdown-ressources">
+          <a href="#" class="nav-link dropdown-toggle">
+            <i class="fas fa-book-open"></i> Ressources
+          </a>
+          <ul class="dropdown-menu" aria-label="Sous-menu ressources">
+            <li><a href="/guides"><i class="fas fa-file-pdf"></i> Guides complets</a></li>
+            <li><a href="/podcast"><i class="fas fa-podcast"></i> Podcast immobilier</a></li>
+            <li><a href="/newsletter"><i class="fas fa-envelope-open-text"></i> Newsletter</a></li>
+          </ul>
+        </div>
+
+        <!-- À propos Link -->
+        <a href="/a-propos" class="nav-link">
+          <i class="fas fa-info-circle"></i> À propos
+        </a>
+
+        <!-- Contact Link -->
+        <a href="/contact" class="nav-link">
+          <i class="fas fa-envelope"></i> Contact
+        </a>
+
+      </nav>
+
+      <!-- HEADER ACTIONS -->
+      <div class="header-actions">
+        <a href="/#form-estimation" class="btn-cta">
+          <i class="fas fa-bolt"></i>
+          <span>Estimer</span>
+        </a>
+
+        <!-- Menu Toggle Mobile -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Basculer le menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
 
-      <div class="nav-item has-dropdown">
-        <a href="/blog" class="nav-link">Blog</a>
-        <ul class="dropdown-menu" aria-label="Sous-menu blog">
-          <li><a href="/blog">Tous les articles</a></li>
-          <li><a href="/blog?cat=vendre">Vendre son bien</a></li>
-          <li><a href="/blog?cat=marche">Marché immobilier</a></li>
-          <li><a href="/blog?cat=conseil">Conseils &amp; astuces</a></li>
-          <li><a href="/blog?cat=legal">Aspect juridique</a></li>
-        </ul>
-      </div>
-
-      <div class="nav-item has-dropdown">
-        <a href="/services" class="nav-link">Services</a>
-        <ul class="dropdown-menu" aria-label="Sous-menu services">
-          <li><a href="/services#estimation-detaillee">Estimation détaillée</a></li>
-          <li><a href="/services#accompagnement">Accompagnement</a></li>
-          <li><a href="/services#conseil-immobilier">Conseil immobilier</a></li>
-          <li><a href="/services#marketing-immobilier">Marketing immobilier</a></li>
-        </ul>
-      </div>
-
-      <a href="/about" class="nav-link">À propos</a>
-      <a href="/contact" class="nav-link">Contact</a>
-
-      <div class="nav-item has-dropdown">
-        <a href="/guides" class="nav-link">Ressources</a>
-        <ul class="dropdown-menu" aria-label="Sous-menu ressources">
-          <li><a href="/guides">Guides complets</a></li>
-          <li><a href="/tools/calculatrice">Calculatrice prix</a></li>
-          <li><a href="/quartiers">Quartiers Bordeaux</a></li>
-          <li><a href="/podcast">Podcast immobilier</a></li>
-          <li><a href="/newsletter">Newsletter</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <a href="/estimation#form-estimation" class="btn btn-small">Estimer mon bien</a>
+    </div>
   </div>
 </header>
 
-<main>
+<!-- Main Content Wrapper -->
+<main id="main-content">
