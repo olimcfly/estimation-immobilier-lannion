@@ -1,6 +1,6 @@
 <section class="section page-hero">
   <div class="container">
-    <div class="page-hero-inner card">
+    <div class="page-hero-inner">
       <p class="eyebrow"><i class="fas fa-user-shield"></i> Données personnelles</p>
       <h1>Politique de confidentialité</h1>
       <p class="lead">Cette page explique quelles données sont collectées, pourquoi et pendant combien de temps.</p>
@@ -20,6 +20,6 @@
     <p>Les données sont conservées pour la durée strictement nécessaire aux finalités poursuivies, puis archivées ou supprimées.</p>
 
     <h2>Vos droits</h2>
-    <p>Vous disposez d’un droit d’accès, de rectification, d’opposition, d’effacement et de portabilité. Contact : <a href="mailto:contact@estimation-immobilier-bordeaux.fr">contact@estimation-immobilier-bordeaux.fr</a>.</p>
+    <p>Vous disposez d’un droit d’accès, de rectification, d’opposition, d’effacement et de portabilité. Contact : <a href="mailto:contact@estimation-immobilier-lannion.fr">contact@estimation-immobilier-lannion.fr</a>.</p>
   </div>
 </section>

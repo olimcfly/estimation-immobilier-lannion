@@ -5,7 +5,7 @@
 <!-- ============================================ -->
 <section class="section page-hero">
   <div class="container">
-    <div class="page-hero-inner card">
+    <div class="page-hero-inner">
       <p class="eyebrow">
         <i class="fas fa-briefcase"></i> Nos services
       </p>
@@ -433,19 +433,19 @@
       <div class="pricing-card card pricing-featured">
         <div class="pricing-badge primary">Recommandé</div>
         <h3>Accompagnement vendeur</h3>
-        <p class="pricing-price"><span class="price-value">À partir de</span> <span class="price-monthly">99€/mois</span></p>
-        <p class="pricing-description">Pour vendre rapidement</p>
+        <p class="pricing-price"><span class="price-value">Toujours</span> <span class="price-monthly">Gratuit</span></p>
+        <p class="pricing-description">RDV avec un pro, sur demande</p>
 
         <ul class="pricing-features">
           <li><i class="fas fa-check"></i> Estimation complète</li>
-          <li><i class="fas fa-check"></i> Accompagnement expert</li>
+          <li><i class="fas fa-check"></i> RDV téléphonique expert</li>
           <li><i class="fas fa-check"></i> Conseils pricing</li>
           <li><i class="fas fa-check"></i> Guide staging</li>
           <li><i class="fas fa-check"></i> Réponses illimitées</li>
           <li class="unavailable"><i class="fas fa-times"></i> Suivi transaction</li>
         </ul>
         <a href="/contact" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1.5rem;">
-          Être accompagné
+          Demander un RDV gratuit
         </a>
       </div>
 
@@ -478,8 +478,8 @@
     <div class="pricing-note">
       <p>
         <i class="fas fa-info-circle"></i> 
-        <strong>Les deux premiers plans sont gratuits.</strong> Le plan Premium est pour les projets de plus de 500k€ 
-        ou très complexes. Demandez un devis personnalisé.
+        <strong>L'estimation et l'accompagnement sont 100% gratuits.</strong> Le plan Premium est réservé aux projets complexes
+        (succession, bien atypique, investissement). Demandez un devis personnalisé.
       </p>
     </div>
   </div>

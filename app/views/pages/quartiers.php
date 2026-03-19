@@ -28,7 +28,7 @@ $quartiers = [
     ],
     [
         'nom' => 'Port',
-        'description' => 'Secteur emblématique de Lannion, marqué par son histoire portuaire, ses maisons de caractère et ses vues recherchées sur l'eau.',
+        'description' => 'Secteur emblématique de Lannion, marqué par son histoire portuaire, ses maisons de caractère et ses vues recherchées sur l\'eau.',
         'prix_m2' => 3600,
         'prix_moyen' => 480000,
         'caracteristiques' => ['Patrimoine', 'Vue eau', 'Prestige', 'Maisons de caractère'],
@@ -57,7 +57,7 @@ $quartiers = [
         'prix_moyen' => 360000,
         'caracteristiques' => ['Péri-urbain', 'Family friendly', 'Commerces proches', 'Cadre de vie pratique'],
         'population' => '~3200 habitants',
-        'transports' => 'Bus, accès routier vers zones d'activités',
+        'transports' => 'Bus, accès routier vers zones d\'activités',
         'attractivite' => 'Moyenne',
         'coords' => '48.7214,-3.4652',
         'tendance' => '+2.5%',
@@ -79,7 +79,7 @@ $quartiers = [
 
 <section class="section page-hero">
   <div class="container">
-    <div class="page-hero-inner card">
+    <div class="page-hero-inner">
       <p class="eyebrow">
         <i class="fas fa-map-marked-alt"></i> Quartiers de Lannion
       </p>

@@ -5,7 +5,7 @@
 <!-- ================================================ -->
 <section class="section page-hero">
   <div class="container">
-    <div class="page-hero-inner card">
+    <div class="page-hero-inner">
       <p class="eyebrow">
         <i class="fas fa-info-circle"></i> À propos de nous
       </p>
@@ -614,7 +614,7 @@
           <i class="fas fa-phone"></i> Comment vous contacter pour plus d'info ?
         </h3>
         <p>
-          Par téléphone (02 96 00 00 00), email (contact@...), ou via notre formulaire de contact. Nous répondons en moins de 2h en heures ouvrables. Disponibles lun-ven 9h-18h, sam 10h-12h.
+          Par téléphone (02 96 05 30 00), email (contact@...), ou via notre formulaire de contact. Nous répondons en moins de 2h en heures ouvrables. Disponibles lun-ven 9h-18h, sam 10h-12h.
         </p>
       </article>
     </div>

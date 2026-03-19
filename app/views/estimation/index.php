@@ -1,23 +1,25 @@
-<?php $page_title = 'Estimation Immobilière Bordeaux - Évaluez Votre Bien'; ?>
+<?php $page_title = 'Estimation Immobilière Lannion - Évaluez Votre Bien'; ?>
 
 <!-- ============================================ -->
 <!-- HERO SECTION -->
-<section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <p class="eyebrow">✓ Estimation immobilière à Bordeaux</p>
+<section class="section page-hero">
+  <div class="container">
+    <div class="page-hero-inner">
+      <p class="eyebrow">
+        <i class="fas fa-check-circle"></i> Estimation immobilière à Lannion
+      </p>
       <h1>Vendez au meilleur prix avec une évaluation fiable et professionnelle</h1>
       <p class="lead">Notre moteur analyse les données locales, les tendances du marché et les caractéristiques de votre bien pour fournir une fourchette de valeur précise en quelques secondes.</p>
-      
-      <ul class="trust-list">
-        <li><i class="fas fa-check-circle"></i> +2 000 estimations réalisées</li>
-        <li><i class="fas fa-check-circle"></i> Méthodologie marché local</li>
-        <li><i class="fas fa-check-circle"></i> Accompagnement personnalisé</li>
-      </ul>
 
-      <div class="hero-actions">
-        <a class="btn" href="#form-estimation">Lancer mon estimation</a>
+      <div style="display: flex; justify-content: center; gap: var(--space-8); margin-bottom: var(--space-8); color: rgba(255,255,255,0.85);">
+        <span><i class="fas fa-check-circle" style="color: var(--accent);"></i> +2 000 estimations</span>
+        <span><i class="fas fa-check-circle" style="color: var(--accent);"></i> Marché local</span>
+        <span><i class="fas fa-check-circle" style="color: var(--accent);"></i> Accompagnement</span>
       </div>
+
+      <a class="btn btn-primary" href="#form-estimation" style="font-size: var(--size-lg);">
+        <i class="fas fa-bolt"></i> Lancer mon estimation
+      </a>
     </div>
   </div>
 </section>
@@ -31,7 +33,7 @@
     <div class="features-grid">
       <article class="card feature-card">
         <h3>Données locales fines</h3>
-        <p>Nous nous appuyons sur des références de transactions en Gironde pour une évaluation réaliste de votre bien.</p>
+        <p>Nous nous appuyons sur des références de transactions dans le Trégor pour une évaluation réaliste de votre bien.</p>
         <a class="btn btn-small" href="#simulateur">Estimer mon bien</a>
       </article>
       <article class="card feature-card">
@@ -156,7 +158,7 @@
           <h3 style="margin: 0 0 1.5rem; font-size: 1.1rem;">Bien estimé</h3>
           <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem;">
             <p style="margin: 0 0 0.5rem; color: var(--muted); font-size: 0.85rem; text-transform: uppercase;">Localisation</p>
-            <p style="margin: 0 0 1rem; font-weight: 600; font-size: 1rem;">Chartrons, Bordeaux</p>
+            <p style="margin: 0 0 1rem; font-weight: 600; font-size: 1rem;">Centre-Ville, Lannion</p>
             
             <p style="margin: 0 0 0.5rem; color: var(--muted); font-size: 0.85rem; text-transform: uppercase;">Caractéristiques</p>
             <ul style="margin: 0 0 1rem; padding-left: 1.5rem; font-size: 0.9rem;">
@@ -206,7 +208,7 @@
             <!-- ANALYSE -->
             <div style="background: rgba(var(--primary-rgb), 0.05); border-radius: 8px; padding: 1rem; font-size: 0.9rem;">
               <p style="margin: 0 0 0.5rem; font-weight: 600; color: var(--primary);">✓ Analyse positive</p>
-              <p style="margin: 0; color: var(--muted); font-size: 0.85rem;">Quartier Chartrons dynamique, prix au m² 12% au-dessus de la moyenne bordelaise, bon potentiel de vente.</p>
+              <p style="margin: 0; color: var(--muted); font-size: 0.85rem;">Quartier Centre-Ville dynamique, prix au m² 12% au-dessus de la moyenne lannionaise, bon potentiel de vente.</p>
             </div>
 
           </div>
@@ -231,7 +233,7 @@
       <article class="card step-card">
         <div class="step-number">02</div>
         <h3>Recevez l'estimation</h3>
-        <p>Une fourchette de prix cohérente avec la dynamique actuelle du marché bordelais.</p>
+        <p>Une fourchette de prix cohérente avec la dynamique actuelle du marché lannionais.</p>
         <a class="btn btn-small" href="#simulateur">Estimer mon bien</a>
       </article>
       <article class="card step-card">
