@@ -51,7 +51,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
         </figure>
 
         <!-- Description -->
-        <p style="margin-bottom: var(--space-6); color: var(--text); line-height: var(--line-lg);">
+        <p style="margin-bottom: var(--space-6); line-height: var(--line-lg);">
           De <?= htmlspecialchars($featuredDistricts[0] ?? ''); ?> au cœur de la ville jusqu'aux hauteurs de <?= htmlspecialchars($featuredDistricts[2] ?? ''); ?>, nos estimations couvrent toute la zone de <?= htmlspecialchars($cityName); ?> et région.
         </p>
 
@@ -69,19 +69,19 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
         <div style="display: flex; flex-direction: column; gap: var(--space-3); margin-bottom: var(--space-6);">
           <div style="display: flex; align-items: center; gap: var(--space-2);">
             <i class="fas fa-check-circle" style="color: var(--success); font-weight: 700;"></i>
-            <span style="color: var(--text);">
+            <span>
               <strong><?= htmlspecialchars($featuredDistricts[0] ?? ''); ?></strong> • Quartier central très prisé
             </span>
           </div>
           <div style="display: flex; align-items: center; gap: var(--space-2);">
             <i class="fas fa-check-circle" style="color: var(--success); font-weight: 700;"></i>
-            <span style="color: var(--text);">
+            <span>
               <strong><?= htmlspecialchars($featuredDistricts[1] ?? ''); ?></strong> • Ambiance littorale recherchée
             </span>
           </div>
           <div style="display: flex; align-items: center; gap: var(--space-2);">
             <i class="fas fa-check-circle" style="color: var(--success); font-weight: 700;"></i>
-            <span style="color: var(--text);">
+            <span>
               <strong><?= htmlspecialchars($featuredDistricts[2] ?? ''); ?></strong> • Secteur patrimoine en hausse
             </span>
           </div>
@@ -92,7 +92,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
           <p style="margin-bottom: var(--space-2); font-size: var(--size-xs); color: var(--primary); text-transform: uppercase; font-weight: 600; letter-spacing: 0.05em;">
             <i class="fas fa-quote-left"></i> Témoignage client
           </p>
-          <p style="margin-bottom: var(--space-3); font-style: italic; color: var(--text); line-height: var(--line-lg);">
+          <p style="margin-bottom: var(--space-3); font-style: italic; line-height: var(--line-lg);">
             "L'estimation était très proche de l'offre reçue. Super rapide et fiable. Je recommande !"
           </p>
           <p style="margin-bottom: 0; font-size: var(--size-sm); color: var(--text-muted); font-weight: 600;">
@@ -504,7 +504,7 @@ $page_title = sprintf('Estimation Immobilière %s | Évaluez Votre Bien en 1 Min
           <h3 style="margin-bottom: var(--space-3); display: flex; align-items: center; gap: var(--space-2); color: var(--primary);">
             <i class="fas fa-chart-line"></i> Tendance marché
           </h3>
-          <p style="margin-bottom: var(--space-2); color: var(--text);">
+          <p style="margin-bottom: var(--space-2);">
             <i class="fas fa-arrow-trend-up" style="color: var(--success);"></i>
             <strong style="color: var(--success);">Marché haussier</strong>
           </p>
