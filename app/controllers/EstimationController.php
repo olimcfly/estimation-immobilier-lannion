@@ -24,6 +24,20 @@ final class EstimationController
         $this->estimationService = $estimationService ?? new EstimationService(new PerplexityService());
     }
 
+    public function leads(): void
+    {
+        $scoreFilter = isset($_GET['score']) && $_GET['score'] !== ''
+            ? Validator::string($_GET, 'score', 3, 10)
+            : null;
+
+        $leadModel = new Lead();
+
+        View::render('estimation/leads', [
+            'leads' => $leadModel->listByScore($scoreFilter),
+            'scoreFilter' => $scoreFilter,
+        ]);
+    }
+
     public function index(): void
     {
         View::render('estimation/index', [

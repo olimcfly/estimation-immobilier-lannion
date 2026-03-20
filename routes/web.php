@@ -48,3 +48,4 @@ $router->get('/admin/blog/edit/{id}', [AdminBlogController::class, 'edit']);
 $router->post('/admin/blog/update/{id}', [AdminBlogController::class, 'update']);
 $router->post('/admin/blog/delete/{id}', [AdminBlogController::class, 'delete']);
 $router->post('/admin/blog/generate', [AdminBlogController::class, 'generate']);
+$router->post('/admin/blog/restore/{id}/{revisionId}', [AdminBlogController::class, 'restoreRevision']);
