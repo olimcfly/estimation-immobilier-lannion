@@ -194,6 +194,14 @@ Un système de migrations SQL séquentielles est en place (`database/migrate.php
 - **Couverture limitée** : tests unitaires pour EstimationService, Helpers, Validator, Router uniquement
 - **Pas de tests d'intégration** : pas de tests controllers/vues/base de données
 
+### Bugs / Code incomplet
+- **`EstimationController::leads()` manquant** : les routes `GET /leads` et `GET /admin/leads` référencent une méthode qui n'existe pas dans le controller
+- **Révisions d'articles incomplètes** : `AdminBlogController` appelle `findRevisionsByArticleId()` et `restoreRevision()` mais ces méthodes ne sont pas implémentées dans le model `Article`
+- **Table `design_templates` absente** : le model `DesignTemplate` requête une table qui n'a pas de schéma SQL dans les migrations
+- **Table `settings` absente** : `helpers.php` requête une table `settings` pour les couleurs dynamiques (fallback en place)
+- **Flow newsletter incomplet** : les méthodes de génération/validation de token et d'envoi d'email de confirmation ne sont pas implémentées dans `PageController`
+- **Pas de déconnexion admin** : aucune route de logout dans le routeur
+
 ---
 
 ## 9. Recommandations prioritaires
