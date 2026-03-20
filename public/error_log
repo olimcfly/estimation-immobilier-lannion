@@ -1,0 +1,22 @@
+[19-Mar-2026 20:32:46 Europe/Paris] [router][404] method=GET uri=/blog resolved_path=/blog query=
+[19-Mar-2026 20:40:32 Europe/Paris] [router][404] method=GET uri=/blog resolved_path=/blog query=
+[19-Mar-2026 21:25:24 Europe/Paris] [router][404] method=GET uri=/assets/css/app-premium.css resolved_path=/assets/css/app-premium.css query=
+[19-Mar-2026 21:31:19 Europe/Paris] [router][404] method=GET uri=/assets/css/app-premium.css resolved_path=/assets/css/app-premium.css query=
+[19-Mar-2026 21:31:24 Europe/Paris] [router][404] method=GET uri=/assets/css/app-premium.css resolved_path=/assets/css/app-premium.css query=
+[19-Mar-2026 22:36:09 Europe/Paris] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'cool1933_lannion'@'localhost' (using password: NO)
+[19-Mar-2026 22:36:12 Europe/Paris] [router][404] method=GET uri=/quartier/centre-ville resolved_path=/quartier/centre-ville query=
+[19-Mar-2026 23:29:31 Europe/Paris] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'cool1933_lannion'@'localhost' (using password: NO)
+[19-Mar-2026 23:29:32 Europe/Paris] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'cool1933_lannion'@'localhost' (using password: NO)
+[19-Mar-2026 23:29:33 Europe/Paris] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'cool1933_lannion'@'localhost' (using password: NO)
+[19-Mar-2026 23:42:16 Europe/Paris] [router][404] method=GET uri=/wp-login.php resolved_path=/wp-login.php query=
+[19-Mar-2026 23:42:16 Europe/Paris] [router][404] method=GET uri=/wp-admin/ resolved_path=/wp-admin/ query=
+[19-Mar-2026 23:47:39 Europe/Paris] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'cool1933_lannion'@'localhost' (using password: NO)
+[19-Mar-2026 23:47:40 Europe/Paris] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'cool1933_lannion'@'localhost' (using password: NO)
+[20-Mar-2026 00:12:22 Europe/Paris] [router][404] method=GET uri=/favicon.ico resolved_path=/favicon.ico query=
+[20-Mar-2026 00:12:26 Europe/Paris] [router][404] method=GET uri=/favicon.ico resolved_path=/favicon.ico query=
+[20-Mar-2026 00:12:37 Europe/Paris] [router][404] method=GET uri=/favicon.ico resolved_path=/favicon.ico query=
+[20-Mar-2026 00:12:40 Europe/Paris] [router][404] method=GET uri=/favicon.ico resolved_path=/favicon.ico query=
+[20-Mar-2026 00:12:42 Europe/Paris] [router][404] method=GET uri=/favicon.ico resolved_path=/favicon.ico query=
+[20-Mar-2026 03:11:49 Europe/Paris] [router][404] method=POST uri=/d1337_2495n.php resolved_path=/d1337_2495n.php query=
+[20-Mar-2026 03:11:50 Europe/Paris] [router][404] method=POST uri=/d1337_2495n.php?pass=kontol resolved_path=/d1337_2495n.php query=?pass=kontol
+[20-Mar-2026 03:11:50 Europe/Paris] [router][404] method=POST uri=/static/d1337_2495n.php?pass=kontol resolved_path=/static/d1337_2495n.php query=?pass=kontol
