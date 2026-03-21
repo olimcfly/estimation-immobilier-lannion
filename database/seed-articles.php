@@ -101,19 +101,19 @@ HTML,
 <p>Le marché de Lannion (jeudi matin place du Centre), les escaliers de Brélévenez, les berges du Léguer pour la promenade et le vélo… Mentionnez ces éléments dans votre annonce, ils font partie du produit.</p>
 
 <h3>Les transports</h3>
-<p>La ligne C du tramway dessert le quartier. L'accès à la rocade est rapide via les quais. Précisez les distances : 10 min à pied du Grand Théâtre, 15 min en tram de la gare Saint-Jean.</p>
+<p>Le réseau de bus TILT dessert le quartier. L'accès à la voie express RN12 est rapide. Précisez les distances : 5 min à pied de la gare SNCF, 10 min en voiture du technopôle Anticipa.</p>
 
 <h2>Stratégie de prix : ne surjouez pas</h2>
-<p>Paradoxalement, les biens surévalués aux Chartrons mettent plus longtemps à se vendre. Les acheteurs connaissent le marché. Notre recommandation : estimez au prix juste et créez une urgence d'achat. Un bien bien positionné aux Chartrons se vend en <strong>30 à 45 jours</strong>.</p>
+<p>Paradoxalement, les biens surévalués au Centre Historique mettent plus longtemps à se vendre. Les acheteurs connaissent le marché. Notre recommandation : estimez au prix juste et créez une urgence d'achat. Un bien bien positionné au Centre Historique se vend en <strong>30 à 45 jours</strong>.</p>
 
 <h2>FAQ</h2>
-<h3>Faut-il faire des travaux avant de vendre aux Chartrons ?</h3>
-<p>Pour un bien en bon état, un simple rafraîchissement (peinture blanche, nettoyage des parquets) suffit. Pour un bien à rénover, mieux vaut vendre en l'état — les acheteurs des Chartrons aiment personnaliser et le coût des travaux ne sera pas entièrement récupéré dans le prix.</p>
+<h3>Faut-il faire des travaux avant de vendre au Centre Historique ?</h3>
+<p>Pour un bien en bon état, un simple rafraîchissement (peinture blanche, nettoyage des parquets) suffit. Pour un bien à rénover, mieux vaut vendre en l'état — les acheteurs du Centre Historique aiment personnaliser et le coût des travaux ne sera pas entièrement récupéré dans le prix.</p>
 
-<h3>Quel est le meilleur moment pour vendre aux Chartrons ?</h3>
+<h3>Quel est le meilleur moment pour vendre au Centre Historique ?</h3>
 <p>Le printemps (mars-juin) reste la meilleure période. Les familles cherchent à s'installer avant la rentrée. Septembre-octobre offre aussi un bon pic d'activité.</p>
 
-<p><strong>Estimez la valeur de votre bien aux Chartrons</strong> en quelques clics. Notre algorithme intègre les données spécifiques du quartier. <a href="/estimation">Obtenir mon estimation gratuite →</a></p>
+<p><strong>Estimez la valeur de votre bien au Centre Historique</strong> en quelques clics. Notre algorithme intègre les données spécifiques du quartier. <a href="/estimation">Obtenir mon estimation gratuite →</a></p>
 HTML,
     ],
     [
@@ -139,7 +139,7 @@ HTML,
 </ul>
 
 <h3>Un exemple concret</h3>
-<p>Un appartement T3 de 70 m² à Caudéran, classé D, se vend autour de 310 000 €. Le même bien classé F se négocie entre 265 000 et 280 000 € — soit 30 000 à 45 000 € de différence. Mais attention : les travaux d'amélioration énergétique coûtent souvent moins que cette décote.</p>
+<p>Un appartement T3 de 70 m² à Ker Uhel, classé D, se vend autour de 140 000 €. Le même bien classé F se négocie entre 119 000 et 126 000 € — soit 14 000 à 21 000 € de différence. Mais attention : les travaux d'amélioration énergétique coûtent souvent moins que cette décote.</p>
 
 <h2>Faut-il rénover avant de vendre ?</h2>
 
@@ -152,13 +152,13 @@ HTML,
 </ul>
 
 <h3>Quand il vaut mieux vendre en l'état</h3>
-<p>Si le bien nécessite une rénovation globale (toiture, façade, réseaux), vendez en l'état en ajustant le prix. Les investisseurs et les primo-accédants bricoleurs cherchent ce type de biens à Lannion, surtout dans les quartiers en devenir comme la Bastide ou Saint-Michel.</p>
+<p>Si le bien nécessite une rénovation globale (toiture, façade, réseaux), vendez en l'état en ajustant le prix. Les investisseurs et les primo-accédants bricoleurs cherchent ce type de biens à Lannion, surtout dans les quartiers en devenir comme Loguivy-lès-Lannion ou Servel.</p>
 
 <h2>Les aides disponibles en Côtes-d'Armor</h2>
 <ul>
 <li><strong>MaPrimeRénov'</strong> : jusqu'à 20 000 € selon les revenus et les travaux</li>
 <li><strong>Éco-PTZ</strong> : prêt à taux zéro jusqu'à 50 000 € pour la rénovation énergétique</li>
-<li><strong>Aides de Lannion Métropole</strong> : subventions complémentaires pour les copropriétés</li>
+<li><strong>Aides de Lannion-Trégor Communauté</strong> : subventions complémentaires pour les copropriétés</li>
 <li><strong>CEE (Certificats d'Économie d'Énergie)</strong> : primes versées par les fournisseurs d'énergie</li>
 </ul>
 
