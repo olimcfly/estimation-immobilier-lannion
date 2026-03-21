@@ -11,7 +11,7 @@
 <section class="section">
   <div class="container card" style="display: grid; gap: 1.25rem;">
     <h2>Éditeur du site</h2>
-    <p>Maison d’Estimation Lannion — 12 Quai des Chartrons, 22300 Lannion, France.</p>
+    <p>Maison d’Estimation Lannion — 1 Place du Général Leclerc, 22300 Lannion, France.</p>
 
     <h2>Directeur de publication</h2>
     <p>Direction Maison d’Estimation Lannion.</p>

@@ -32,7 +32,7 @@ $formError = $form_error ?? '';
         <div class="lp-stars">
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
         </div>
-        <span>4.8/5 — Service noté par nos clients de lannion</span>
+        <span>4.8/5 — Service noté par nos clients de Lannion</span>
       </div>
     </div>
 
@@ -93,7 +93,7 @@ $formError = $form_error ?? '';
 
         <div class="lp-field">
           <label for="ville"><i class="fas fa-map-marker-alt"></i> Localisation</label>
-          <input type="text" id="ville" name="ville" value="Lannion" placeholder="Lannion, Mérignac, Talence...">
+          <input type="text" id="ville" name="ville" value="Lannion" placeholder="Lannion, Perros-Guirec, Trégastel...">
         </div>
 
         <button type="submit" class="lp-btn lp-btn-primary lp-btn-full">
@@ -159,7 +159,7 @@ $formError = $form_error ?? '';
       <div class="lp-step">
         <div class="lp-step-number">2</div>
         <h3>Estimation instantanée</h3>
-        <p>Recevez une première fourchette de prix basée sur les données du marché de lannion.</p>
+        <p>Recevez une première fourchette de prix basée sur les données du marché de Lannion.</p>
       </div>
       <div class="lp-step-arrow"><i class="fas fa-chevron-right"></i></div>
       <div class="lp-step">
@@ -200,14 +200,14 @@ $formError = $form_error ?? '';
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
         </div>
         <p class="lp-testimonial-text">"J'avais besoin d'un avis de valeur pour une succession. Le service a été rapide et l'expert très compétent. Le document m'a été très utile auprès du notaire."</p>
-        <p class="lp-testimonial-author"><strong>Catherine V.</strong> — Lannion Bastide</p>
+        <p class="lp-testimonial-author"><strong>Catherine V.</strong> — Lannion Centre</p>
       </div>
       <div class="lp-testimonial">
         <div class="lp-testimonial-stars">
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
         </div>
         <p class="lp-testimonial-text">"Service gratuit et de qualité. L'avis de valeur m'a permis de négocier avec l'acheteur en toute sérénité."</p>
-        <p class="lp-testimonial-author"><strong>Julien T.</strong> — Mérignac</p>
+        <p class="lp-testimonial-author"><strong>Julien T.</strong> — Perros-Guirec</p>
       </div>
     </div>
   </div>
@@ -246,7 +246,7 @@ $formError = $form_error ?? '';
 <section class="lp-section lp-cta-section">
   <div class="lp-container lp-cta-content">
     <h2>Obtenez votre avis de valeur gratuit maintenant</h2>
-    <p>Sans engagement. Un expert de lannion affine votre estimation sous 24h.</p>
+    <p>Sans engagement. Un expert de Lannion affine votre estimation sous 24h.</p>
     <a href="#lp-form" class="lp-btn lp-btn-primary lp-btn-large">
       <i class="fas fa-file-signature"></i> Demander mon avis de valeur gratuit
     </a>

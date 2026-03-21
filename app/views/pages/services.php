@@ -43,7 +43,7 @@
         </div>
 
         <p>
-          Notre moteur analyse en temps réel les données du marché de lannion pour vous fournir une fourchette de prix fiable. 
+          Notre moteur analyse en temps réel les données du marché de Lannion pour vous fournir une fourchette de prix fiable. 
           Basée sur 5000+ transactions réelles, pas sur la théorie.
         </p>
 
@@ -387,7 +387,7 @@
         </div>
         <h3>Fiable</h3>
         <p>
-          3 800+ estimations réalisées, 4.8/5 de satisfaction client. Référence du marché de lannion.
+          3 800+ estimations réalisées, 4.8/5 de satisfaction client. Référence du marché de Lannion.
         </p>
       </article>
     </div>

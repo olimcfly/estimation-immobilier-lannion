@@ -32,13 +32,13 @@
           <span class="footer-logo-text">Estimation Immobilier <strong>Lannion</strong></span>
         </a>
         <p class="footer-desc">
-          Votre partenaire de confiance pour l'estimation immobilière sur Lannion et la métropole de lannione depuis 2020.
+          Votre partenaire de confiance pour l'estimation immobilière sur Lannion et l'agglomération lannionnaise depuis 2020.
         </p>
         <div class="footer-social">
           <a href="https://facebook.com/estimation-lannion" target="_blank" rel="noopener noreferrer" title="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
           <a href="https://instagram.com/estimation-lannion" target="_blank" rel="noopener noreferrer" title="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
           <a href="https://linkedin.com/company/estimation-lannion" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://twitter.com/estimation_bdx" target="_blank" rel="noopener noreferrer" title="X (Twitter)" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://twitter.com/estimation_lannion" target="_blank" rel="noopener noreferrer" title="X (Twitter)" class="social-icon"><i class="fab fa-x-twitter"></i></a>
         </div>
       </div>
 
@@ -86,9 +86,9 @@
             <span>Lannion, 22300<br>Bretagne</span>
           </li>
           <li>
-            <a href="tel:+33556000000">
+            <a href="tel:+33296050000">
               <i class="fas fa-phone"></i>
-              <span>05 56 00 00 00</span>
+              <span>02 96 05 00 00</span>
             </a>
           </li>
           <li>
@@ -108,7 +108,7 @@
         <i class="fas fa-envelope-open-text"></i>
         <div>
           <strong>Restez informé</strong>
-          <span>Recevez nos analyses du marché de lannion et nos conseils immobiliers.</span>
+          <span>Recevez nos analyses du marché de Lannion et nos conseils immobiliers.</span>
         </div>
       </div>
       <form class="footer-newsletter-form" method="POST" action="/api/newsletter">

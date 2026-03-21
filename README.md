@@ -10,7 +10,7 @@ Application SaaS d'estimation immobilière pour **Lannion et ses alentours** en 
 - Stockage sécurisé en MySQL via requêtes préparées
 - Liste des leads avec filtres par score (`/leads?score=chaud|tiede|froid`)
 - Blog avec génération d'articles IA (OpenAI)
-- Guide des quartiers de lannion avec carte interactive
+- Guide des quartiers de Lannion avec carte interactive
 - Newsletter et pages légales (RGPD)
 - Mode maintenance configurable
 
@@ -47,7 +47,7 @@ Application SaaS d'estimation immobilière pour **Lannion et ses alentours** en 
 - `POST /api/estimation` → endpoint API JSON
 - `POST /lead` → insertion lead
 - `GET /leads` → visualisation + filtres des leads
-- `GET /quartiers` → guide des quartiers de lannion
+- `GET /quartiers` → guide des quartiers de Lannion
 - `GET /blog` → articles immobiliers
 - `GET /contact` → formulaire de contact
 

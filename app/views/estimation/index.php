@@ -44,7 +44,7 @@
               type="text"
               id="ville"
               name="ville"
-              placeholder="Lannion, Talence, Mérignac..."
+              placeholder="Lannion, Perros-Guirec, Trégastel..."
               required
               autocomplete="off"
             >

@@ -16,8 +16,8 @@
   ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="<?= htmlspecialchars((string) ($meta_description ?? 'Estimation immobilier Lannion - Obtenez votre avis de valeur immobilier gratuit. Données réelles du marché de lannion, résultat en 60 secondes.'), ENT_QUOTES, 'UTF-8') ?>">
-  <meta name="theme-color" content="#8B1538">
+  <meta name="description" content="<?= htmlspecialchars((string) ($meta_description ?? 'Estimation immobilier Lannion - Obtenez votre avis de valeur immobilier gratuit. Données réelles du marché de Lannion, résultat en 60 secondes.'), ENT_QUOTES, 'UTF-8') ?>">
+  <meta name="theme-color" content="#1B6B8A">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="canonical" href="<?= e($canonicalUrl) ?>">
   <title><?= isset($page_title) ? $page_title : 'Estimation Immobilier Lannion' ?></title>
@@ -47,7 +47,7 @@
     "name": "Estimation Immobilier Lannion",
     "description": "Avis de valeur et estimation immobilière gratuite à Lannion et en Côtes-d'Armor.",
     "url": "https://estimation-immobilier-lannion.fr",
-    "telephone": "+33296000000",
+    "telephone": "+33296050000",
     "email": "contact@estimation-immobilier-lannion.fr",
     "address": {
       "@type": "PostalAddress",
@@ -77,24 +77,24 @@
   <style>
 
     :root {
-      --bg: <?= e((string) ($colors['bg'] ?? '#faf9f7')) ?>;
+      --bg: <?= e((string) ($colors['bg'] ?? '#f8fafb')) ?>;
       --surface: <?= e((string) ($colors['surface'] ?? '#ffffff')) ?>;
-      --text: <?= e((string) ($colors['text'] ?? '#1a1410')) ?>;
-      --muted: <?= e((string) ($colors['muted'] ?? '#6b6459')) ?>;
-      --primary: <?= e((string) ($colors['primary'] ?? '#8B1538')) ?>;
-      --primary-dark: <?= e((string) ($colors['primary_dark'] ?? '#6b0f2d')) ?>;
-      --accent: <?= e((string) ($colors['accent'] ?? '#D4AF37')) ?>;
-      --accent-light: <?= e((string) ($colors['accent_light'] ?? '#E8C547')) ?>;
-      --border: <?= e((string) ($colors['border'] ?? '#e8dfd7')) ?>;
+      --text: <?= e((string) ($colors['text'] ?? '#1a2030')) ?>;
+      --muted: <?= e((string) ($colors['muted'] ?? '#5f6d7e')) ?>;
+      --primary: <?= e((string) ($colors['primary'] ?? '#1B6B8A')) ?>;
+      --primary-dark: <?= e((string) ($colors['primary_dark'] ?? '#145A73')) ?>;
+      --accent: <?= e((string) ($colors['accent'] ?? '#D4836B')) ?>;
+      --accent-light: <?= e((string) ($colors['accent_light'] ?? '#E09A85')) ?>;
+      --border: <?= e((string) ($colors['border'] ?? '#dde4ec')) ?>;
       --success: <?= e((string) ($colors['success'] ?? '#22c55e')) ?>;
       --warning: <?= e((string) ($colors['warning'] ?? '#f97316')) ?>;
       --danger: <?= e((string) ($colors['danger'] ?? '#e24b4a')) ?>;
       --info: <?= e((string) ($colors['info'] ?? '#3b82f6')) ?>;
       --neutral: <?= e((string) ($colors['neutral'] ?? '#000000')) ?>;
-      --bg-rgb: <?= e((string) ($rgbColors['bg'] ?? '250, 249, 247')) ?>;
-      --border-rgb: <?= e((string) ($rgbColors['border'] ?? '232, 223, 215')) ?>;
-      --primary-rgb: <?= e((string) ($rgbColors['primary'] ?? '139, 21, 56')) ?>;
-      --accent-rgb: <?= e((string) ($rgbColors['accent'] ?? '212, 175, 55')) ?>;
+      --bg-rgb: <?= e((string) ($rgbColors['bg'] ?? '248, 250, 251')) ?>;
+      --border-rgb: <?= e((string) ($rgbColors['border'] ?? '221, 228, 236')) ?>;
+      --primary-rgb: <?= e((string) ($rgbColors['primary'] ?? '27, 107, 138')) ?>;
+      --accent-rgb: <?= e((string) ($rgbColors['accent'] ?? '212, 131, 107')) ?>;
       --success-rgb: <?= e((string) ($rgbColors['success'] ?? '34, 197, 94')) ?>;
       --warning-rgb: <?= e((string) ($rgbColors['warning'] ?? '249, 115, 22')) ?>;
       --neutral-rgb: <?= e((string) ($rgbColors['neutral'] ?? '0, 0, 0')) ?>;
@@ -145,7 +145,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, var(--primary), #C41E3A);
+      background: linear-gradient(135deg, var(--primary), #145A73);
       border-radius: 10px;
       color: #fff;
       font-size: 1.2rem;
@@ -315,7 +315,7 @@
       align-items: center;
       gap: 0.5rem;
       padding: 0.8rem 1.6rem;
-      background: linear-gradient(135deg, var(--primary), #C41E3A);
+      background: linear-gradient(135deg, var(--primary), #145A73);
       color: #fff;
       text-decoration: none;
       border: none;
@@ -331,7 +331,7 @@
     .btn-cta:hover {
       transform: translateY(-2px);
       box-shadow: 0 6px 20px rgba(var(--primary-rgb), 0.3);
-      background: linear-gradient(135deg, var(--primary-dark), #a01833);
+      background: linear-gradient(135deg, var(--primary-dark), #0D4B5D);
     }
 
     .btn-cta i {
@@ -548,7 +548,7 @@
         justify-content: center;
         gap: 0.5rem;
         padding: 1rem;
-        background: linear-gradient(135deg, var(--primary), #C41E3A);
+        background: linear-gradient(135deg, var(--primary), #145A73);
         color: #fff;
         text-decoration: none;
         border-radius: 10px;

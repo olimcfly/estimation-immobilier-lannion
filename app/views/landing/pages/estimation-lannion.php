@@ -29,14 +29,14 @@ $formError = $form_error ?? '';
 
       <p class="lp-lead">
         Obtenez une <strong>fourchette de prix fiable</strong> pour votre bien immobilier à Lannion.
-        Basé sur les données réelles du marché de lannion. <strong>100% gratuit</strong>, sans engagement.
+        Basé sur les données réelles du marché de Lannion. <strong>100% gratuit</strong>, sans engagement.
       </p>
 
       <ul class="lp-trust-list">
         <li><i class="fas fa-bolt"></i> <strong>Résultat immédiat</strong> — en 60 secondes</li>
         <li><i class="fas fa-hand-holding-usd"></i> <strong>100% gratuit</strong> — aucun frais caché</li>
         <li><i class="fas fa-shield-alt"></i> <strong>Données sécurisées</strong> — RGPD conforme</li>
-        <li><i class="fas fa-chart-bar"></i> <strong>Marché actuel</strong> — prix réels Lannion 2024</li>
+        <li><i class="fas fa-chart-bar"></i> <strong>Marché actuel</strong> — prix réels Lannion 2026</li>
       </ul>
 
       <!-- Social proof compact -->
@@ -104,7 +104,7 @@ $formError = $form_error ?? '';
 
         <div class="lp-field">
           <label for="ville"><i class="fas fa-map-marker-alt"></i> Ville / Quartier</label>
-          <input type="text" id="ville" name="ville" value="Lannion" placeholder="Lannion, Chartrons, Caudéran...">
+          <input type="text" id="ville" name="ville" value="Lannion" placeholder="Lannion, Centre, Brélévenez...">
         </div>
 
         <button type="submit" class="lp-btn lp-btn-primary lp-btn-full">
@@ -134,7 +134,7 @@ $formError = $form_error ?? '';
       <div class="lp-benefit-card">
         <div class="lp-benefit-icon"><i class="fas fa-database"></i></div>
         <h3>Données du marché réel</h3>
-        <p>Notre algorithme analyse les transactions récentes et les prix au m² actuels de chaque quartier de lannion.</p>
+        <p>Notre algorithme analyse les transactions récentes et les prix au m² actuels de chaque quartier de Lannion.</p>
       </div>
       <div class="lp-benefit-card">
         <div class="lp-benefit-icon"><i class="fas fa-clock"></i></div>
@@ -175,7 +175,7 @@ $formError = $form_error ?? '';
       <div class="lp-step">
         <div class="lp-step-number">2</div>
         <h3>Recevez votre estimation</h3>
-        <p>Notre algorithme calcule une fourchette de prix basée sur les données réelles du marché de lannion.</p>
+        <p>Notre algorithme calcule une fourchette de prix basée sur les données réelles du marché de Lannion.</p>
       </div>
       <div class="lp-step-arrow"><i class="fas fa-chevron-right"></i></div>
       <div class="lp-step">
@@ -224,21 +224,21 @@ $formError = $form_error ?? '';
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
         </div>
         <p class="lp-testimonial-text">"L'estimation était très proche du prix final de vente. Le conseiller m'a rappelé le jour même et m'a accompagné jusqu'à la signature. Très professionnel."</p>
-        <p class="lp-testimonial-author"><strong>Marie D.</strong> — Lannion Chartrons</p>
+        <p class="lp-testimonial-author"><strong>Marie D.</strong> — Lannion Centre</p>
       </div>
       <div class="lp-testimonial">
         <div class="lp-testimonial-stars">
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
         </div>
         <p class="lp-testimonial-text">"Simple, rapide et gratuit. J'ai obtenu une fourchette de prix en moins d'une minute. L'avis de valeur m'a aidé à fixer le bon prix pour mon appartement."</p>
-        <p class="lp-testimonial-author"><strong>Pierre L.</strong> — Lannion Saint-Pierre</p>
+        <p class="lp-testimonial-author"><strong>Pierre L.</strong> — Lannion Brélévenez</p>
       </div>
       <div class="lp-testimonial">
         <div class="lp-testimonial-stars">
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
         </div>
-        <p class="lp-testimonial-text">"Je cherchais une estimation fiable pour ma maison à Caudéran. Le service est sérieux et le rappel de l'expert m'a vraiment aidé à prendre ma décision."</p>
-        <p class="lp-testimonial-author"><strong>Sophie M.</strong> — Caudéran</p>
+        <p class="lp-testimonial-text">"Je cherchais une estimation fiable pour ma maison à Servel. Le service est sérieux et le rappel de l'expert m'a vraiment aidé à prendre ma décision."</p>
+        <p class="lp-testimonial-author"><strong>Sophie M.</strong> — Servel</p>
       </div>
     </div>
   </div>

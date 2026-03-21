@@ -15,16 +15,16 @@ $step = $step ?? 'email';
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <style>
     :root {
-      --bg: #faf9f7;
+      --bg: #f8fafb;
       --surface: #ffffff;
-      --text: #1a1410;
-      --muted: #6b6459;
-      --primary: #8B1538;
-      --primary-dark: #6b0f2d;
-      --border: #e8dfd7;
+      --text: #1a2030;
+      --muted: #5f6d7e;
+      --primary: #1B6B8A;
+      --primary-dark: #145A73;
+      --border: #dde4ec;
       --danger: #e24b4a;
       --success: #22c55e;
-      --primary-rgb: 139, 21, 56;
+      --primary-rgb: 27, 107, 138;
       --neutral-rgb: 0, 0, 0;
       --success-rgb: 34, 197, 94;
     }
@@ -33,7 +33,7 @@ $step = $step ?? 'email';
 
     body {
       font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #faf9f7 0%, #f3ece4 50%, #faf9f7 100%);
+      background: linear-gradient(135deg, #f8fafb 0%, #edf1f5 50%, #f8fafb 100%);
       min-height: 100vh;
       display: flex;
       align-items: center;
@@ -57,7 +57,7 @@ $step = $step ?? 'email';
       justify-content: center;
       width: 64px;
       height: 64px;
-      background: linear-gradient(135deg, var(--primary), #C41E3A);
+      background: linear-gradient(135deg, var(--primary), #145A73);
       border-radius: 16px;
       margin-bottom: 1rem;
       box-shadow: 0 8px 24px rgba(var(--primary-rgb), 0.25);
@@ -156,7 +156,7 @@ $step = $step ?? 'email';
     .btn-submit {
       width: 100%;
       padding: 1rem;
-      background: linear-gradient(135deg, var(--primary), #C41E3A);
+      background: linear-gradient(135deg, var(--primary), #145A73);
       color: #fff;
       border: none;
       border-radius: 10px;

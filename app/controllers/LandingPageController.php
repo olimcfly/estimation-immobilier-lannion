@@ -32,7 +32,7 @@ final class LandingPageController
 
         View::renderBare('landing/layout', [
             'page_title'       => 'Estimation Immobilière Lannion | Gratuite en 60 secondes',
-            'meta_description' => 'Obtenez une estimation immobilière gratuite à Lannion en 60 secondes. Résultat instantané basé sur les données réelles du marché de lannion.',
+            'meta_description' => 'Obtenez une estimation immobilière gratuite à Lannion en 60 secondes. Résultat instantané basé sur les données réelles du marché de Lannion.',
             'landing_view'     => 'landing/pages/estimation-lannion',
             'landing_slug'     => 'estimation-lannion',
         ]);

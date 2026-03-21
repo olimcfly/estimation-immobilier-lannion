@@ -58,7 +58,7 @@ final class AdminSequenceController
             'email_tone' => 'Pr&eacute;cis, factuel, avec des chiffres et des comparaisons.',
             'article_topics' => [
                 '&Eacute;volution des prix au m&sup2; par quartier',
-                'Analyse comparative du march&eacute; immobilier de lannion',
+                'Analyse comparative du march&eacute; immobilier de Lannion',
                 'Rendement locatif : les chiffres cl&eacute;s',
                 'Statistiques des transactions immobili&egrave;res',
             ],
@@ -73,7 +73,7 @@ final class AdminSequenceController
                 'Coup de coeur : les plus beaux quartiers de Lannion',
                 'T&eacute;moignages de nos clients satisfaits',
                 'Vivre &agrave; Lannion : un art de vivre unique',
-                'Les p&eacute;pites cach&eacute;es du march&eacute; de lannion',
+                'Les p&eacute;pites cach&eacute;es du march&eacute; de Lannion',
             ],
         ],
         'directif' => [

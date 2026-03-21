@@ -33,7 +33,7 @@ $formError = $form_error ?? '';
         <div class="lp-stars">
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
         </div>
-        <span>4.8/5 — Des centaines de propriétaires de lannion nous font confiance</span>
+        <span>4.8/5 — Des centaines de propriétaires de Lannion nous font confiance</span>
       </div>
     </div>
 
@@ -83,7 +83,7 @@ $formError = $form_error ?? '';
 
         <div class="lp-field">
           <label for="ville"><i class="fas fa-map-marker-alt"></i> Quartier / Ville</label>
-          <input type="text" id="ville" name="ville" value="Lannion" placeholder="Caudéran, Talence, Pessac...">
+          <input type="text" id="ville" name="ville" value="Lannion" placeholder="Brélévenez, Servel, Perros-Guirec...">
         </div>
 
         <button type="submit" class="lp-btn lp-btn-primary lp-btn-full">
@@ -125,7 +125,7 @@ $formError = $form_error ?? '';
       <div class="lp-benefit-card">
         <div class="lp-benefit-icon"><i class="fas fa-map-pin"></i></div>
         <h3>Expertise locale Lannion</h3>
-        <p>Nous connaissons chaque quartier de Lannion : Chartrons, Caudéran, Saint-Pierre, Bastide, Mériadeck...</p>
+        <p>Nous connaissons chaque quartier de Lannion : Centre Historique, Brélévenez, Servel, Ker Uhel, Beg Léguer...</p>
       </div>
     </div>
   </div>
@@ -174,15 +174,15 @@ $formError = $form_error ?? '';
         <div class="lp-testimonial-stars">
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
         </div>
-        <p class="lp-testimonial-text">"Nous avons vendu notre maison à Caudéran en 3 semaines grâce à l'estimation qui nous a permis de fixer le bon prix dès le départ."</p>
-        <p class="lp-testimonial-author"><strong>François et Claire B.</strong> — Caudéran</p>
+        <p class="lp-testimonial-text">"Nous avons vendu notre maison à Brélévenez en 3 semaines grâce à l'estimation qui nous a permis de fixer le bon prix dès le départ."</p>
+        <p class="lp-testimonial-author"><strong>François et Claire B.</strong> — Brélévenez</p>
       </div>
       <div class="lp-testimonial">
         <div class="lp-testimonial-stars">
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
         </div>
         <p class="lp-testimonial-text">"Le conseiller a été très réactif. Il m'a rappelé dans l'heure et m'a accompagné tout au long de la vente. Je recommande vivement."</p>
-        <p class="lp-testimonial-author"><strong>Alain R.</strong> — Pessac</p>
+        <p class="lp-testimonial-author"><strong>Alain R.</strong> — Perros-Guirec</p>
       </div>
     </div>
   </div>
@@ -199,7 +199,7 @@ $formError = $form_error ?? '';
     <div class="lp-faq">
       <details class="lp-faq-item" open>
         <summary>Quel est le prix moyen d'une maison à Lannion ?</summary>
-        <p>Le prix moyen d'une maison à Lannion varie entre 3 500 et 6 000 €/m² selon le quartier. Caudéran et les Chartrons sont parmi les quartiers les plus prisés, tandis que la Bastide offre encore des opportunités intéressantes.</p>
+        <p>Le prix moyen d'une maison à Lannion varie entre 1 800 et 2 600 €/m² selon le quartier. Beg Léguer et le Centre Historique sont parmi les quartiers les plus prisés, tandis que Loguivy-lès-Lannion offre encore des opportunités intéressantes.</p>
       </details>
       <details class="lp-faq-item">
         <summary>Combien de temps faut-il pour vendre une maison à Lannion ?</summary>
@@ -221,7 +221,7 @@ $formError = $form_error ?? '';
 <section class="lp-section lp-cta-section">
   <div class="lp-container lp-cta-content">
     <h2>Vendez votre maison au meilleur prix</h2>
-    <p>Commencez par une estimation gratuite. Un expert de lannion vous accompagne ensuite.</p>
+    <p>Commencez par une estimation gratuite. Un expert de Lannion vous accompagne ensuite.</p>
     <a href="#lp-form" class="lp-btn lp-btn-primary lp-btn-large">
       <i class="fas fa-home"></i> Estimer ma maison gratuitement
     </a>

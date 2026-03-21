@@ -5,8 +5,8 @@
   <div class="container">
     <div class="page-hero-inner card">
       <p class="eyebrow"><i class="fas fa-info-circle"></i> À propos de nous</p>
-      <h1>Une équipe de lannione dédiée à la réussite de votre vente immobilière</h1>
-      <p class="lead">Estimation Immobilier Lannion est né de l'envie de rendre l'estimation immobilière plus claire, plus rapide et plus fiable pour les propriétaires girondins.</p>
+      <h1>Une équipe lannionnaise dédiée à la réussite de votre vente immobilière</h1>
+      <p class="lead">Estimation Immobilier Lannion est né de l'envie de rendre l'estimation immobilière plus claire, plus rapide et plus fiable pour les propriétaires bretons.</p>
     </div>
   </div>
 </section>
@@ -28,7 +28,7 @@
           <i class="fas fa-chart-bar"></i>
         </div>
         <h2>Notre expertise</h2>
-        <p>Nous nous appuyons sur la dynamique des quartiers de lannion, l'analyse approfondie du marché immobilier local et les méthodes d'évaluation utilisées par les professionnels. Notre algorithme intègre données réelles et tendances du marché girond.</p>
+        <p>Nous nous appuyons sur la dynamique des quartiers de Lannion, l'analyse approfondie du marché immobilier local et les méthodes d'évaluation utilisées par les professionnels. Notre algorithme intègre données réelles et tendances du marché breton.</p>
       </article>
     </div>
   </div>
@@ -64,7 +64,7 @@
           <i class="fas fa-map-marker-alt"></i>
         </div>
         <h3>Proximité</h3>
-        <p>Basés à Lannion, nous connaissons les quartiers, les tendances locales et les dynamiques immobilières spécifiques de la Côtes-d'Armor et du Grand Lannion.</p>
+        <p>Basés à Lannion, nous connaissons les quartiers, les tendances locales et les dynamiques immobilières spécifiques de les Côtes-d'Armor et du Trégor.</p>
       </article>
 
       <article class="card value-card">
@@ -183,7 +183,7 @@
         </div>
         <h3>Analystes Marché</h3>
         <p class="team-role">Suivi continu du marché immobilier</p>
-        <p class="team-bio">Nos spécialistes analysent quotidiennement les tendances du marché de lannion pour affiner nos estimations et vous informer.</p>
+        <p class="team-bio">Nos spécialistes analysent quotidiennement les tendances du marché de Lannion pour affiner nos estimations et vous informer.</p>
       </article>
     </div>
   </div>
@@ -279,7 +279,7 @@
 
       <article class="card faq-card">
         <h3><i class="fas fa-question-circle"></i> Comment me contacter ?</h3>
-        <p>Vous pouvez nous contacter par email (contact@estimation-lannion.fr) ou téléphone (05 XX XX XX XX). Nous répondons en moins de 24h.</p>
+        <p>Vous pouvez nous contacter par email (contact@estimation-immobilier-lannion.fr) ou téléphone (02 96 05 00 00). Nous répondons en moins de 24h.</p>
       </article>
     </div>
   </div>
@@ -315,7 +315,7 @@
           <i class="fas fa-map-marker-alt"></i>
         </div>
         <h3>Proximité</h3>
-        <p>Basés à Lannion, nous connaissons les quartiers, les tendances locales et les dynamiques immobilières spécifiques de la Côtes-d'Armor et du Grand Lannion.</p>
+        <p>Basés à Lannion, nous connaissons les quartiers, les tendances locales et les dynamiques immobilières spécifiques de les Côtes-d'Armor et du Trégor.</p>
       </article>
 
       <article class="card value-card">
@@ -434,7 +434,7 @@
         </div>
         <h3>Analystes Marché</h3>
         <p class="team-role">Suivi continu du marché immobilier</p>
-        <p class="team-bio">Nos spécialistes analysent quotidiennement les tendances du marché de lannion pour affiner nos estimations et vous informer.</p>
+        <p class="team-bio">Nos spécialistes analysent quotidiennement les tendances du marché de Lannion pour affiner nos estimations et vous informer.</p>
       </article>
     </div>
   </div>
@@ -530,7 +530,7 @@
 
       <article class="card faq-card">
         <h3><i class="fas fa-question-circle"></i> Comment me contacter ?</h3>
-        <p>Vous pouvez nous contacter par email (contact@estimation-lannion.fr) ou téléphone (05 XX XX XX XX). Nous répondons en moins de 24h.</p>
+        <p>Vous pouvez nous contacter par email (contact@estimation-immobilier-lannion.fr) ou téléphone (02 96 05 00 00). Nous répondons en moins de 24h.</p>
       </article>
     </div>
   </div>

@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="<?= e((string) ($meta_description ?? '')) ?>">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="theme-color" content="<?= e((string) ($colors['primary'] ?? '#8B1538')) ?>">
+  <meta name="theme-color" content="<?= e((string) ($colors['primary'] ?? '#1B6B8A')) ?>">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <title><?= e((string) ($page_title ?? 'Estimation Immobilier Lannion')) ?></title>
 
@@ -31,23 +31,23 @@
 
   <style>
     :root {
-      --bg: <?= e((string) ($colors['bg'] ?? '#faf9f7')) ?>;
+      --bg: <?= e((string) ($colors['bg'] ?? '#f8fafb')) ?>;
       --surface: <?= e((string) ($colors['surface'] ?? '#ffffff')) ?>;
-      --text: <?= e((string) ($colors['text'] ?? '#1a1410')) ?>;
-      --muted: <?= e((string) ($colors['muted'] ?? '#6b6459')) ?>;
-      --primary: <?= e((string) ($colors['primary'] ?? '#8B1538')) ?>;
-      --primary-dark: <?= e((string) ($colors['primary_dark'] ?? '#6b0f2d')) ?>;
-      --accent: <?= e((string) ($colors['accent'] ?? '#D4AF37')) ?>;
-      --accent-light: <?= e((string) ($colors['accent_light'] ?? '#E8C547')) ?>;
-      --border: <?= e((string) ($colors['border'] ?? '#e8dfd7')) ?>;
+      --text: <?= e((string) ($colors['text'] ?? '#1a2030')) ?>;
+      --muted: <?= e((string) ($colors['muted'] ?? '#5f6d7e')) ?>;
+      --primary: <?= e((string) ($colors['primary'] ?? '#1B6B8A')) ?>;
+      --primary-dark: <?= e((string) ($colors['primary_dark'] ?? '#145A73')) ?>;
+      --accent: <?= e((string) ($colors['accent'] ?? '#D4836B')) ?>;
+      --accent-light: <?= e((string) ($colors['accent_light'] ?? '#E09A85')) ?>;
+      --border: <?= e((string) ($colors['border'] ?? '#dde4ec')) ?>;
       --success: <?= e((string) ($colors['success'] ?? '#22c55e')) ?>;
       --warning: <?= e((string) ($colors['warning'] ?? '#f97316')) ?>;
       --danger: <?= e((string) ($colors['danger'] ?? '#e24b4a')) ?>;
       --info: <?= e((string) ($colors['info'] ?? '#3b82f6')) ?>;
-      --primary-rgb: <?= e((string) ($rgbColors['primary'] ?? '139, 21, 56')) ?>;
-      --accent-rgb: <?= e((string) ($rgbColors['accent'] ?? '212, 175, 55')) ?>;
+      --primary-rgb: <?= e((string) ($rgbColors['primary'] ?? '27, 107, 138')) ?>;
+      --accent-rgb: <?= e((string) ($rgbColors['accent'] ?? '212, 131, 107')) ?>;
       --success-rgb: <?= e((string) ($rgbColors['success'] ?? '34, 197, 94')) ?>;
-      --border-rgb: <?= e((string) ($rgbColors['border'] ?? '232, 223, 215')) ?>;
+      --border-rgb: <?= e((string) ($rgbColors['border'] ?? '221, 228, 236')) ?>;
     }
   </style>
 
