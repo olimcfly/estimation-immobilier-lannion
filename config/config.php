@@ -12,19 +12,19 @@ if (!defined('CITY_CODE_POSTAL')) {
     define('CITY_CODE_POSTAL', '22300');
 }
 if (!defined('QUARTIERS')) {
-    define('QUARTIERS', ['Chartrons', 'Saint-Pierre', 'Saint-Michel', 'Caudéran', 'Bastide', 'Mériadeck']);
+    define('QUARTIERS', ['Centre Historique', 'Brélévenez', 'Servel', 'Loguivy-lès-Lannion', 'Ker Uhel', 'Beg Léguer']);
 }
 if (!defined('PRIX_M2_MOYEN')) {
     define('PRIX_M2_MOYEN', 2100);
 }
 if (!defined('COLOR_PRIMARY')) {
-    define('COLOR_PRIMARY', '#0D47A1');
+    define('COLOR_PRIMARY', '#1B6B8A');
 }
 if (!defined('COLOR_SECONDARY')) {
     define('COLOR_SECONDARY', '#FFFFFF');
 }
 if (!defined('COLOR_ACCENT')) {
-    define('COLOR_ACCENT', '#00BFA5');
+    define('COLOR_ACCENT', '#D4836B');
 }
 
 return [
@@ -90,15 +90,15 @@ return [
     ],
     'site' => [
         'colors' => [
-            'bg' => $_ENV['SITE_COLOR_BG'] ?? '#faf9f7',
+            'bg' => $_ENV['SITE_COLOR_BG'] ?? '#f8fafb',
             'surface' => $_ENV['SITE_COLOR_SURFACE'] ?? '#ffffff',
-            'text' => $_ENV['SITE_COLOR_TEXT'] ?? '#1a1410',
-            'muted' => $_ENV['SITE_COLOR_MUTED'] ?? '#6b6459',
-            'primary' => $_ENV['SITE_COLOR_PRIMARY'] ?? '#8B1538',
-            'primary_dark' => $_ENV['SITE_COLOR_PRIMARY_DARK'] ?? '#6b0f2d',
-            'accent' => $_ENV['SITE_COLOR_ACCENT'] ?? '#D4AF37',
-            'accent_light' => $_ENV['SITE_COLOR_ACCENT_LIGHT'] ?? '#E8C547',
-            'border' => $_ENV['SITE_COLOR_BORDER'] ?? '#e8dfd7',
+            'text' => $_ENV['SITE_COLOR_TEXT'] ?? '#1a2030',
+            'muted' => $_ENV['SITE_COLOR_MUTED'] ?? '#5f6d7e',
+            'primary' => $_ENV['SITE_COLOR_PRIMARY'] ?? '#1B6B8A',
+            'primary_dark' => $_ENV['SITE_COLOR_PRIMARY_DARK'] ?? '#145A73',
+            'accent' => $_ENV['SITE_COLOR_ACCENT'] ?? '#D4836B',
+            'accent_light' => $_ENV['SITE_COLOR_ACCENT_LIGHT'] ?? '#E09A85',
+            'border' => $_ENV['SITE_COLOR_BORDER'] ?? '#dde4ec',
             'success' => $_ENV['SITE_COLOR_SUCCESS'] ?? '#22c55e',
             'warning' => $_ENV['SITE_COLOR_WARNING'] ?? '#f97316',
             'danger' => $_ENV['SITE_COLOR_DANGER'] ?? '#e24b4a',

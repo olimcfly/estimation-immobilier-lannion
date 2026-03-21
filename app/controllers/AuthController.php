@@ -170,15 +170,15 @@ final class AuthController
         return <<<HTML
         <div style="font-family: 'Helvetica Neue', Arial, sans-serif; max-width: 500px; margin: 0 auto; padding: 2rem;">
             <div style="text-align: center; margin-bottom: 2rem;">
-                <div style="display: inline-block; width: 50px; height: 50px; background: linear-gradient(135deg, #8B1538, #C41E3A); border-radius: 12px; line-height: 50px; color: #fff; font-size: 1.4rem;">&#128274;</div>
+                <div style="display: inline-block; width: 50px; height: 50px; background: linear-gradient(135deg, #1B6B8A, #145A73); border-radius: 12px; line-height: 50px; color: #fff; font-size: 1.4rem;">&#128274;</div>
             </div>
-            <h2 style="text-align: center; color: #1a1410; margin-bottom: 0.5rem;">Votre code de connexion</h2>
-            <p style="text-align: center; color: #6b6459; margin-bottom: 2rem;">Bonjour {$name}, voici votre code pour accéder à l'espace administrateur :</p>
-            <div style="background: #f8f5f2; border: 2px solid #e8dfd7; border-radius: 12px; padding: 1.5rem; text-align: center; margin-bottom: 2rem;">
-                <span style="font-size: 2.2rem; font-weight: 700; letter-spacing: 0.5rem; color: #8B1538;">{$code}</span>
+            <h2 style="text-align: center; color: #1a2030; margin-bottom: 0.5rem;">Votre code de connexion</h2>
+            <p style="text-align: center; color: #5f6d7e; margin-bottom: 2rem;">Bonjour {$name}, voici votre code pour accéder à l'espace administrateur :</p>
+            <div style="background: #f0f4f7; border: 2px solid #dde4ec; border-radius: 12px; padding: 1.5rem; text-align: center; margin-bottom: 2rem;">
+                <span style="font-size: 2.2rem; font-weight: 700; letter-spacing: 0.5rem; color: #1B6B8A;">{$code}</span>
             </div>
-            <p style="text-align: center; color: #6b6459; font-size: 0.85rem;">Ce code est valable <strong>10 minutes</strong>.<br>Si vous n'avez pas demandé ce code, ignorez cet email.</p>
-            <hr style="border: none; border-top: 1px solid #e8dfd7; margin: 2rem 0;">
+            <p style="text-align: center; color: #5f6d7e; font-size: 0.85rem;">Ce code est valable <strong>10 minutes</strong>.<br>Si vous n'avez pas demandé ce code, ignorez cet email.</p>
+            <hr style="border: none; border-top: 1px solid #dde4ec; margin: 2rem 0;">
             <p style="text-align: center; color: #999; font-size: 0.8rem;">Estimation Immobilier Lannion</p>
         </div>
         HTML;

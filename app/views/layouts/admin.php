@@ -19,12 +19,12 @@
       --admin-sidebar-width: 260px;
       --admin-header-height: 60px;
       --admin-bg: #f4f1ed;
-      --admin-sidebar-bg: #1a1410;
+      --admin-sidebar-bg: #1a2030;
       --admin-sidebar-text: #c8c0b8;
       --admin-sidebar-hover: rgba(255,255,255,0.08);
-      --admin-sidebar-active: rgba(139, 21, 56, 0.4);
-      --admin-primary: #8B1538;
-      --admin-accent: #D4AF37;
+      --admin-sidebar-active: rgba(27, 107, 138, 0.4);
+      --admin-primary: #1B6B8A;
+      --admin-accent: #D4836B;
     }
 
     * { box-sizing: border-box; }
@@ -32,7 +32,7 @@
 
     body {
       font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      color: #1a1410;
+      color: #1a2030;
       background: var(--admin-bg);
       line-height: 1.6;
       display: flex;
@@ -74,7 +74,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, var(--admin-primary), #C41E3A);
+      background: linear-gradient(135deg, var(--admin-primary), #145A73);
       border-radius: 8px;
       color: #fff;
       font-size: 1rem;
@@ -182,7 +182,7 @@
       width: 32px;
       height: 32px;
       border-radius: 50%;
-      background: linear-gradient(135deg, var(--admin-primary), #C41E3A);
+      background: linear-gradient(135deg, var(--admin-primary), #145A73);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -250,7 +250,7 @@
       height: var(--admin-header-height);
       background: rgba(244, 241, 237, 0.95);
       backdrop-filter: blur(8px);
-      border-bottom: 1px solid #e8dfd7;
+      border-bottom: 1px solid #dde4ec;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -267,7 +267,7 @@
       font-family: 'Playfair Display', serif;
       font-size: 1.15rem;
       font-weight: 700;
-      color: #1a1410;
+      color: #1a2030;
     }
 
     .admin-topbar-right {
@@ -281,7 +281,7 @@
       align-items: center;
       gap: 0.4rem;
       padding: 0.45rem 0.9rem;
-      color: #6b6459;
+      color: #5f6d7e;
       text-decoration: none;
       font-size: 0.85rem;
       border-radius: 6px;
@@ -289,7 +289,7 @@
     }
 
     .admin-topbar-link:hover {
-      background: rgba(139, 21, 56, 0.06);
+      background: rgba(27, 107, 138, 0.06);
       color: var(--admin-primary);
     }
 
@@ -300,7 +300,7 @@
       border: none;
       cursor: pointer;
       padding: 0.5rem;
-      color: #1a1410;
+      color: #1a2030;
       font-size: 1.25rem;
     }
 

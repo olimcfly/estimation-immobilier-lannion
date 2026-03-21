@@ -297,7 +297,7 @@
 <span class="keyword">Titre 2 :</span> <span class="string">Estimation Gratuite du Prix</span>
 <span class="keyword">Titre 3 :</span> <span class="string">Accompagnement Expert</span>
 
-<span class="keyword">Description 1 :</span> <span class="string">Vendez votre maison au meilleur prix. Estimation gratuite basée sur le marché de lannion actuel. Expert local.</span>
+<span class="keyword">Description 1 :</span> <span class="string">Vendez votre maison au meilleur prix. Estimation gratuite basée sur le marché de Lannion actuel. Expert local.</span>
 <span class="keyword">Description 2 :</span> <span class="string">Fixez le bon prix dès le départ. Rappel expert sous 24h. Service 100% gratuit, sans engagement.</span>
 
 <span class="keyword">URL finale :</span> <span class="string">https://estimation-immobilier-lannion.fr/lp/vendre-maison-lannion</span>

@@ -126,7 +126,7 @@ $quartiers = [
       <iframe
         id="google-map-quartiers"
         title="Carte des quartiers de Lannion"
-        src="https://maps.google.com/maps?q=44.8378,-0.5792&z=13&output=embed"
+        src="https://maps.google.com/maps?q=48.7320,-3.4580&z=13&output=embed"
         width="100%"
         height="480"
         style="border: 0; border-radius: var(--radius-xl); display: block;"
@@ -313,12 +313,12 @@ $quartiers = [
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-4);">
-      <!-- Chartrons -->
+      <!-- Centre Historique -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
           <img
             src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=500&q=80"
-            alt="Quartier des Chartrons à Lannion"
+            alt="Centre Historique de Lannion"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -326,16 +326,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-wine-glass-alt"></i> Chartrons
+          <i class="fas fa-monument"></i> Centre Historique
         </figcaption>
       </figure>
 
-      <!-- Saint-Pierre -->
+      <!-- Brélévenez -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
           <img
             src="https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?auto=format&fit=crop&w=500&q=80"
-            alt="Quartier Saint-Pierre Lannion"
+            alt="Quartier Brélévenez Lannion"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -343,16 +343,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-landmark"></i> Saint-Pierre
+          <i class="fas fa-church"></i> Brélévenez
         </figcaption>
       </figure>
 
-      <!-- Saint-Michel -->
+      <!-- Servel -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
           <img
             src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=500&q=80"
-            alt="Quartier Saint-Michel Lannion"
+            alt="Quartier Servel Lannion"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -360,16 +360,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-church"></i> Saint-Michel
+          <i class="fas fa-microchip"></i> Servel
         </figcaption>
       </figure>
 
-      <!-- Caudéran -->
+      <!-- Loguivy-lès-Lannion -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
           <img
             src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=500&q=80"
-            alt="Quartier résidentiel Caudéran"
+            alt="Quartier Loguivy-lès-Lannion"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -377,16 +377,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-home"></i> Caudéran
+          <i class="fas fa-leaf"></i> Loguivy-lès-Lannion
         </figcaption>
       </figure>
 
-      <!-- Bastide -->
+      <!-- Ker Uhel -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
           <img
             src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&q=80"
-            alt="Quartier Bastide - rive droite"
+            alt="Quartier Ker Uhel Lannion"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -394,16 +394,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-water"></i> Bastide
+          <i class="fas fa-futbol"></i> Ker Uhel
         </figcaption>
       </figure>
 
-      <!-- Mériadeck -->
+      <!-- Beg Léguer -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
           <img
             src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=500&q=80"
-            alt="Quartier Mériadeck"
+            alt="Quartier Beg Léguer"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -411,7 +411,7 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-building"></i> Mériadeck
+          <i class="fas fa-umbrella-beach"></i> Beg Léguer
         </figcaption>
       </figure>
     </div>
@@ -436,7 +436,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Quel est le quartier le plus dynamique ?
         </h3>
         <p>
-          La Bastide affiche la tendance la plus forte (+7.3%) grâce aux projets urbains majeurs (Darwin, Euratlantique). Saint-Michel suit avec +6.2% porté par la rénovation du quartier.
+          Beg Léguer affiche la tendance la plus forte (+5.8%) grâce à l'attrait de la Côte de Granit Rose. Loguivy-lès-Lannion suit avec +5.2% porté par le cadre rural recherché et les prix accessibles.
         </p>
       </article>
 
@@ -445,7 +445,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Quel quartier pour une famille ?
         </h3>
         <p>
-          Caudéran est le quartier familial par excellence avec ses maisons avec jardin, ses écoles réputées et son ambiance résidentielle calme. Les Chartrons offrent aussi un excellent cadre de vie.
+          Ker Uhel est le quartier familial par excellence avec ses pavillons, ses équipements sportifs et son ambiance résidentielle calme. Loguivy-lès-Lannion offre aussi un excellent cadre de vie avec ses maisons en pierre et jardins.
         </p>
       </article>
 
@@ -454,7 +454,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Où trouver le meilleur investissement ?
         </h3>
         <p>
-          La Bastide et Saint-Michel combinent des prix encore accessibles avec de fortes perspectives de plus-value grâce aux projets de rénovation urbaine en cours.
+          Loguivy-lès-Lannion et Ker Uhel combinent des prix encore accessibles avec de fortes perspectives de plus-value grâce au dynamisme du bassin d'emploi technologique de Lannion.
         </p>
       </article>
 
@@ -463,7 +463,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Quel quartier offre le meilleur rapport qualité/prix ?
         </h3>
         <p>
-          Mériadeck et Saint-Michel proposent des prix au m² plus abordables tout en restant très centraux. Idéal pour les primo-accédants souhaitant rester intra-rocade.
+          Loguivy-lès-Lannion et Ker Uhel proposent des prix au m² plus abordables (1 800 à 2 000 €/m²) tout en restant proches du centre. Idéal pour les primo-accédants souhaitant rester dans l'agglomération lannionnaise.
         </p>
       </article>
 
@@ -472,7 +472,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Les prix varient-ils beaucoup d'un quartier à l'autre ?
         </h3>
         <p>
-          Oui, de 4 100 €/m² (Bastide) à 5 800 €/m² (Saint-Pierre). L'écart reflète la centralité, le patrimoine architectural et la demande. Lannion reste attractif comparé aux métropoles similaires.
+          Oui, de 1 800 €/m² (Loguivy-lès-Lannion) à 2 600 €/m² (Beg Léguer). L'écart reflète la proximité du littoral, le patrimoine architectural et la demande. Lannion reste attractif comparé aux autres villes bretonnes de taille similaire.
         </p>
       </article>
 

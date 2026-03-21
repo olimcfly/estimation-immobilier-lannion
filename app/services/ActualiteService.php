@@ -111,7 +111,7 @@ final class ActualiteService
 
         $prompt = "Tu es un rédacteur expert en immobilier à Lannion. Voici 5 idées d'articles d'actualité immobilière :\n\n"
             . $ideasText . "\n"
-            . "1. Choisis la MEILLEURE idée (la plus intéressante, actuelle et utile pour des propriétaires/vendeurs de lannion).\n"
+            . "1. Choisis la MEILLEURE idée (la plus intéressante, actuelle et utile pour des propriétaires/vendeurs de Lannion).\n"
             . "2. Rédige un article complet en HTML (balises h2, h3, p, ul, li, strong) de 800-1200 mots.\n"
             . "3. L'article doit être factuel, informatif, avec des données chiffrées quand possible.\n"
             . "4. Inclus un CTA vers l'estimation immobilière à la fin.\n\n"
@@ -219,8 +219,8 @@ final class ActualiteService
     {
         return [
             ['title' => 'Évolution des prix immobiliers à Lannion ce mois', 'summary' => 'Les prix au m² continuent leur ajustement dans les quartiers centraux.', 'angle' => 'Analyse quartier par quartier'],
-            ['title' => 'Nouveaux projets urbains en métropole de lannione', 'summary' => 'Plusieurs projets d\'aménagement transforment le paysage immobilier.', 'angle' => 'Impact sur les valeurs immobilières'],
-            ['title' => 'Taux de crédit : impact sur le marché de lannion', 'summary' => 'L\'évolution des taux influence les décisions d\'achat et de vente.', 'angle' => 'Opportunités pour vendeurs'],
+            ['title' => 'Nouveaux projets urbains dans l\'agglomération de Lannion', 'summary' => 'Plusieurs projets d\'aménagement transforment le paysage immobilier.', 'angle' => 'Impact sur les valeurs immobilières'],
+            ['title' => 'Taux de crédit : impact sur le marché de Lannion', 'summary' => 'L\'évolution des taux influence les décisions d\'achat et de vente.', 'angle' => 'Opportunités pour vendeurs'],
             ['title' => 'Le marché locatif étudiant à Lannion', 'summary' => 'La demande locative étudiante reste forte dans certains quartiers.', 'angle' => 'Investissement locatif'],
             ['title' => 'Rénovation énergétique : les aides disponibles en Côtes-d'Armor', 'summary' => 'Les nouvelles réglementations impactent la valeur des biens.', 'angle' => 'Valorisation du patrimoine'],
         ];
@@ -229,7 +229,7 @@ final class ActualiteService
     private function fallbackArticle(array $idea): array
     {
         $title = $idea['title'] ?? 'Actualité immobilière Lannion';
-        $summary = $idea['summary'] ?? 'Les dernières nouvelles du marché immobilier de lannion.';
+        $summary = $idea['summary'] ?? 'Les dernières nouvelles du marché immobilier de Lannion.';
 
         return [
             'title' => $title,
@@ -239,16 +239,16 @@ final class ActualiteService
             'content' => '<h2>' . htmlspecialchars($title, ENT_QUOTES, 'UTF-8') . '</h2>'
                 . '<p>' . htmlspecialchars($summary, ENT_QUOTES, 'UTF-8') . '</p>'
                 . '<h2>Ce que cela signifie pour vous</h2>'
-                . '<p>Le marché immobilier de lannion continue d\'évoluer. Que vous soyez propriétaire souhaitant vendre ou simplement curieux de la valeur de votre bien, il est important de rester informé des dernières tendances.</p>'
+                . '<p>Le marché immobilier de Lannion continue d\'évoluer. Que vous soyez propriétaire souhaitant vendre ou simplement curieux de la valeur de votre bien, il est important de rester informé des dernières tendances.</p>'
                 . '<h2>Les quartiers à surveiller</h2>'
-                . '<ul><li><strong>Chartrons</strong> : un quartier en constante valorisation</li>'
-                . '<li><strong>Bastide</strong> : le renouveau de la rive droite</li>'
-                . '<li><strong>Saint-Michel</strong> : authenticité et dynamisme</li>'
-                . '<li><strong>Caudéran</strong> : le calme résidentiel prisé des familles</li></ul>'
+                . '<ul><li><strong>Centre Historique</strong> : un quartier en constante valorisation</li>'
+                . '<li><strong>Brélévenez</strong> : charme et patrimoine breton</li>'
+                . '<li><strong>Servel</strong> : dynamisme et proximité technopole</li>'
+                . '<li><strong>Beg Léguer</strong> : le calme côtier prisé des familles</li></ul>'
                 . '<h2>Estimez votre bien gratuitement</h2>'
                 . '<p>Vous souhaitez connaître la valeur actuelle de votre bien immobilier à Lannion ? '
                 . '<strong><a href="/estimation">Lancez votre estimation gratuite</a></strong> et obtenez un résultat en moins de 2 minutes.</p>',
-            'image_prompt' => 'Professional editorial photo of Lannion city skyline with stone architecture and Garonne river, warm lighting, real estate magazine style',
+            'image_prompt' => 'Professional editorial photo of Lannion city in Brittany with granite architecture and Léguer river, soft coastal lighting, real estate magazine style',
         ];
     }
 

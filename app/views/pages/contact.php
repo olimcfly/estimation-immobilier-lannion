@@ -11,7 +11,7 @@
       </p>
       <h1>Parlons de votre projet immobilier</h1>
       <p class="lead">
-        Besoin d'un avis expert ? Des questions sur une estimation ? Notre équipe de lannione est disponible pour vous accompagner.
+        Besoin d'un avis expert ? Des questions sur une estimation ? Notre équipe lannionnaise est disponible pour vous accompagner.
       </p>
     </div>
   </div>
@@ -36,7 +36,7 @@
             <i class="fas fa-phone"></i> Téléphone
           </p>
           <p class="info-value">
-            <a href="tel:+33556000000">+33 5 56 00 00 00</a>
+            <a href="tel:+33296050000">+33 2 96 05 00 00</a>
           </p>
           <ul class="hours-list">
             <li>
@@ -75,7 +75,7 @@
             <i class="fas fa-map-marker-alt"></i> Adresse
           </p>
           <p class="info-value">
-            12 Quai des Chartrons<br>
+            1 Place du Général Leclerc<br>
             22300 Lannion<br>
             France
           </p>
@@ -144,7 +144,7 @@
               type="tel" 
               id="telephone" 
               name="telephone" 
-              placeholder="+33 5 56 00 00 00"
+              placeholder="+33 2 96 05 00 00"
             >
           </label>
 
@@ -169,7 +169,7 @@
               type="text" 
               id="quartier" 
               name="quartier" 
-              placeholder="Ex: Chartrons, Talence, Floirac..."
+              placeholder="Ex: Centre Historique, Brélévenez, Servel..."
             >
           </label>
 
@@ -243,7 +243,7 @@
           Parlez directement à un expert. Réponses immédiates à vos questions. 
           Disponible du lundi au samedi, 9h-19h.
         </p>
-        <a href="tel:+33556000000" class="btn btn-small" style="margin-top: 1rem;">
+        <a href="tel:+33296050000" class="btn btn-small" style="margin-top: 1rem;">
           <i class="fas fa-phone"></i> Appeler maintenant
         </a>
       </article>
@@ -381,7 +381,7 @@
           <i class="fas fa-question-circle"></i> Puis-je visiter vos bureaux?
         </h3>
         <p>
-          Oui ! Sur rendez-vous. 12 Quai des Chartrons, Lannion. 
+          Oui ! Sur rendez-vous. 1 Place du Général Leclerc, Lannion. 
           Parking gratuit et accès PMR disponibles.
         </p>
       </article>

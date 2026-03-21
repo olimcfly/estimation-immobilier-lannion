@@ -17,7 +17,7 @@
     border-bottom: 1px solid var(--admin-border);
   }
   .history-table tr:last-child td { border-bottom: none; }
-  .history-table tr:hover td { background: rgba(139, 21, 56, 0.03); }
+  .history-table tr:hover td { background: rgba(27, 107, 138, 0.03); }
 
   .history-thumb {
     width: 60px; height: 40px; object-fit: cover; border-radius: 4px;
@@ -27,11 +27,11 @@
     display: inline-block; padding: 0.2rem 0.5rem; border-radius: 4px;
     font-size: 0.75rem; font-weight: 600;
   }
-  .template-badge.estimation { background: rgba(139,21,56,0.1); color: #8B1538; }
-  .template-badge.conseil { background: rgba(212,175,55,0.15); color: #b8960a; }
+  .template-badge.estimation { background: rgba(27,107,138,0.1); color: #1B6B8A; }
+  .template-badge.conseil { background: rgba(212,131,107,0.15); color: #b8960a; }
   .template-badge.stat { background: rgba(15,23,42,0.1); color: #0f172a; }
-  .template-badge.story { background: rgba(139,21,56,0.1); color: #8B1538; }
-  .template-badge.paysage { background: rgba(45,10,24,0.1); color: #2d0a18; }
+  .template-badge.story { background: rgba(27,107,138,0.1); color: #1B6B8A; }
+  .template-badge.paysage { background: rgba(13,58,72,0.1); color: #0D3A48; }
 
   .history-actions { display: flex; gap: 0.5rem; }
   .btn-sm {

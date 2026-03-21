@@ -52,7 +52,7 @@
   }
 
   .dbdiag-btn-primary:hover {
-    background: #6b0f2d;
+    background: #145A73;
     color: #fff;
   }
 

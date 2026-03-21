@@ -71,11 +71,11 @@ final class ImageGeneratorService
         $style = $style !== '' ? $style : 'moderne et lumineux';
 
         $prompts = [
-            'estimation' => "Photo professionnelle immobilière d'une belle propriété {$style} dans le quartier {$quartier} à Lannion. Vue extérieure avec façade en pierre de lannione typique, lumière naturelle dorée du soleil couchant, végétation soignée. Style éditorial haut de gamme pour agence immobilière.",
-            'interieur' => "Photo d'intérieur immobilier professionnel, salon {$style} dans un appartement de lannion haussmannien, parquet en point de Hongrie, hauts plafonds avec moulures, grandes fenêtres lumineuses. Décoration épurée et chaleureuse. Photographie immobilière éditoriale.",
-            'quartier' => "Vue panoramique du quartier {$quartier} à Lannion, architecture typique en pierre blonde, rues piétonnes animées, terrasses de cafés. Ambiance chaleureuse et authentique du Sud-Ouest. Photographie urbaine professionnelle.",
-            'blog' => "Illustration éditoriale pour blog immobilier, concept de l'estimation immobilière à Lannion. Maison de lannione en pierre avec une loupe ou des éléments graphiques subtils représentant l'analyse de marché. Style professionnel et moderne.",
-            'cta' => "Image d'appel à l'action pour site immobilier, couple souriant devant une belle maison de lannione {$style}, ambiance positive et professionnelle. Espace pour superposition de texte. Photographie lifestyle immobilier.",
+            'estimation' => "Photo professionnelle immobilière d'une belle propriété {$style} dans le quartier {$quartier} à Lannion. Vue extérieure avec façade en granit breton typique, lumière naturelle douce, végétation soignée. Style éditorial haut de gamme pour agence immobilière.",
+            'interieur' => "Photo d'intérieur immobilier professionnel, salon {$style} dans une maison bretonne à Lannion, poutres apparentes, grandes fenêtres lumineuses donnant sur un jardin. Décoration épurée et chaleureuse. Photographie immobilière éditoriale.",
+            'quartier' => "Vue panoramique du quartier {$quartier} à Lannion, architecture typique en granit rose breton, maisons à colombages, rues médiévales animées. Ambiance chaleureuse et authentique de Bretagne. Photographie urbaine professionnelle.",
+            'blog' => "Illustration éditoriale pour blog immobilier, concept de l'estimation immobilière à Lannion. Maison bretonne en granit avec une loupe ou des éléments graphiques subtils représentant l'analyse de marché. Style professionnel et moderne.",
+            'cta' => "Image d'appel à l'action pour site immobilier, couple souriant devant une belle maison bretonne {$style} à Lannion, ambiance positive et professionnelle. Espace pour superposition de texte. Photographie lifestyle immobilier.",
         ];
 
         return $prompts[$type] ?? $prompts['blog'];

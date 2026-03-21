@@ -43,7 +43,7 @@
           "L'avis de valeur était très proche de l'offre reçue. Recommandé pour avoir une estimation fiable avant de vendre à Lannion !"
         </p>
         <p style="margin: 0.8rem 0 0; font-size: 0.85rem; color: var(--muted); font-weight: 600;">
-          — Marie D. • Lannion Chartrons
+          — Marie D. • Lannion Centre
         </p>
       </div>
 
@@ -103,7 +103,7 @@
             type="text"
             id="ville"
             name="ville"
-            placeholder="Lannion, Talence, Mérignac..."
+            placeholder="Lannion, Perros-Guirec, Trégastel..."
             required
             autocomplete="off"
           >

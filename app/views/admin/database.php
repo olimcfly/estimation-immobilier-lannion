@@ -73,7 +73,7 @@
   }
 
   .btn-connect:hover {
-    background: #6b0f2d;
+    background: #145A73;
   }
 
   .btn-disconnect {

@@ -36,7 +36,7 @@
       <article class="card">
         <div style="display: grid; grid-template-columns: 120px 1fr; gap: 2rem; align-items: start;">
           <div style="text-align: center;">
-            <div style="width: 100px; height: 100px; background: linear-gradient(135deg, var(--primary), #C41E3A); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5rem; font-weight: 700; margin: 0 auto;">1</div>
+            <div style="width: 100px; height: 100px; background: linear-gradient(135deg, var(--primary), #145A73); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5rem; font-weight: 700; margin: 0 auto;">1</div>
           </div>
           <div>
             <h3 style="margin: 0 0 0.5rem; font-size: 1.3rem;">
@@ -77,7 +77,7 @@
       <article class="card" style="background: rgba(var(--accent-rgb), 0.03);">
         <div style="display: grid; grid-template-columns: 120px 1fr; gap: 2rem; align-items: start;">
           <div style="text-align: center;">
-            <div style="width: 100px; height: 100px; background: linear-gradient(135deg, var(--accent), #E8C547); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5rem; font-weight: 700; margin: 0 auto;">2</div>
+            <div style="width: 100px; height: 100px; background: linear-gradient(135deg, var(--accent), #E09A85); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5rem; font-weight: 700; margin: 0 auto;">2</div>
           </div>
           <div>
             <h3 style="margin: 0 0 0.5rem; font-size: 1.3rem;">
@@ -343,7 +343,7 @@
         <div style="display: grid; gap: 1rem;">
           <div style="padding: 0.8rem; background: var(--surface); border-left: 3px solid var(--accent); border-radius: 4px;">
             <p style="margin: 0 0 0.3rem; font-weight: 600; font-size: 0.95rem;">Quartier exact</p>
-            <p style="margin: 0; font-size: 0.85rem; color: var(--muted);">Chartrons vs Saint-Michel → prix différents.</p>
+            <p style="margin: 0; font-size: 0.85rem; color: var(--muted);">Centre Historique vs Brélévenez → prix différents.</p>
           </div>
           <div style="padding: 0.8rem; background: var(--surface); border-left: 3px solid var(--accent); border-radius: 4px;">
             <p style="margin: 0 0 0.3rem; font-weight: 600; font-size: 0.95rem;">Proximité transports</p>
@@ -465,7 +465,7 @@
           <i class="fas fa-database"></i> 5000+ transactions
         </h3>
         <p>
-          Biens analysés dans notre base de données. Couverture complète du marché de lannion & région.
+          Biens analysés dans notre base de données. Couverture complète du marché de Lannion & région.
         </p>
       </article>
 

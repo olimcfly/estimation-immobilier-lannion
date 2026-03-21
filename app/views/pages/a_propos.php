@@ -9,7 +9,7 @@
       <p class="eyebrow">
         <i class="fas fa-info-circle"></i> À propos de nous
       </p>
-      <h1>L'expertise immobilière de lannione à votre service</h1>
+      <h1>L'expertise immobilière lannionnaise à votre service</h1>
       <p class="lead">
         Depuis 2023, nous accompagnons les vendeurs de Lannion et région à valoriser leur bien immobilier avec fiabilité et professionnalisme.
       </p>
@@ -43,7 +43,7 @@
         <h2>Notre Vision</h2>
         <p>
           Devenir la plateforme de référence pour l'estimation immobilière en Côtes-d'Armor, 
-          en combinant technologie intelligente et expertise locale du marché de lannion.
+          en combinant technologie intelligente et expertise locale du marché de Lannion.
         </p>
       </article>
     </div>
@@ -115,7 +115,7 @@
         <h3>Olivier Colas</h3>
         <p class="team-role">Fondateur & Expert Immobilier</p>
         <p class="team-bio">
-          25 ans d'expérience immobilière. Ancien directeur d'agence, spécialiste du marché de lannion. 
+          25 ans d'expérience immobilière. Ancien directeur d'agence, spécialiste du marché de Lannion. 
           Passionné par l'innovation et la transparence.
         </p>
       </article>
@@ -128,7 +128,7 @@
         <h3>Sophie Dupont</h3>
         <p class="team-role">Analyste Marché Immobilier</p>
         <p class="team-bio">
-          Données & analyse. Suit en temps réel les tendances du marché de lannion. 
+          Données & analyse. Suit en temps réel les tendances du marché de Lannion. 
           Garantit la précision de chaque estimation grâce à l'algorithme propriétaire.
         </p>
       </article>
@@ -308,7 +308,7 @@
         </div>
         <h3>Lannion Centre</h3>
         <p>
-          Chartrons, Vieux Lannion, Pey Berland. Marché premium, quartiers historiques avec forte demande.
+          Centre Historique, Brélévenez. Marché premium, quartiers historiques avec forte demande.
         </p>
       </article>
 
@@ -319,7 +319,7 @@
         </div>
         <h3>Rive Gauche</h3>
         <p>
-          Saint-Michel, Sainte-Croix, Bacalan. Quartiers dynamiques, rénovation urbaine en cours.
+          Servel, Technopole. Quartiers dynamiques, développement économique en cours.
         </p>
       </article>
 
@@ -330,7 +330,7 @@
         </div>
         <h3>Banlieue Proche</h3>
         <p>
-          Talence, Floirac, Villenave. Familles, maisons, proximité avec centre-ville.
+          Loguivy-lès-Lannion, Ker Uhel. Familles, maisons, proximité avec centre-ville.
         </p>
       </article>
 
@@ -341,7 +341,7 @@
         </div>
         <h3>Région Côtes-d'Armor</h3>
         <p>
-          Saint-Émilion, Pauillac, Libourne. Extension progressive vers les communes girondines.
+          Perros-Guirec, Trégastel, Trébeurden. Extension progressive vers les communes du Trégor.
         </p>
       </article>
 
@@ -352,7 +352,7 @@
         </div>
         <h3>Secteur Nord</h3>
         <p>
-          Bruges, Caudéran. Zones résidentielles, familles, petits commerces.
+          Pouldiguy, Rusquet. Zones résidentielles, familles, petits commerces.
         </p>
       </article>
 
@@ -363,7 +363,7 @@
         </div>
         <h3>Secteur Merignac</h3>
         <p>
-          Mérignac, Pessac. Proximité aéroport, commerces, zone dynamique.
+          Beg Léguer, Côte de Granit Rose. Proximité côte, tourisme, zone attractive.
         </p>
       </article>
     </div>
@@ -401,7 +401,7 @@
         </h3>
         <p>
           Depuis 2023. Nous avons déjà réalisé plus de 3 800 estimations avec une satisfaction client de 4.8/5. 
-          Une équipe jeune mais expérimentée du marché de lannion.
+          Une équipe jeune mais expérimentée du marché de Lannion.
         </p>
       </article>
 
