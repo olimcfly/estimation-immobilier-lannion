@@ -47,6 +47,7 @@ return [
         'endpoint' => $_ENV['PERPLEXITY_ENDPOINT'] ?? 'https://api.perplexity.ai/chat/completions',
     ],
     'mail' => [
+        'driver' => $_ENV['MAIL_DRIVER'] ?? 'smtp',
         'from' => $_ENV['MAIL_FROM_ADDRESS'] ?? $_ENV['MAIL_FROM'] ?? 'contact@estimation-immobilier-lannion.fr',
         'from_name' => $_ENV['MAIL_FROM_NAME'] ?? 'Estimation Immobilier Lannion',
         'admin_email' => $_ENV['MAIL_ADMIN_EMAIL'] ?? $_ENV['MAIL_FROM_ADDRESS'] ?? $_ENV['MAIL_FROM'] ?? 'contact@estimation-immobilier-lannion.fr',
@@ -55,6 +56,20 @@ return [
         'smtp_user' => $_ENV['MAIL_SMTP_USER'] ?? $_ENV['MAIL_USERNAME'] ?? '',
         'smtp_pass' => $_ENV['MAIL_SMTP_PASS'] ?? $_ENV['MAIL_PASSWORD'] ?? '',
         'smtp_encryption' => $_ENV['MAIL_SMTP_ENCRYPTION'] ?? $_ENV['MAIL_ENCRYPTION'] ?? 'tls',
+    ],
+    'imap' => [
+        'host' => $_ENV['IMAP_HOST'] ?? '',
+        'port' => (int) ($_ENV['IMAP_PORT'] ?? 993),
+        'username' => $_ENV['IMAP_USERNAME'] ?? '',
+        'password' => $_ENV['IMAP_PASSWORD'] ?? '',
+        'encryption' => $_ENV['IMAP_ENCRYPTION'] ?? 'ssl',
+    ],
+    'pop3' => [
+        'host' => $_ENV['POP3_HOST'] ?? '',
+        'port' => (int) ($_ENV['POP3_PORT'] ?? 995),
+        'username' => $_ENV['POP3_USERNAME'] ?? '',
+        'password' => $_ENV['POP3_PASSWORD'] ?? '',
+        'encryption' => $_ENV['POP3_ENCRYPTION'] ?? 'ssl',
     ],
     'openai' => [
         'api_key' => $_ENV['OPENAI_API_KEY'] ?? '',
