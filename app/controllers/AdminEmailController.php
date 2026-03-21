@@ -223,7 +223,7 @@ final class AdminEmailController
                 CURLOPT_POSTFIELDS => json_encode([
                     'model' => $model,
                     'messages' => [
-                        ['role' => 'system', 'content' => 'Tu es un assistant sp&eacute;cialis&eacute; en r&eacute;daction d\'emails immobiliers professionnels pour le march&eacute; de lannion.'],
+                        ['role' => 'system', 'content' => 'Tu es un assistant sp&eacute;cialis&eacute; en r&eacute;daction d\'emails immobiliers professionnels pour le march&eacute; de Lannion.'],
                         ['role' => 'user', 'content' => $prompt],
                     ],
                     'temperature' => 0.7,

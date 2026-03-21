@@ -37,7 +37,7 @@ $articles = [
         'status' => 'published',
         'content' => <<<'HTML'
 <h2>Pourquoi une estimation précise est essentielle à Lannion</h2>
-<p>Le marché immobilier de lannion reste l'un des plus dynamiques de France, mais aussi l'un des plus exigeants. En 2026, le prix moyen au m² à Lannion se situe autour de <strong>4 800 €</strong>, avec des écarts considérables selon les quartiers. Une estimation trop haute fait fuir les acheteurs ; trop basse, vous perdez de l'argent.</p>
+<p>Le marché immobilier de Lannion reste dynamique, porté par le bassin d'emploi technologique du Trégor. En 2026, le prix moyen au m² à Lannion se situe autour de <strong>1 800 €</strong>, avec des écarts selon les quartiers. Une estimation trop haute fait fuir les acheteurs ; trop basse, vous perdez de l'argent.</p>
 
 <h2>Les 3 méthodes d'estimation utilisées par les professionnels</h2>
 
@@ -45,18 +45,18 @@ $articles = [
 <p>C'est la méthode la plus courante. Elle consiste à comparer votre bien avec des ventes récentes similaires dans le même quartier. À Lannion, les données DVF (Demandes de Valeurs Foncières) permettent d'accéder aux transactions réelles des 5 dernières années.</p>
 
 <h3>2. La méthode par capitalisation</h3>
-<p>Utilisée principalement pour les biens locatifs, elle évalue la valeur du bien en fonction des revenus locatifs qu'il génère. Un appartement T2 aux Chartrons loué 850 €/mois avec un rendement attendu de 4 % sera valorisé autour de 255 000 €.</p>
+<p>Utilisée principalement pour les biens locatifs, elle évalue la valeur du bien en fonction des revenus locatifs qu'il génère. Un appartement T2 au Centre Historique loué 450 €/mois avec un rendement attendu de 5 % sera valorisé autour de 108 000 €.</p>
 
 <h3>3. La méthode par le coût de remplacement</h3>
-<p>Plus rare, elle calcule combien coûterait la reconstruction du bien à neuf, moins la vétusté. Elle est pertinente pour les maisons atypiques ou les biens de caractère dans des quartiers comme Saint-Pierre.</p>
+<p>Plus rare, elle calcule combien coûterait la reconstruction du bien à neuf, moins la vétusté. Elle est pertinente pour les maisons atypiques ou les biens de caractère dans des quartiers comme Brélévenez.</p>
 
 <h2>Les facteurs qui font varier le prix à Lannion</h2>
 <ul>
-<li><strong>Le quartier</strong> : les Chartrons, le Triangle d'Or et Saint-Pierre affichent les prix les plus élevés (6 000-8 000 €/m²)</li>
+<li><strong>Le quartier</strong> : le Centre Historique, Brélévenez et Servel affichent les prix les plus élevés (2 200-2 600 €/m²)</li>
 <li><strong>L'étage et la luminosité</strong> : un dernier étage avec ascenseur gagne 10-15 % par rapport au rez-de-chaussée</li>
 <li><strong>Le DPE</strong> : un bien classé F ou G subit une décote de 10 à 20 % depuis les nouvelles réglementations</li>
 <li><strong>L'extérieur</strong> : terrasse, balcon ou jardin ajoutent 5 à 15 % de valeur selon la surface</li>
-<li><strong>Le stationnement</strong> : un parking en centre-ville peut valoir 25 000 à 40 000 € seul</li>
+<li><strong>Le stationnement</strong> : un parking en centre-ville peut valoir 8 000 à 15 000 € seul</li>
 </ul>
 
 <h2>Les erreurs classiques à éviter</h2>
@@ -69,7 +69,7 @@ $articles = [
 <h3>En combien de temps peut-on vendre à Lannion ?</h3>
 <p>Le délai moyen de vente à Lannion est de 60 à 90 jours pour un bien correctement estimé. Un bien surévalué peut rester plus de 6 mois sur le marché.</p>
 
-<p><strong>Estimez votre bien gratuitement</strong> : notre outil utilise les données réelles du marché de lannion pour vous fournir une fourchette fiable en moins de 2 minutes. <a href="/estimation">Lancer mon estimation →</a></p>
+<p><strong>Estimez votre bien gratuitement</strong> : notre outil utilise les données réelles du marché de Lannion pour vous fournir une fourchette fiable en moins de 2 minutes. <a href="/estimation">Lancer mon estimation →</a></p>
 HTML,
     ],
     [
@@ -95,7 +95,7 @@ HTML,
 <h2>Les atouts à mettre en avant pour vendre vite</h2>
 
 <h3>L'authenticité du bâti</h3>
-<p>Les échoppes de lanniones, les immeubles en pierre blonde, les parquets anciens et les moulures sont des arguments de vente majeurs. Ne les cachez pas sous des faux plafonds ou du placo — les acheteurs veulent du « vrai Lannion ».</p>
+<p>Les maisons en granit de Lannion, les colombages typiques, les parquets anciens et les cheminées bretonnes sont des arguments de vente majeurs. Ne les cachez pas sous des faux plafonds ou du placo — les acheteurs veulent du « vrai Lannion ».</p>
 
 <h3>La vie de quartier</h3>
 <p>Le marché des Chartrons (dimanche matin), la rue Notre-Dame avec ses antiquaires, les quais pour le jogging et le vélo… Mentionnez ces éléments dans votre annonce, ils font partie du produit.</p>
@@ -117,7 +117,7 @@ HTML,
 HTML,
     ],
     [
-        'title' => 'DPE et valeur immobilière : ce que tout propriétaire de lannion doit savoir',
+        'title' => 'DPE et valeur immobilière : ce que tout propriétaire de Lannion doit savoir',
         'slug' => 'dpe-valeur-immobiliere-lannion-proprietaire',
         'meta_title' => 'DPE Lannion : impact sur la valeur de votre bien immobilier',
         'meta_description' => 'Comment le DPE influence le prix de vente de votre bien à Lannion. Décotes par classe énergétique, aides à la rénovation et stratégies pour vendre malgré un mauvais DPE.',
@@ -129,7 +129,7 @@ HTML,
 <p>Depuis les réformes réglementaires, le Diagnostic de Performance Énergétique (DPE) n'est plus un simple document administratif. Il conditionne directement la valeur de votre bien, sa capacité à être loué, et la vitesse à laquelle il se vendra. À Lannion, où le parc immobilier ancien est majoritaire, c'est un sujet qui concerne <strong>plus de 40 % des propriétaires</strong>.</p>
 
 <h2>L'impact concret du DPE sur les prix à Lannion</h2>
-<p>Les données du marché de lannion montrent des écarts significatifs :</p>
+<p>Les données du marché de Lannion montrent des écarts significatifs :</p>
 <ul>
 <li><strong>Classe A-B</strong> : prime de +6 à +10 % par rapport au prix moyen du quartier</li>
 <li><strong>Classe C-D</strong> : prix dans la moyenne du marché, aucune décote</li>
