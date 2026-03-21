@@ -73,32 +73,32 @@ $articles = [
 HTML,
     ],
     [
-        'title' => 'Vendre dans les Chartrons : guide complet du quartier le plus prisé de Lannion',
-        'slug' => 'vendre-chartrons-guide-quartier-lannion',
-        'meta_title' => 'Vendre aux Chartrons Lannion : prix, conseils et stratégie 2026',
-        'meta_description' => 'Guide complet pour vendre votre bien dans le quartier des Chartrons à Lannion. Prix au m², profil des acheteurs, délais de vente et conseils de mise en valeur.',
+        'title' => 'Vendre dans le Centre Historique : guide complet du quartier le plus prisé de Lannion',
+        'slug' => 'vendre-centre-historique-guide-quartier-lannion',
+        'meta_title' => 'Vendre au Centre Historique Lannion : prix, conseils et stratégie 2026',
+        'meta_description' => 'Guide complet pour vendre votre bien dans le Centre Historique de Lannion. Prix au m², profil des acheteurs, délais de vente et conseils de mise en valeur.',
         'persona' => 'Propriétaire pressé',
         'awareness_level' => 'produit',
         'status' => 'published',
         'content' => <<<'HTML'
-<h2>Les Chartrons : un quartier en or pour les vendeurs</h2>
-<p>Ancien quartier des négociants en vin, les Chartrons sont devenus l'adresse la plus recherchée de Lannion. Avec ses rues pavées, ses boutiques indépendantes et sa proximité avec les quais, le quartier attire familles aisées, jeunes cadres et investisseurs. Le prix moyen au m² y atteint <strong>5 500 à 7 000 €</strong> selon l'emplacement exact.</p>
+<h2>Le Centre Historique : un quartier en or pour les vendeurs</h2>
+<p>Cœur médiéval de Lannion avec ses maisons à colombages et à encorbellements, le Centre Historique est devenu l'adresse la plus recherchée de la ville. Avec ses ruelles pittoresques, ses commerces de proximité et sa situation en surplomb du Léguer, le quartier attire familles, jeunes actifs du secteur télécom et investisseurs. Le prix moyen au m² y atteint <strong>2 200 à 2 600 €</strong> selon l'emplacement exact.</p>
 
-<h2>Qui sont les acheteurs aux Chartrons ?</h2>
+<h2>Qui sont les acheteurs au Centre Historique ?</h2>
 <ul>
-<li><strong>Jeunes couples CSP+</strong> (30-40 ans) cherchant un T3/T4 avec cachet, budget 400 000 – 550 000 €</li>
-<li><strong>Familles</strong> en quête de maisons de ville ou grands appartements, budget 600 000 – 900 000 €</li>
-<li><strong>Investisseurs</strong> visant la location meublée haut de gamme ou la location saisonnière</li>
-<li><strong>Parisiens en mobilité</strong> séduits par la LGV (2h Paris-Lannion) et le cadre de vie</li>
+<li><strong>Jeunes couples actifs</strong> (30-40 ans) cherchant un T3/T4 avec cachet, budget 150 000 – 220 000 €</li>
+<li><strong>Familles</strong> en quête de maisons de ville ou grands appartements, budget 250 000 – 350 000 €</li>
+<li><strong>Investisseurs</strong> visant la location meublée ou la colocation étudiante</li>
+<li><strong>Cadres du secteur télécom</strong> travaillant sur le technopôle Anticipa et séduits par le cadre de vie breton</li>
 </ul>
 
 <h2>Les atouts à mettre en avant pour vendre vite</h2>
 
 <h3>L'authenticité du bâti</h3>
-<p>Les maisons en granit de Lannion, les colombages typiques, les parquets anciens et les cheminées bretonnes sont des arguments de vente majeurs. Ne les cachez pas sous des faux plafonds ou du placo — les acheteurs veulent du « vrai Lannion ».</p>
+<p>Les maisons à colombages et à encorbellements, les escaliers en granit, les parquets anciens et les cheminées en pierre sont des arguments de vente majeurs. Ne les cachez pas sous des faux plafonds ou du placo — les acheteurs veulent du caractère authentique.</p>
 
 <h3>La vie de quartier</h3>
-<p>Le marché des Chartrons (dimanche matin), la rue Notre-Dame avec ses antiquaires, les quais pour le jogging et le vélo… Mentionnez ces éléments dans votre annonce, ils font partie du produit.</p>
+<p>Le marché de Lannion (jeudi matin place du Centre), les escaliers de Brélévenez, les berges du Léguer pour la promenade et le vélo… Mentionnez ces éléments dans votre annonce, ils font partie du produit.</p>
 
 <h3>Les transports</h3>
 <p>La ligne C du tramway dessert le quartier. L'accès à la rocade est rapide via les quais. Précisez les distances : 10 min à pied du Grand Théâtre, 15 min en tram de la gare Saint-Jean.</p>
