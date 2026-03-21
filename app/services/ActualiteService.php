@@ -11,7 +11,7 @@ final class ActualiteService
     private const SEARCH_TOPICS = [
         'marché immobilier Lannion actualité prix',
         'immobilier Lannion Métropole tendances',
-        'vente immobilière Côtes-d'Armor nouveautés',
+        'vente immobilière Côtes-d\'Armor nouveautés',
         'prix immobilier quartiers Lannion évolution',
         'investissement immobilier Lannion CUB',
         'immobilier neuf Lannion programmes',
@@ -36,7 +36,7 @@ final class ActualiteService
         }
 
         $prompt = sprintf(
-            "Recherche les actualités immobilières récentes à Lannion et ses alentours (Côtes-d'Armor, Bretagne) sur le thème : \"%s\".\n"
+            "Recherche les actualités immobilières récentes à Lannion et ses alentours (Côtes-d\'Armor, Bretagne) sur le thème : \"%s\".\n"
             . "Retourne exactement 5 idées d'articles sous forme JSON avec les clés : title, summary, angle (l'angle éditorial unique).\n"
             . "Concentre-toi sur les données les plus récentes (dernière semaine/mois).\n"
             . "Réponds UNIQUEMENT en JSON valide : {\"articles\": [...]}",
@@ -125,7 +125,7 @@ final class ActualiteService
             'temperature' => 0.7,
             'response_format' => ['type' => 'json_object'],
             'messages' => [
-                ['role' => 'system', 'content' => 'Tu es un journaliste immobilier spécialisé sur Lannion et la Côtes-d'Armor. Tu rédiges des articles professionnels et engageants.'],
+                ['role' => 'system', 'content' => 'Tu es un journaliste immobilier spécialisé sur Lannion et les Côtes-d\'Armor. Tu rédiges des articles professionnels et engageants.'],
                 ['role' => 'user', 'content' => $prompt],
             ],
         ], [
@@ -222,7 +222,7 @@ final class ActualiteService
             ['title' => 'Nouveaux projets urbains dans l\'agglomération de Lannion', 'summary' => 'Plusieurs projets d\'aménagement transforment le paysage immobilier.', 'angle' => 'Impact sur les valeurs immobilières'],
             ['title' => 'Taux de crédit : impact sur le marché de Lannion', 'summary' => 'L\'évolution des taux influence les décisions d\'achat et de vente.', 'angle' => 'Opportunités pour vendeurs'],
             ['title' => 'Le marché locatif étudiant à Lannion', 'summary' => 'La demande locative étudiante reste forte dans certains quartiers.', 'angle' => 'Investissement locatif'],
-            ['title' => 'Rénovation énergétique : les aides disponibles en Côtes-d'Armor', 'summary' => 'Les nouvelles réglementations impactent la valeur des biens.', 'angle' => 'Valorisation du patrimoine'],
+            ['title' => 'Rénovation énergétique : les aides disponibles en Côtes-d\'Armor', 'summary' => 'Les nouvelles réglementations impactent la valeur des biens.', 'angle' => 'Valorisation du patrimoine'],
         ];
     }
 

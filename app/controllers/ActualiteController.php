@@ -34,7 +34,7 @@ final class ActualiteController
             'totalPages' => $totalPages,
             'total' => $total,
             'page_title' => 'Actualités Immobilières Lannion',
-            'meta_description' => 'Suivez l\'actualité du marché immobilier à Lannion et en Côtes-d'Armor. Analyses, tendances des prix, projets urbains et conseils pour vendeurs.',
+            'meta_description' => 'Suivez l\'actualité du marché immobilier à Lannion et en Côtes-d\'Armor. Analyses, tendances des prix, projets urbains et conseils pour vendeurs.',
         ]);
     }
 
