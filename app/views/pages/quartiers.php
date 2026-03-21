@@ -3,76 +3,76 @@ $page_title = 'Quartiers de Lannion - Estimation Immobilière Lannion | Guide D�
 
 $quartiers = [
     [
-        'nom' => 'Centre-Ville',
-        'description' => "Le cœur battant de Lannion, entre patrimoine historique, rues animées et offres culturelles. Idéal pour celles et ceux qui recherchent une vie urbaine active.",
-        'prix_m2' => 3400,
-        'prix_moyen' => 425000,
-        'caracteristiques' => ['Commerces', 'Services', 'Écoles', 'Animations'],
+        'nom' => 'Centre Historique',
+        'description' => "Coeur médiéval de Lannion avec ses maisons à colombages, ses escaliers de Brélévenez et ses places animées. Charme authentique breton, commerces et marchés.",
+        'prix_m2' => 2400,
+        'prix_moyen' => 200000,
+        'caracteristiques' => ['Médiéval', 'Colombages', 'Patrimoine', 'Marché'],
         'population' => '~5000 habitants',
-        'transports' => 'Gare SNCF, Bus urbains',
+        'transports' => 'Bus TILT, Centre piéton',
         'attractivite' => 'Haute',
-        'coords' => '48.7322,-3.4580',
-        'tendance' => '+5.2%',
-    ],
-    [
-        'nom' => 'Trégor',
-        'description' => 'Quartier résidentiel apprécié pour ses maisons familiales, son calme et ses perspectives ouvertes vers la campagne et le littoral.',
-        'prix_m2' => 2800,
-        'prix_moyen' => 350000,
-        'caracteristiques' => ['Résidentiel', 'Maisons', 'Nature', 'Vue campagne/mer'],
-        'population' => '~3500 habitants',
-        'transports' => 'Bus de proximité, accès routiers rapides',
-        'attractivite' => 'Moyenne à haute',
-        'coords' => '48.7279,-3.4710',
+        'coords' => '48.7320,-3.4580',
         'tendance' => '+3.8%',
     ],
     [
-        'nom' => 'Port',
-        'description' => 'Secteur emblématique de Lannion, marqué par son histoire portuaire, ses maisons de caractère et ses vues recherchées sur l\'eau.',
-        'prix_m2' => 3600,
-        'prix_moyen' => 480000,
-        'caracteristiques' => ['Patrimoine', 'Vue eau', 'Prestige', 'Maisons de caractère'],
-        'population' => '~2200 habitants',
-        'transports' => 'Accès centre-ville, axes doux piétons/vélos',
-        'attractivite' => 'Très haute',
-        'coords' => '48.7285,-3.4469',
-        'tendance' => '+7.1%',
-    ],
-    [
         'nom' => 'Brélévenez',
-        'description' => 'Quartier perché offrant de belles vues panoramiques, un environnement résidentiel paisible et un cadre patrimonial fort.',
-        'prix_m2' => 3100,
-        'prix_moyen' => 390000,
-        'caracteristiques' => ['Panorama', 'Calme', 'Résidentiel', 'Patrimoine religieux'],
-        'population' => '~2800 habitants',
-        'transports' => 'Bus urbains, liaison rapide vers le centre',
+        'description' => "Quartier historique sur les hauteurs avec son église romane et ses 142 marches. Vue panoramique sur la vallée du Léguer. Maisons de caractère et ambiance paisible.",
+        'prix_m2' => 2200,
+        'prix_moyen' => 220000,
+        'caracteristiques' => ['Historique', 'Vue panoramique', 'Église romane', 'Calme'],
+        'population' => '~3000 habitants',
+        'transports' => 'Bus TILT, Piéton',
         'attractivite' => 'Haute',
-        'coords' => '48.7401,-3.4518',
-        'tendance' => '+4.3%',
-    ],
-    [
-        'nom' => 'Léguer',
-        'description' => 'Zone résidentielle péri-urbaine conviviale, adaptée aux familles et bien connectée aux commerces et services essentiels.',
-        'prix_m2' => 2900,
-        'prix_moyen' => 360000,
-        'caracteristiques' => ['Péri-urbain', 'Family friendly', 'Commerces proches', 'Cadre de vie pratique'],
-        'population' => '~3200 habitants',
-        'transports' => 'Bus, accès routier vers zones d\'activités',
-        'attractivite' => 'Moyenne',
-        'coords' => '48.7214,-3.4652',
-        'tendance' => '+2.5%',
-    ],
-    [
-        'nom' => 'Buttes',
-        'description' => 'Quartier mixte offrant un équilibre entre ambiance résidentielle calme et proximité des services urbains.',
-        'prix_m2' => 3050,
-        'prix_moyen' => 380000,
-        'caracteristiques' => ['Mixte', 'Calme', 'Services', 'Accessible'],
-        'population' => '~2600 habitants',
-        'transports' => 'Bus urbains, accès centre rapide',
-        'attractivite' => 'Moyenne à haute',
-        'coords' => '48.7350,-3.4600',
+        'coords' => '48.7350,-3.4550',
         'tendance' => '+3.2%',
+    ],
+    [
+        'nom' => 'Servel / Technopole',
+        'description' => "Secteur dynamique autour du technopole Anticipa. Pôle télécom historique (Orange, Nokia), logements récents et campus universitaire. Attractif pour les ingénieurs et chercheurs.",
+        'prix_m2' => 2300,
+        'prix_moyen' => 250000,
+        'caracteristiques' => ['Technopole', 'Innovation', 'Campus', 'Moderne'],
+        'population' => '~4000 habitants',
+        'transports' => 'Bus TILT, Voiture',
+        'attractivite' => 'Haute',
+        'coords' => '48.7450,-3.4700',
+        'tendance' => '+4.5%',
+    ],
+    [
+        'nom' => 'Loguivy-lès-Lannion',
+        'description' => "Ancien village rattaché à Lannion, ambiance rurale préservée. Maisons en pierre, jardins et proximité de la campagne bretonne. Idéal pour ceux cherchant le calme.",
+        'prix_m2' => 1800,
+        'prix_moyen' => 180000,
+        'caracteristiques' => ['Rural', 'Pierre', 'Calme', 'Nature'],
+        'population' => '~2500 habitants',
+        'transports' => 'Bus TILT, Voiture',
+        'attractivite' => 'Moyenne',
+        'coords' => '48.7200,-3.4400',
+        'tendance' => '+5.2%',
+    ],
+    [
+        'nom' => 'Ker Uhel / Pouldiguy',
+        'description' => "Quartier résidentiel avec équipements sportifs et parc de loisirs. Pavillons récents, commerces de proximité et vie de quartier active. Bon rapport qualité-prix.",
+        'prix_m2' => 2000,
+        'prix_moyen' => 210000,
+        'caracteristiques' => ['Résidentiel', 'Sport', 'Loisirs', 'Familles'],
+        'population' => '~3500 habitants',
+        'transports' => 'Bus TILT, Pistes cyclables',
+        'attractivite' => 'Moyenne à haute',
+        'coords' => '48.7280,-3.4650',
+        'tendance' => '+3.5%',
+    ],
+    [
+        'nom' => 'Beg Léguer / Côte',
+        'description' => "Secteur côtier entre Lannion et la mer. Proximité des plages de la Côte de Granit Rose. Résidences principales et secondaires, cadre exceptionnel entre terre et mer.",
+        'prix_m2' => 2600,
+        'prix_moyen' => 280000,
+        'caracteristiques' => ['Côtier', 'Plages', 'Granit Rose', 'Cadre exceptionnel'],
+        'population' => '~2000 habitants',
+        'transports' => 'Voiture, Bus saisonnier',
+        'attractivite' => 'Très haute',
+        'coords' => '48.7500,-3.5000',
+        'tendance' => '+5.8%',
     ],
 ];
 ?>
@@ -126,7 +126,7 @@ $quartiers = [
       <iframe
         id="google-map-quartiers"
         title="Carte des quartiers de Lannion"
-        src="https://maps.google.com/maps?q=48.7322,-3.4580&z=13&output=embed"
+        src="https://maps.google.com/maps?q=44.8378,-0.5792&z=13&output=embed"
         width="100%"
         height="480"
         style="border: 0; border-radius: var(--radius-xl); display: block;"
@@ -161,7 +161,7 @@ $quartiers = [
               </p>
             </div>
             <div style="text-align: right;">
-              <div style="background: linear-gradient(135deg, rgba(0, 63, 135, 0.1), rgba(255, 215, 0, 0.08)); border-radius: var(--radius-lg); padding: var(--space-3) var(--space-4);">
+              <div style="background: linear-gradient(135deg, rgba(139, 21, 56, 0.1), rgba(212, 175, 55, 0.08)); border-radius: var(--radius-lg); padding: var(--space-3) var(--space-4);">
                 <p style="margin: 0; font-weight: 700; font-size: var(--size-lg); color: var(--primary);">
                   <?= number_format((int) $quartier['prix_m2'], 0, ',', ' '); ?> €/m²
                 </p>
@@ -263,7 +263,7 @@ $quartiers = [
           </tr>
         </thead>
         <tbody>
-          <?php foreach ($quartiers as $quartier): 
+          <?php foreach ($quartiers as $quartier):
             $prix_m2 = (int) $quartier['prix_m2'];
             $prix_moyen = (int) $quartier['prix_moyen'];
             $tendance = $quartier['tendance'];
@@ -313,12 +313,12 @@ $quartiers = [
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-4);">
-      <!-- Centre-Ville -->
+      <!-- Chartrons -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=500&q=80" 
-            alt="Centre-ville de Lannion" 
+          <img
+            src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier des Chartrons à Lannion"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -326,16 +326,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-building"></i> Centre-Ville
+          <i class="fas fa-wine-glass-alt"></i> Chartrons
         </figcaption>
       </figure>
 
-      <!-- Trégor -->
+      <!-- Saint-Pierre -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=500&q=80" 
-            alt="Quartier Trégor" 
+          <img
+            src="https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier Saint-Pierre Lannion"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -343,16 +343,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-tree"></i> Trégor
+          <i class="fas fa-landmark"></i> Saint-Pierre
         </figcaption>
       </figure>
 
-      <!-- Port -->
+      <!-- Saint-Michel -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&q=80" 
-            alt="Quartier Port de Lannion" 
+          <img
+            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier Saint-Michel Lannion"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -360,16 +360,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-water"></i> Port
+          <i class="fas fa-church"></i> Saint-Michel
         </figcaption>
       </figure>
 
-      <!-- Brélévenez -->
+      <!-- Caudéran -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=500&q=80" 
-            alt="Brélévenez - vue panoramique" 
+          <img
+            src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier résidentiel Caudéran"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -377,16 +377,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-mountain"></i> Brélévenez
+          <i class="fas fa-home"></i> Caudéran
         </figcaption>
       </figure>
 
-      <!-- Léguer -->
+      <!-- Bastide -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=500&q=80" 
-            alt="Quartier résidentiel Léguer" 
+          <img
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier Bastide - rive droite"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -394,16 +394,16 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-home"></i> Léguer
+          <i class="fas fa-water"></i> Bastide
         </figcaption>
       </figure>
 
-      <!-- Buttes -->
+      <!-- Mériadeck -->
       <figure style="margin: 0;">
         <div style="position: relative; overflow: hidden; border-radius: var(--radius-xl); height: 240px; background: var(--bg-alt);">
-          <img 
-            src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=500&q=80" 
-            alt="Quartier Buttes" 
+          <img
+            src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=500&q=80"
+            alt="Quartier Mériadeck"
             style="width: 100%; height: 100%; object-fit: cover; transition: transform var(--trans-base);"
             onmouseover="this.style.transform='scale(1.08)'"
             onmouseout="this.style.transform='scale(1)'"
@@ -411,7 +411,7 @@ $quartiers = [
           <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(0,0,0,0.4)); border-radius: var(--radius-xl);"></div>
         </div>
         <figcaption style="font-weight: 600; color: var(--text); margin-top: var(--space-2); font-size: var(--size-sm);">
-          <i class="fas fa-road"></i> Buttes
+          <i class="fas fa-building"></i> Mériadeck
         </figcaption>
       </figure>
     </div>
@@ -436,7 +436,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Quel est le quartier le plus dynamique ?
         </h3>
         <p>
-          Le Port affiche la tendance la plus forte (+7.1%) grâce à sa rénovation urbaine en cours et son attrait pour les investisseurs immobiliers. Centre-Ville et Brélévenez suivent étroitement.
+          La Bastide affiche la tendance la plus forte (+7.3%) grâce aux projets urbains majeurs (Darwin, Euratlantique). Saint-Michel suit avec +6.2% porté par la rénovation du quartier.
         </p>
       </article>
 
@@ -445,7 +445,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Quel quartier pour une famille ?
         </h3>
         <p>
-          Trégor et Léguer offrent un excellent rapport qualité/prix avec des maisons familiales, des espaces verts et une ambiance calme. Buttes est aussi un bon compromis entre services et tranquillité.
+          Caudéran est le quartier familial par excellence avec ses maisons avec jardin, ses écoles réputées et son ambiance résidentielle calme. Les Chartrons offrent aussi un excellent cadre de vie.
         </p>
       </article>
 
@@ -454,16 +454,16 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Où trouver le meilleur investissement ?
         </h3>
         <p>
-          Port et Centre-Ville combinent forte attractivité et bonnes perspectives de plusvalue. Les prix au m² y sont plus élevés mais l'évolution positive les justifie.
+          La Bastide et Saint-Michel combinent des prix encore accessibles avec de fortes perspectives de plus-value grâce aux projets de rénovation urbaine en cours.
         </p>
       </article>
 
       <article class="card faq-card">
         <h3>
-          <i class="fas fa-question-circle"></i> Existe-t-il un quartier tranquille et accessible ?
+          <i class="fas fa-question-circle"></i> Quel quartier offre le meilleur rapport qualité/prix ?
         </h3>
         <p>
-          Brélévenez et Buttes incarnent ce balance parfait : cadre résidentiel paisible avec accès rapide aux services du centre-ville via les transports.
+          Mériadeck et Saint-Michel proposent des prix au m² plus abordables tout en restant très centraux. Idéal pour les primo-accédants souhaitant rester intra-rocade.
         </p>
       </article>
 
@@ -472,7 +472,7 @@ $quartiers = [
           <i class="fas fa-question-circle"></i> Les prix varient-ils beaucoup d'un quartier à l'autre ?
         </h3>
         <p>
-          Oui, de 2 800 €/m² (Trégor) à 3 600 €/m² (Port). L'écart reflète l'attractivité, la proximité des services et le charme du quartier. Tous les prix restent compétitifs pour la région.
+          Oui, de 4 100 €/m² (Bastide) à 5 800 €/m² (Saint-Pierre). L'écart reflète la centralité, le patrimoine architectural et la demande. Lannion reste attractif comparé aux métropoles similaires.
         </p>
       </article>
 

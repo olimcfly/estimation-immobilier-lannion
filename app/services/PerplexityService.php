@@ -70,7 +70,7 @@ final class PerplexityService
         $baseline = 4200.0;
 
         if (str_contains(mb_strtolower($city), 'lannion')) {
-            $baseline = 3200.0;
+            $baseline = 4800.0;
         }
 
         if (str_contains(mb_strtolower($propertyType), 'maison')) {

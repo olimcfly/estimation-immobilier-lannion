@@ -15,7 +15,6 @@ final class PageController
     {
         View::render('pages/home', [
             'page_title' => 'Accueil - Estimation Immobilier Lannion',
-            'meta_description' => 'Estimez gratuitement votre bien immobilier à Lannion en 60 secondes. Algorithme basé sur 5000+ transactions réelles du Trégor. Sans engagement.',
         ]);
     }
 
@@ -23,7 +22,6 @@ final class PageController
     {
         View::render('pages/services', [
             'page_title' => 'Nos Services - Estimation Immobilier Lannion',
-            'meta_description' => 'Estimation gratuite, accompagnement expert et conseil immobilier premium à Lannion. De l\'estimation à la signature, un service complet et sans frais.',
         ]);
     }
 
@@ -31,7 +29,6 @@ final class PageController
     {
         View::render('pages/a_propos', [
             'page_title' => 'À Propos - Estimation Immobilier Lannion',
-            'meta_description' => 'Découvrez l\'équipe derrière Estimation Immobilier Lannion. Experts locaux du Trégor, 3 847 estimations réalisées, 4.8/5 de satisfaction client.',
         ]);
     }
 
@@ -74,7 +71,6 @@ final class PageController
     {
         View::render('pages/quartiers', [
             'page_title' => 'Quartiers de Lannion - Estimation Immobilier Lannion',
-            'meta_description' => 'Guide complet des 6 quartiers de Lannion : Centre-Ville, Trégor, Port, Brélévenez, Léguer, Buttes. Prix au m², tendances et caractéristiques.',
         ]);
     }
 
@@ -82,17 +78,9 @@ final class PageController
     {
         View::render('pages/contact', [
             'page_title' => 'Contact - Estimation Immobilier Lannion',
-            'meta_description' => 'Contactez notre équipe à Lannion par téléphone (02 96 05 30 00), email ou formulaire. Réponse sous 24h, lun-ven 9h-18h.',
         ]);
     }
 
-
-    public function podcast(): void
-    {
-        View::render('pages/podcast', [
-            'page_title' => 'Podcast Immobilier Lannion - Conseils & Tendances',
-        ]);
-    }
 
     public function newsletterSubscribe(): void
     {

@@ -5,7 +5,7 @@
 <!-- ============================================ -->
 <section class="section page-hero">
   <div class="container">
-    <div class="page-hero-inner">
+    <div class="page-hero-inner card">
       <p class="eyebrow">
         <i class="fas fa-briefcase"></i> Nos services
       </p>
@@ -43,7 +43,7 @@
         </div>
 
         <p>
-          Notre moteur analyse en temps réel les données du marché de Lannion pour vous fournir une fourchette de prix fiable. 
+          Notre moteur analyse en temps réel les données du marché de lannion pour vous fournir une fourchette de prix fiable. 
           Basée sur 5000+ transactions réelles, pas sur la théorie.
         </p>
 
@@ -387,7 +387,7 @@
         </div>
         <h3>Fiable</h3>
         <p>
-          3 800+ estimations réalisées, 4.8/5 de satisfaction client. Référence du marché lannionais.
+          3 800+ estimations réalisées, 4.8/5 de satisfaction client. Référence du marché de lannion.
         </p>
       </article>
     </div>
@@ -430,22 +430,25 @@
         </a>
       </div>
 
-      <div class="pricing-card card pricing-featured">
+        <a href="/estimation#form-estimation" class="btn btn-ghost btn-full">Commencer</a>
+      </article>
+
+      <article class="pricing-card card pricing-featured">
         <div class="pricing-badge primary">Recommandé</div>
         <h3>Accompagnement vendeur</h3>
-        <p class="pricing-price"><span class="price-value">Toujours</span> <span class="price-monthly">Gratuit</span></p>
-        <p class="pricing-description">RDV avec un pro, sur demande</p>
+        <p class="pricing-price"><span class="price-value">À partir de</span> <span class="price-monthly">99€/mois</span></p>
+        <p class="pricing-description">Pour vendre rapidement</p>
 
         <ul class="pricing-features">
           <li><i class="fas fa-check"></i> Estimation complète</li>
-          <li><i class="fas fa-check"></i> RDV téléphonique expert</li>
+          <li><i class="fas fa-check"></i> Accompagnement expert</li>
           <li><i class="fas fa-check"></i> Conseils pricing</li>
           <li><i class="fas fa-check"></i> Guide staging</li>
           <li><i class="fas fa-check"></i> Réponses illimitées</li>
           <li class="unavailable"><i class="fas fa-times"></i> Suivi transaction</li>
         </ul>
         <a href="/contact" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1.5rem;">
-          Demander un RDV gratuit
+          Être accompagné
         </a>
       </div>
 
@@ -478,8 +481,8 @@
     <div class="pricing-note">
       <p>
         <i class="fas fa-info-circle"></i> 
-        <strong>L'estimation et l'accompagnement sont 100% gratuits.</strong> Le plan Premium est réservé aux projets complexes
-        (succession, bien atypique, investissement). Demandez un devis personnalisé.
+        <strong>Les deux premiers plans sont gratuits.</strong> Le plan Premium est pour les projets de plus de 500k€ 
+        ou très complexes. Demandez un devis personnalisé.
       </p>
     </div>
   </div>

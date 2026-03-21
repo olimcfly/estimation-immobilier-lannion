@@ -14,7 +14,8 @@ final class BlogController
         try {
             $articleModel = new Article();
             $articles = $articleModel->findPublished();
-        } catch (\Throwable) {
+        } catch (\Throwable $e) {
+            error_log('Blog index error: ' . $e->getMessage());
             $articles = [];
         }
 
@@ -26,7 +27,8 @@ final class BlogController
         try {
             $articleModel = new Article();
             $article = $articleModel->findBySlug($slug);
-        } catch (\Throwable) {
+        } catch (\Throwable $e) {
+            error_log('Blog show error: ' . $e->getMessage());
             $article = null;
         }
 

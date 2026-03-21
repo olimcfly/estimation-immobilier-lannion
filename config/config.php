@@ -12,19 +12,19 @@ if (!defined('CITY_CODE_POSTAL')) {
     define('CITY_CODE_POSTAL', '22300');
 }
 if (!defined('QUARTIERS')) {
-    define('QUARTIERS', ['Centre-Ville', 'Trégor', 'Port', 'Brélévenez', 'Léguer']);
+    define('QUARTIERS', ['Chartrons', 'Saint-Pierre', 'Saint-Michel', 'Caudéran', 'Bastide', 'Mériadeck']);
 }
 if (!defined('PRIX_M2_MOYEN')) {
-    define('PRIX_M2_MOYEN', 3200);
+    define('PRIX_M2_MOYEN', 2100);
 }
 if (!defined('COLOR_PRIMARY')) {
-    define('COLOR_PRIMARY', '#003f87');
+    define('COLOR_PRIMARY', '#0D47A1');
 }
 if (!defined('COLOR_SECONDARY')) {
     define('COLOR_SECONDARY', '#FFFFFF');
 }
 if (!defined('COLOR_ACCENT')) {
-    define('COLOR_ACCENT', '#FFD700');
+    define('COLOR_ACCENT', '#00BFA5');
 }
 
 return [
@@ -34,10 +34,10 @@ return [
         'id' => (int) ($_ENV['WEBSITE_ID'] ?? 1),
     ],
     'db' => [
-        'host' => $_ENV['DB_HOST'] ?? 'localhost',
+        'host' => $_ENV['DB_HOST'] ?? '127.0.0.1',
         'port' => (int) ($_ENV['DB_PORT'] ?? 3306),
         'name' => $_ENV['DB_NAME'] ?? 'immobilier_lannion',
-        'user' => $_ENV['DB_USER'] ?? 'cool1933_lannion',
+        'user' => $_ENV['DB_USER'] ?? 'root',
         'pass' => $_ENV['DB_PASS'] ?? '',
         'charset' => $_ENV['DB_CHARSET'] ?? 'utf8mb4',
     ],
@@ -47,12 +47,34 @@ return [
         'endpoint' => $_ENV['PERPLEXITY_ENDPOINT'] ?? 'https://api.perplexity.ai/chat/completions',
     ],
     'mail' => [
-        'from' => $_ENV['MAIL_FROM'] ?? 'no-reply@localhost',
+        'from' => $_ENV['MAIL_FROM_ADDRESS'] ?? $_ENV['MAIL_FROM'] ?? 'contact@estimation-immobilier-lannion.fr',
+        'from_name' => $_ENV['MAIL_FROM_NAME'] ?? 'Estimation Immobilier Lannion',
+        'admin_email' => $_ENV['MAIL_ADMIN_EMAIL'] ?? $_ENV['MAIL_FROM_ADDRESS'] ?? $_ENV['MAIL_FROM'] ?? 'contact@estimation-immobilier-lannion.fr',
+        'smtp_host' => $_ENV['MAIL_SMTP_HOST'] ?? $_ENV['MAIL_HOST'] ?? '',
+        'smtp_port' => (int) ($_ENV['MAIL_SMTP_PORT'] ?? $_ENV['MAIL_PORT'] ?? 587),
+        'smtp_user' => $_ENV['MAIL_SMTP_USER'] ?? $_ENV['MAIL_USERNAME'] ?? '',
+        'smtp_pass' => $_ENV['MAIL_SMTP_PASS'] ?? $_ENV['MAIL_PASSWORD'] ?? '',
+        'smtp_encryption' => $_ENV['MAIL_SMTP_ENCRYPTION'] ?? $_ENV['MAIL_ENCRYPTION'] ?? 'tls',
     ],
     'openai' => [
         'api_key' => $_ENV['OPENAI_API_KEY'] ?? '',
         'model' => $_ENV['OPENAI_MODEL'] ?? 'gpt-4o-mini',
         'endpoint' => $_ENV['OPENAI_ENDPOINT'] ?? 'https://api.openai.com/v1/chat/completions',
+    ],
+    'anthropic' => [
+        'api_key' => $_ENV['ANTHROPIC_API_KEY'] ?? '',
+        'model' => $_ENV['ANTHROPIC_MODEL'] ?? 'claude-sonnet-4-20250514',
+    ],
+    'google_maps' => [
+        'api_key' => $_ENV['GOOGLE_MAPS_API_KEY'] ?? '',
+    ],
+    'sms_partner' => [
+        'api_key' => $_ENV['SMSPARTNER_API_KEY'] ?? '',
+    ],
+    'twilio' => [
+        'account_sid' => $_ENV['TWILIO_ACCOUNT_SID'] ?? '',
+        'auth_token' => $_ENV['TWILIO_AUTH_TOKEN'] ?? '',
+        'phone_number' => $_ENV['TWILIO_PHONE_NUMBER'] ?? '',
     ],
     'city' => [
         'name' => CITY_NAME,
@@ -88,6 +110,8 @@ return [
         'enabled' => filter_var($_ENV['MAINTENANCE_MODE'] ?? false, FILTER_VALIDATE_BOOLEAN),
         'retry_after' => (int) ($_ENV['MAINTENANCE_RETRY_AFTER'] ?? 3600),
         'allowed_paths' => [
+            '/admin/login',
+            '/admin/logout',
             '/admin/leads',
         ],
     ],

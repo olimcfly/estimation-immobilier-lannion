@@ -64,7 +64,7 @@ final class AIService
     {
         $apiKey = (string) Config::get('perplexity.api_key', '');
         if ($apiKey === '') {
-            return 'Tendance locale stable, demande soutenue sur Lannion et le Trégor, forte sensibilité au prix juste.';
+            return 'Tendance locale stable, demande soutenue sur Lannion intra-rocade, forte sensibilité au prix juste.';
         }
 
         $endpoint = (string) Config::get('perplexity.endpoint');
@@ -88,7 +88,7 @@ final class AIService
         ]);
 
         if (!is_array($response)) {
-            return 'Tendance locale stable, demande soutenue sur Lannion et le Trégor, forte sensibilité au prix juste.';
+            return 'Tendance locale stable, demande soutenue sur Lannion intra-rocade, forte sensibilité au prix juste.';
         }
 
         $content = $response['choices'][0]['message']['content'] ?? '';

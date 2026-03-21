@@ -5,7 +5,7 @@
 <!-- ============================================ -->
 <section class="section page-hero">
   <div class="container">
-    <div class="page-hero-inner">
+    <div class="page-hero-inner card">
       <p class="eyebrow">
         <i class="fas fa-eye"></i> Cas réels
       </p>
@@ -31,7 +31,7 @@
           <p class="eyebrow" style="margin: 0 0 0.5rem;">
             <i class="fas fa-home"></i> Cas #1
           </p>
-          <h2 style="margin: 0 0 1.5rem;">Appartement Centre-Ville, Lannion</h2>
+          <h2 style="margin: 0 0 1.5rem;">Appartement Chartrons, Lannion</h2>
           
           <!-- CARACTÉRISTIQUES -->
           <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem;">
@@ -40,7 +40,7 @@
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
               <div>
                 <p style="margin: 0 0 0.3rem; font-size: 0.85rem; text-transform: uppercase; color: var(--muted); font-weight: 700;">Localisation</p>
-                <p style="margin: 0; font-weight: 600;">Place du Centre, Lannion</p>
+                <p style="margin: 0; font-weight: 600;">Quai des Chartrons</p>
               </div>
               <div>
                 <p style="margin: 0 0 0.3rem; font-size: 0.85rem; text-transform: uppercase; color: var(--muted); font-weight: 700;">Code postal</p>
@@ -140,7 +140,7 @@
           <!-- ANALYSE -->
           <div style="background: rgba(var(--success-rgb), 0.05); border-left: 4px solid #22c55e; border-radius: 8px; padding: 1rem;">
             <p style="margin: 0 0 0.5rem; font-weight: 600; color: #22c55e;">✓ Analyse très positive</p>
-            <p style="margin: 0; color: var(--muted); font-size: 0.9rem;">Quartier Centre-Ville très demandé. Prix au m² 12% au-dessus de la moyenne lannionaise. Potentiel de vente excellent. Surface et type adaptés au marché.</p>
+            <p style="margin: 0; color: var(--muted); font-size: 0.9rem;">Quartier Chartrons très demandé. Prix au m² 12% au-dessus de la moyenne de lannione. Potentiel de vente excellent. Surface et type adaptés au marché.</p>
           </div>
         </div>
 
@@ -162,7 +162,7 @@
           <p class="eyebrow" style="margin: 0 0 0.5rem;">
             <i class="fas fa-house"></i> Cas #2
           </p>
-          <h2 style="margin: 0 0 1.5rem;">Maison Trégor, Périphérie Lannion</h2>
+          <h2 style="margin: 0 0 1.5rem;">Maison Talence, Banlieue Lannion</h2>
           
           <!-- CARACTÉRISTIQUES -->
           <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem;">
@@ -171,11 +171,11 @@
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
               <div>
                 <p style="margin: 0 0 0.3rem; font-size: 0.85rem; text-transform: uppercase; color: var(--muted); font-weight: 700;">Localisation</p>
-                <p style="margin: 0; font-weight: 600;">Trégor</p>
+                <p style="margin: 0; font-weight: 600;">Talence</p>
               </div>
               <div>
                 <p style="margin: 0 0 0.3rem; font-size: 0.85rem; text-transform: uppercase; color: var(--muted); font-weight: 700;">Code postal</p>
-                <p style="margin: 0; font-weight: 600;">22300</p>
+                <p style="margin: 0; font-weight: 600;">33400</p>
               </div>
               <div>
                 <p style="margin: 0 0 0.3rem; font-size: 0.85rem; text-transform: uppercase; color: var(--muted); font-weight: 700;">Type</p>
@@ -211,7 +211,7 @@
                   <li>Terrain spacieux</li>
                   <li>Garage double</li>
                   <li>Calme résidentiel</li>
-                  <li>Proximité commerces</li>
+                  <li>Proximité université</li>
                 </ul>
               </div>
               <div>
@@ -294,7 +294,7 @@
           <p class="eyebrow" style="margin: 0 0 0.5rem;">
             <i class="fas fa-apartment"></i> Cas #3
           </p>
-          <h2 style="margin: 0 0 1.5rem;">T2 Rénové Brélévenez, Lannion</h2>
+          <h2 style="margin: 0 0 1.5rem;">T2 Rénové Bacalan, Lannion</h2>
           
           <!-- CARACTÉRISTIQUES -->
           <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem;">
@@ -303,11 +303,11 @@
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
               <div>
                 <p style="margin: 0 0 0.3rem; font-size: 0.85rem; text-transform: uppercase; color: var(--muted); font-weight: 700;">Localisation</p>
-                <p style="margin: 0; font-weight: 600;">Brélévenez</p>
+                <p style="margin: 0; font-weight: 600;">Bacalan</p>
               </div>
               <div>
                 <p style="margin: 0 0 0.3rem; font-size: 0.85rem; text-transform: uppercase; color: var(--muted); font-weight: 700;">Code postal</p>
-                <p style="margin: 0; font-weight: 600;">22300</p>
+                <p style="margin: 0; font-weight: 600;">33300</p>
               </div>
               <div>
                 <p style="margin: 0 0 0.3rem; font-size: 0.85rem; text-transform: uppercase; color: var(--muted); font-weight: 700;">Type</p>
@@ -341,9 +341,9 @@
                 <p style="margin: 0 0 0.5rem; font-size: 0.85rem; text-transform: uppercase; color: #22c55e; font-weight: 700;">✓ Points positifs</p>
                 <ul style="margin: 0; padding-left: 1.5rem; font-size: 0.9rem;">
                   <li>Moderne & rénové</li>
-                  <li>Balcon vue panoramique</li>
-                  <li>Quartier prisé</li>
-                  <li>Proche centre</li>
+                  <li>Balcon vue sur fleuve</li>
+                  <li>Quartier branché</li>
+                  <li>Piscine en immeuble</li>
                 </ul>
               </div>
               <div>
@@ -352,7 +352,7 @@
                   <li>Surface réduite</li>
                   <li>1 chambre seulement</li>
                   <li>Pas de parking</li>
-                  <li>Copropriété récente</li>
+                  <li>Copropriété neuve</li>
                 </ul>
               </div>
             </div>

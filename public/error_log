@@ -20,3 +20,27 @@
 [20-Mar-2026 03:11:49 Europe/Paris] [router][404] method=POST uri=/d1337_2495n.php resolved_path=/d1337_2495n.php query=
 [20-Mar-2026 03:11:50 Europe/Paris] [router][404] method=POST uri=/d1337_2495n.php?pass=kontol resolved_path=/d1337_2495n.php query=?pass=kontol
 [20-Mar-2026 03:11:50 Europe/Paris] [router][404] method=POST uri=/static/d1337_2495n.php?pass=kontol resolved_path=/static/d1337_2495n.php query=?pass=kontol
+[20-Mar-2026 12:51:39 Europe/Paris] [router][404] method=GET uri=/favicon.ico resolved_path=/favicon.ico query=
+[20-Mar-2026 12:56:22 Europe/Paris] [router][404] method=GET uri=/favicon.ico resolved_path=/favicon.ico query=
+[20-Mar-2026 12:59:49 Europe/Paris] [router][404] method=GET uri=/favicon.ico resolved_path=/favicon.ico query=
+[20-Mar-2026 15:58:36 Europe/Paris] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'cool1933_lannion'@'localhost' (using password: NO)
+[20-Mar-2026 15:59:17 Europe/Paris] [router][404] method=GET uri=/faq resolved_path=/faq query=
+[20-Mar-2026 23:00:54 Europe/Paris] [router][404] method=GET uri=//wp-includes/wlwmanifest.xml resolved_path=/wlwmanifest.xml query=
+[20-Mar-2026 23:00:55 Europe/Paris] [router][404] method=GET uri=//blog/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:55 Europe/Paris] [router][404] method=GET uri=//web/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:55 Europe/Paris] [router][404] method=GET uri=//wordpress/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:55 Europe/Paris] [router][404] method=GET uri=//website/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:55 Europe/Paris] [router][404] method=GET uri=//wp/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:55 Europe/Paris] [router][404] method=GET uri=//news/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:56 Europe/Paris] [router][404] method=GET uri=//2018/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:56 Europe/Paris] [router][404] method=GET uri=//2019/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:56 Europe/Paris] [router][404] method=GET uri=//shop/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:56 Europe/Paris] [router][404] method=GET uri=//wp1/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:56 Europe/Paris] [router][404] method=GET uri=//test/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:57 Europe/Paris] [router][404] method=GET uri=//media/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:57 Europe/Paris] [router][404] method=GET uri=//wp2/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:57 Europe/Paris] [router][404] method=GET uri=//site/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:57 Europe/Paris] [router][404] method=GET uri=//cms/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:00:57 Europe/Paris] [router][404] method=GET uri=//sito/wp-includes/wlwmanifest.xml resolved_path=/wp-includes/wlwmanifest.xml query=
+[20-Mar-2026 23:49:57 Europe/Paris] [router][404] method=GET uri=/wordpress/ resolved_path=/wordpress/ query=
+[21-Mar-2026 11:08:48 Europe/Paris] [router][404] method=GET uri=/favicon.ico resolved_path=/favicon.ico query=

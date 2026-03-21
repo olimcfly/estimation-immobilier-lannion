@@ -1,6 +1,6 @@
 <section class="section page-hero">
   <div class="container">
-    <div class="page-hero-inner">
+    <div class="page-hero-inner card">
       <p class="eyebrow"><i class="fas fa-shield-alt"></i> Conformité</p>
       <h1>RGPD & cookies</h1>
       <p class="lead">Informations sur le traitement de vos données et l’usage des cookies sur notre plateforme.</p>
