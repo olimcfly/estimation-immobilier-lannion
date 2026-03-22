@@ -9,6 +9,25 @@ use PDO;
 
 final class LeadActivity
 {
+    public static function createTable(): void
+    {
+        Database::connection()->exec("
+            CREATE TABLE IF NOT EXISTS lead_activities (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                lead_id INT UNSIGNED NOT NULL,
+                activity_type VARCHAR(50) NOT NULL,
+                description TEXT NOT NULL,
+                created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                INDEX idx_lead_id (lead_id),
+                INDEX idx_activity_type (activity_type),
+                INDEX idx_created_at (created_at),
+                CONSTRAINT fk_lead_activities_lead
+                    FOREIGN KEY (lead_id) REFERENCES leads(id)
+                    ON DELETE CASCADE
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+        ");
+    }
+
     public function findByLeadId(int $leadId, int $limit = 50): array
     {
         $sql = 'SELECT * FROM lead_activities WHERE lead_id = :lead_id ORDER BY created_at DESC LIMIT ' . $limit;
