@@ -10,6 +10,32 @@ use PDO;
 
 final class Partenaire
 {
+    public static function createTable(): void
+    {
+        Database::connection()->exec("
+            CREATE TABLE IF NOT EXISTS partenaires (
+                id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                website_id INT UNSIGNED NOT NULL,
+                nom VARCHAR(180) NOT NULL,
+                entreprise VARCHAR(255) NULL,
+                email VARCHAR(180) NOT NULL,
+                telephone VARCHAR(40) NULL,
+                specialite VARCHAR(120) NULL,
+                zone_geographique VARCHAR(255) NULL,
+                commission_defaut DECIMAL(5,2) NULL DEFAULT 3.00,
+                statut ENUM('actif', 'inactif', 'prospect') NOT NULL DEFAULT 'actif',
+                notes TEXT NULL,
+                nb_mandats INT UNSIGNED NOT NULL DEFAULT 0,
+                ca_genere DECIMAL(12,2) NOT NULL DEFAULT 0.00,
+                created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                INDEX idx_website_id (website_id),
+                INDEX idx_statut (statut),
+                INDEX idx_email (email)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+        ");
+    }
+
     public function findAll(): array
     {
         $sql = 'SELECT * FROM partenaires WHERE website_id = :website_id ORDER BY nom ASC';

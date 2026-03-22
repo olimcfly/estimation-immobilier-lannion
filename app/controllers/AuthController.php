@@ -99,7 +99,31 @@ final class AuthController
             return;
         }
 
+        // Ensure admin_users table exists (auto-provision on first use)
+        try {
+            AdminUser::createTable();
+        } catch (\Throwable) {
+            // Table may already exist or DB is unavailable (handled below)
+        }
+
         $user = AdminUser::findByEmail($email);
+
+        // Auto-provision: create admin if email matches env config
+        if ($user === null) {
+            $allowedEmails = array_filter(array_map('trim', [
+                $_ENV['ADMIN_EMAIL'] ?? '',
+                $_ENV['MAIL_FROM_ADDRESS'] ?? '',
+                $_ENV['MAIL_FROM'] ?? '',
+                $_ENV['MAIL_USERNAME'] ?? '',
+                Config::get('mail.admin_email', ''),
+            ]));
+
+            if (in_array($email, $allowedEmails, true)) {
+                AdminUser::seedDefaultAdmin($email);
+                $user = AdminUser::findByEmail($email);
+                error_log('Auth: auto-provisioned admin user for ' . $email);
+            }
+        }
 
         if ($user === null) {
             View::renderBare('admin/login', [
@@ -120,25 +144,18 @@ final class AuthController
         );
 
         if (!$sent) {
-            // Si le SMTP n'est pas configuré (pas de mot de passe), afficher le code
-            // pour permettre le login même sans envoi d'email
+            // Fallback: show the login code on screen so admin access is never blocked
             $smtpPass = (string) Config::get('mail.smtp_pass', '');
             $smtpHost = (string) Config::get('mail.smtp_host', '');
-            if ($smtpPass === '' || $smtpHost === '') {
-                error_log('Auth: SMTP not configured — showing code on screen for ' . $email);
-                View::renderBare('admin/login', [
-                    'page_title' => 'Connexion Admin - Estimation Immobilier Lannion',
-                    'step' => 'code',
-                    'login_email' => $email,
-                    'success_message' => 'SMTP non configuré — votre code de connexion : ' . $code,
-                ]);
-                return;
-            }
-
+            $reason = ($smtpPass === '' || $smtpHost === '')
+                ? 'SMTP non configuré'
+                : 'Échec d\'envoi SMTP';
+            error_log('Auth: ' . $reason . ' — showing code on screen for ' . $email);
             View::renderBare('admin/login', [
                 'page_title' => 'Connexion Admin - Estimation Immobilier Lannion',
-                'step' => 'email',
-                'error_message' => 'Impossible d\'envoyer l\'email. Vérifiez la configuration SMTP (host, identifiants, port).',
+                'step' => 'code',
+                'login_email' => $email,
+                'success_message' => $reason . ' — votre code de connexion : ' . $code,
             ]);
             return;
         }
@@ -318,8 +335,11 @@ final class AuthController
         return $_SESSION['csrf_token'];
     }
 
-    private function verifyCsrfToken(string $token): bool
+    public static function verifyCsrfToken(?string $token = null): bool
     {
+        if ($token === null) {
+            $token = (string) ($_POST['csrf_token'] ?? '');
+        }
         $sessionToken = $_SESSION['csrf_token'] ?? '';
         if ($sessionToken === '' || $token === '') {
             return false;
