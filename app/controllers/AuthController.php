@@ -90,6 +90,15 @@ final class AuthController
             return;
         }
 
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            View::renderBare('admin/login', [
+                'page_title' => 'Connexion Admin - Estimation Immobilier Lannion',
+                'step' => 'email',
+                'error_message' => 'Adresse email invalide.',
+            ]);
+            return;
+        }
+
         $user = AdminUser::findByEmail($email);
 
         if ($user === null) {
@@ -111,10 +120,25 @@ final class AuthController
         );
 
         if (!$sent) {
+            // Si le SMTP n'est pas configuré (pas de mot de passe), afficher le code
+            // pour permettre le login même sans envoi d'email
+            $smtpPass = (string) Config::get('mail.smtp_pass', '');
+            $smtpHost = (string) Config::get('mail.smtp_host', '');
+            if ($smtpPass === '' || $smtpHost === '') {
+                error_log('Auth: SMTP not configured — showing code on screen for ' . $email);
+                View::renderBare('admin/login', [
+                    'page_title' => 'Connexion Admin - Estimation Immobilier Lannion',
+                    'step' => 'code',
+                    'login_email' => $email,
+                    'success_message' => 'SMTP non configuré — votre code de connexion : ' . $code,
+                ]);
+                return;
+            }
+
             View::renderBare('admin/login', [
                 'page_title' => 'Connexion Admin - Estimation Immobilier Lannion',
                 'step' => 'email',
-                'error_message' => 'Impossible d\'envoyer l\'email. Vérifiez la configuration SMTP.',
+                'error_message' => 'Impossible d\'envoyer l\'email. Vérifiez la configuration SMTP (host, identifiants, port).',
             ]);
             return;
         }
@@ -132,7 +156,7 @@ final class AuthController
         $email = trim((string) ($_POST['email'] ?? ''));
         $code = trim((string) ($_POST['code'] ?? ''));
 
-        if ($email === '' || $code === '') {
+        if ($email === '' || $code === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             View::renderBare('admin/login', [
                 'page_title' => 'Connexion Admin - Estimation Immobilier Lannion',
                 'step' => 'email',
