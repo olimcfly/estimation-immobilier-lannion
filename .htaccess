@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Make /install work even when automatic directory slash handling is disabled.
+    RewriteRule ^install/?$ /install/index.php [L]
+</IfModule>
