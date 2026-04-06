@@ -784,6 +784,41 @@ $stepLabels = ['Pré-requis', 'Base de données', 'Configuration', 'Clés IA', '
             display: flex;
             gap: 12px;
             justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+        }
+
+        .success-next-steps {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 520px;
+            padding: 16px 18px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: rgba(255,255,255,.02);
+        }
+
+        .success-next-steps h3 {
+            font-size: .9rem;
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: .05em;
+        }
+
+        .success-next-steps ul {
+            list-style: none;
+            display: grid;
+            gap: 8px;
+            font-size: .88rem;
+        }
+
+        .success-next-steps li {
+            color: var(--text-muted);
+        }
+
+        .success-next-steps strong {
+            color: var(--text-primary);
         }
 
         /* ── Table checklist compacte ── */
@@ -934,10 +969,18 @@ $stepLabels = ['Pré-requis', 'Base de données', 'Configuration', 'Clés IA', '
             <div class="success-banner">
                 <div class="success-icon">✓</div>
                 <div class="success-title">Installation terminée</div>
-                <div class="success-desc">Les fichiers de configuration ont été générés et le compte administrateur créé avec succès.</div>
+                <div class="success-desc">Votre estimateur est installé, la page de bien est prête et votre compte administrateur a été créé avec succès.</div>
                 <div class="success-actions">
                     <a class="btn btn-success" href="../">Accéder au site</a>
                     <a class="btn btn-ghost" href="../admin/">Administration</a>
+                </div>
+                <div class="success-next-steps">
+                    <h3>Prochaines étapes conseillées</h3>
+                    <ul>
+                        <li><strong>1.</strong> Ouvrez la page publique pour vérifier le formulaire d'estimation.</li>
+                        <li><strong>2.</strong> Connectez-vous à l'administration pour personnaliser les contenus et les couleurs.</li>
+                        <li><strong>3.</strong> Réalisez une estimation test pour contrôler les emails et la collecte des leads.</li>
+                    </ul>
                 </div>
             </div>
 
